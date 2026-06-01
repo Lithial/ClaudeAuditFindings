@@ -1,0 +1,3477 @@
+{
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/honeybadger.client.config.ts": {
+    "mtime": 1778615999.3631651,
+    "ast_hash": "a7492883b951761335030f8be3421f04",
+    "semantic_hash": "a7492883b951761335030f8be3421f04"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/middleware.ts": {
+    "mtime": 1773058257.6041954,
+    "ast_hash": "a27eb510d98ba7117e0578ba3801ba6f",
+    "semantic_hash": "a27eb510d98ba7117e0578ba3801ba6f"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/next.config.js": {
+    "mtime": 1780039869.2599094,
+    "ast_hash": "91e6c41726079c5cdf2d974e88cf997a",
+    "semantic_hash": "91e6c41726079c5cdf2d974e88cf997a"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/next-env.d.ts": {
+    "mtime": 1773058257.6042683,
+    "ast_hash": "b5ed9dd8b4c5ba8e5ab8e6a379c15838",
+    "semantic_hash": "b5ed9dd8b4c5ba8e5ab8e6a379c15838"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/package.json": {
+    "mtime": 1780039869.260034,
+    "ast_hash": "47e5e94114c11447d01781f39c0e2d08",
+    "semantic_hash": "47e5e94114c11447d01781f39c0e2d08"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/tsconfig.json": {
+    "mtime": 1780216135.4289682,
+    "ast_hash": "ac9d88c1d42464c947fa30a02c7b9383",
+    "semantic_hash": "ac9d88c1d42464c947fa30a02c7b9383"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/playwright.config.ts": {
+    "mtime": 1780039869.2601478,
+    "ast_hash": "c0b0d98b5bdc60ebaf2c11b5812c3ab4",
+    "semantic_hash": "c0b0d98b5bdc60ebaf2c11b5812c3ab4"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/vitest.config.ts": {
+    "mtime": 1780039869.3267107,
+    "ast_hash": "24b9da6ffb82c03188030382efce1a9d",
+    "semantic_hash": "24b9da6ffb82c03188030382efce1a9d"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/honeybadger.server.config.ts": {
+    "mtime": 1778615999.3632383,
+    "ast_hash": "1920e89700bb87f3083783df3bf89f99",
+    "semantic_hash": "1920e89700bb87f3083783df3bf89f99"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/.eslintrc.json": {
+    "mtime": 1773058257.5987873,
+    "ast_hash": "be686e304a4c2f86ccc4dc7b03f75bf1",
+    "semantic_hash": "be686e304a4c2f86ccc4dc7b03f75bf1"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/playwright.e2e.config.ts": {
+    "mtime": 1780039869.2602158,
+    "ast_hash": "f90c45ed97759405edde1bc36bb96df0",
+    "semantic_hash": "f90c45ed97759405edde1bc36bb96df0"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/app/layout.tsx": {
+    "mtime": 1780216135.4225702,
+    "ast_hash": "0e87078e45bc2093eed8bb369fc2cef2",
+    "semantic_hash": "0e87078e45bc2093eed8bb369fc2cef2"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/app/[locale]/layout.tsx": {
+    "mtime": 1780039869.2584915,
+    "ast_hash": "0d3445c13589cb395e64ba53913402c1",
+    "semantic_hash": "0d3445c13589cb395e64ba53913402c1"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/app/[locale]/page.tsx": {
+    "mtime": 1780216135.422462,
+    "ast_hash": "4fdc4ce2fe5be688f1e206cc434f882d",
+    "semantic_hash": "4fdc4ce2fe5be688f1e206cc434f882d"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/app/[locale]/forum-invite/[magicKey]/layout.tsx": {
+    "mtime": 1773058257.5996556,
+    "ast_hash": "ae521ebef9fb648a1a35e1dbe8e3bd94",
+    "semantic_hash": "ae521ebef9fb648a1a35e1dbe8e3bd94"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/app/[locale]/forum-invite/[magicKey]/page.tsx": {
+    "mtime": 1780039869.258217,
+    "ast_hash": "dabe6de698275a645df2d7a984d670c8",
+    "semantic_hash": "dabe6de698275a645df2d7a984d670c8"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/app/[locale]/presenter_dashboard/[magicKey]/layout.tsx": {
+    "mtime": 1773058257.600159,
+    "ast_hash": "52ccab701095465477ce94dc270dfdb9",
+    "semantic_hash": "52ccab701095465477ce94dc270dfdb9"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/app/[locale]/presenter_dashboard/[magicKey]/page.tsx": {
+    "mtime": 1773058257.6002176,
+    "ast_hash": "27db90649c84fa3e78c66d2894be8106",
+    "semantic_hash": "27db90649c84fa3e78c66d2894be8106"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/app/[locale]/invite/[magicKey]/layout.tsx": {
+    "mtime": 1773058257.599855,
+    "ast_hash": "886f3530adb33add5e6375a866831eae",
+    "semantic_hash": "886f3530adb33add5e6375a866831eae"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/app/[locale]/invite/[magicKey]/page.tsx": {
+    "mtime": 1780039869.2583563,
+    "ast_hash": "7dedb84b083c56e8cebd159d25b025ae",
+    "semantic_hash": "7dedb84b083c56e8cebd159d25b025ae"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/app/[locale]/[magicKey]/layout.tsx": {
+    "mtime": 1773058257.5994382,
+    "ast_hash": "fb753eedc009e0a2dc2a0ad90f5bdaea",
+    "semantic_hash": "fb753eedc009e0a2dc2a0ad90f5bdaea"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/app/[locale]/[magicKey]/page.tsx": {
+    "mtime": 1780039869.2580445,
+    "ast_hash": "7ec6c99937baabd9c8b75f57f12e2b5a",
+    "semantic_hash": "7ec6c99937baabd9c8b75f57f12e2b5a"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/app/api/githash/route.ts": {
+    "mtime": 1773058257.6003609,
+    "ast_hash": "3c6a85687eed4353b001fbf7842d9e5a",
+    "semantic_hash": "3c6a85687eed4353b001fbf7842d9e5a"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/app/api/healthcheck/check/route.ts": {
+    "mtime": 1773058257.6004956,
+    "ast_hash": "bdadb4d0b4385f0a08d650cd8c84374e",
+    "semantic_hash": "bdadb4d0b4385f0a08d650cd8c84374e"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/app/api/time/route.ts": {
+    "mtime": 1773058257.6005933,
+    "ast_hash": "9d346c8c81846c2ce932460187373e7a",
+    "semantic_hash": "9d346c8c81846c2ce932460187373e7a"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/tests/app.test.e2e.ts": {
+    "mtime": 1780039869.325374,
+    "ast_hash": "eaf2224bf432ef527846705d80cdd30f",
+    "semantic_hash": "eaf2224bf432ef527846705d80cdd30f"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/.storybook/main.ts": {
+    "mtime": 1780039869.2553854,
+    "ast_hash": "06c36fdfb4f84d244df04d431485842c",
+    "semantic_hash": "06c36fdfb4f84d244df04d431485842c"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/.storybook/preview.tsx": {
+    "mtime": 1780039869.2555876,
+    "ast_hash": "92682b6882a14473a58ce34bfc94f1fe",
+    "semantic_hash": "92682b6882a14473a58ce34bfc94f1fe"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/.storybook/reactIntl.ts": {
+    "mtime": 1778615999.362622,
+    "ast_hash": "8e39f5878f4bcd94c79fe59c4bba3930",
+    "semantic_hash": "8e39f5878f4bcd94c79fe59c4bba3930"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/.storybook/decorators/withShelf.tsx": {
+    "mtime": 1780039869.2551157,
+    "ast_hash": "ce3def3ffca6b7681f6b95978b8ddd28",
+    "semantic_hash": "ce3def3ffca6b7681f6b95978b8ddd28"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/.storybook/decorators/withApolloMocks.tsx": {
+    "mtime": 1780039869.254967,
+    "ast_hash": "26f8062a5e6941d167fef20dc6e9943b",
+    "semantic_hash": "26f8062a5e6941d167fef20dc6e9943b"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/.storybook/decorators/withStorybookFlag.tsx": {
+    "mtime": 1780039869.2551832,
+    "ast_hash": "c325e7646bd46b6ec340c218ac4fb372",
+    "semantic_hash": "c325e7646bd46b6ec340c218ac4fb372"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/.storybook/decorators/withFrozenTime.tsx": {
+    "mtime": 1780039869.2550466,
+    "ast_hash": "c1db66c5e36b66f45800f278c9ee68cf",
+    "semantic_hash": "c1db66c5e36b66f45800f278c9ee68cf"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/.storybook/decorators/withZustandStore.tsx": {
+    "mtime": 1780039869.2552512,
+    "ast_hash": "cb16305b209a048f854a1acdb59fca2b",
+    "semantic_hash": "cb16305b209a048f854a1acdb59fca2b"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/lang/de.json": {
+    "mtime": 1780216135.4228075,
+    "ast_hash": "525a6aa2b7ace1f0e7c13d7e5656715c",
+    "semantic_hash": "525a6aa2b7ace1f0e7c13d7e5656715c"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/lang/en.json": {
+    "mtime": 1780216135.4231298,
+    "ast_hash": "5b53a13ac4f7802c38843f3946d49430",
+    "semantic_hash": "5b53a13ac4f7802c38843f3946d49430"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/lang/es.json": {
+    "mtime": 1780216135.4233372,
+    "ast_hash": "3ef3c765c86b45b3bc5fa1252a5332bd",
+    "semantic_hash": "3ef3c765c86b45b3bc5fa1252a5332bd"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/i18n/routing.ts": {
+    "mtime": 1773058257.6009889,
+    "ast_hash": "06fd895caa60b4ff510aea187b760f44",
+    "semantic_hash": "06fd895caa60b4ff510aea187b760f44"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/i18n/request.ts": {
+    "mtime": 1773058257.6009245,
+    "ast_hash": "6a8a6feb25dc8f40b331dabe7037c799",
+    "semantic_hash": "6a8a6feb25dc8f40b331dabe7037c799"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/useGetTime.tsx": {
+    "mtime": 1773058257.6651056,
+    "ast_hash": "809c0611b2ce6b0d93175e6074eecd85",
+    "semantic_hash": "809c0611b2ce6b0d93175e6074eecd85"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/useGetHash.ts": {
+    "mtime": 1773058257.6650248,
+    "ast_hash": "f0b449d40f9e3f610853a8b4a0afc09b",
+    "semantic_hash": "f0b449d40f9e3f610853a8b4a0afc09b"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/types/CommonTypes.ts": {
+    "mtime": 1773058257.6648688,
+    "ast_hash": "e77059c961d6de87092e386c33229c30",
+    "semantic_hash": "e77059c961d6de87092e386c33229c30"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/types/AgendaBrowser.d.ts": {
+    "mtime": 1773058257.6647272,
+    "ast_hash": "219771fb9ace71a1a9adfbd67887c7db",
+    "semantic_hash": "219771fb9ace71a1a9adfbd67887c7db"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/types/AgendaEditor.d.ts": {
+    "mtime": 1778615999.3671327,
+    "ast_hash": "e8bc10e4e014c6d6a1efd1dfa537f818",
+    "semantic_hash": "e8bc10e4e014c6d6a1efd1dfa537f818"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/types/LibTypes.d.ts": {
+    "mtime": 1773058257.664942,
+    "ast_hash": "c3c1511d08c108b1529348d093c3bea7",
+    "semantic_hash": "c3c1511d08c108b1529348d093c3bea7"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/constants/roomEntryAnimation.ts": {
+    "mtime": 1780216135.426128,
+    "ast_hash": "2cd65df625283da2e944c906e0341f46",
+    "semantic_hash": "2cd65df625283da2e944c906e0341f46"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/pageContent/GoogleAuthPageContent.tsx": {
+    "mtime": 1773058257.6602075,
+    "ast_hash": "5279d1d89e97bb7d33ae1f62b40acb44",
+    "semantic_hash": "5279d1d89e97bb7d33ae1f62b40acb44"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/pageContent/HomePageContent.tsx": {
+    "mtime": 1780039869.3164136,
+    "ast_hash": "188508bcea8735c6cdff8b047b8f2eba",
+    "semantic_hash": "188508bcea8735c6cdff8b047b8f2eba"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/pageContent/InvitePageContent.tsx": {
+    "mtime": 1780039869.3165443,
+    "ast_hash": "fe6ba042c8fe18c35a5091cc4ae8c1c8",
+    "semantic_hash": "fe6ba042c8fe18c35a5091cc4ae8c1c8"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/pageContent/PresenterDashboardPageContent.tsx": {
+    "mtime": 1773058257.6608574,
+    "ast_hash": "4bfd597e1d1d5eee93fb4a6e9efa0170",
+    "semantic_hash": "4bfd597e1d1d5eee93fb4a6e9efa0170"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/Sidebar/useOrderedMediaTray.ts": {
+    "mtime": 1773058257.6515715,
+    "ast_hash": "edb39ef982b2454e313113d05cafae44",
+    "semantic_hash": "edb39ef982b2454e313113d05cafae44"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/Sidebar/useSynchronizedMotion.ts": {
+    "mtime": 1780039869.3058238,
+    "ast_hash": "9dea0631ff2f84ba970f3c7a7701bfea",
+    "semantic_hash": "9dea0631ff2f84ba970f3c7a7701bfea"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/Sidebar/useEnableTabs.ts": {
+    "mtime": 1773058257.6515033,
+    "ast_hash": "e2ff87df028efb9b07c1e4dc1e009148",
+    "semantic_hash": "e2ff87df028efb9b07c1e4dc1e009148"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/Sidebar/SidebarProviderWrapper.tsx": {
+    "mtime": 1773058257.6514392,
+    "ast_hash": "6c39e4df259312713554b3b012fab021",
+    "semantic_hash": "6c39e4df259312713554b3b012fab021"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/Sidebar/MediaTrayContainer.tsx": {
+    "mtime": 1780039869.3051867,
+    "ast_hash": "57a3097e1d14d74024c7f8a1709527b7",
+    "semantic_hash": "57a3097e1d14d74024c7f8a1709527b7"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/Sidebar/SidebarContainer.tsx": {
+    "mtime": 1780039869.3053503,
+    "ast_hash": "b123ae93e2115b361dbc62562cba6e22",
+    "semantic_hash": "b123ae93e2115b361dbc62562cba6e22"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/Sidebar/SidebarContainerPortrait.tsx": {
+    "mtime": 1780039869.3056715,
+    "ast_hash": "096e4fcf25c92b594f8cc8ee366ed694",
+    "semantic_hash": "096e4fcf25c92b594f8cc8ee366ed694"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/Sidebar/AgendaMenuContainer.tsx": {
+    "mtime": 1780039869.305033,
+    "ast_hash": "3cd21b1412ad9fafc17f77cb53a29928",
+    "semantic_hash": "3cd21b1412ad9fafc17f77cb53a29928"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/Sidebar/SidebarContainerLandscape.tsx": {
+    "mtime": 1780039869.3055189,
+    "ast_hash": "86991cd79db2581bfa16d9972d4a04e3",
+    "semantic_hash": "86991cd79db2581bfa16d9972d4a04e3"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/Chime/useEnableCustomMediaLibrary.ts": {
+    "mtime": 1780039869.293768,
+    "ast_hash": "a0ac76160945fd9a4e9973eecb015da3",
+    "semantic_hash": "a0ac76160945fd9a4e9973eecb015da3"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/Chime/useGreenroomTimeout.ts": {
+    "mtime": 1780039869.2938378,
+    "ast_hash": "fe4bc1deab3fe3991cb9b653036e34b4",
+    "semantic_hash": "fe4bc1deab3fe3991cb9b653036e34b4"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/Chime/useConnectToPreview.ts": {
+    "mtime": 1780039869.2936206,
+    "ast_hash": "2dd311f3fb4140600e3e2242ee756d1d",
+    "semantic_hash": "2dd311f3fb4140600e3e2242ee756d1d"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/Chime/useMoveToRoom.ts": {
+    "mtime": 1780039869.2940633,
+    "ast_hash": "3c86c50f34f6c44c4493cd5876d195b0",
+    "semantic_hash": "3c86c50f34f6c44c4493cd5876d195b0"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/Chime/useSetMeetingStatus.ts": {
+    "mtime": 1780039869.2942011,
+    "ast_hash": "40b5b30a839a6c46379e99127c2d9640",
+    "semantic_hash": "40b5b30a839a6c46379e99127c2d9640"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/Chime/useBypassGreenroom.ts": {
+    "mtime": 1780039869.2935393,
+    "ast_hash": "40833146603db7faa20528634c9fb54b",
+    "semantic_hash": "40833146603db7faa20528634c9fb54b"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/Chime/useRetryConnection.ts": {
+    "mtime": 1780039869.2941337,
+    "ast_hash": "2081cc1b955b0bc4374343f8f68c3aba",
+    "semantic_hash": "2081cc1b955b0bc4374343f8f68c3aba"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/Chime/useMeetingLoaded.ts": {
+    "mtime": 1780039869.2939882,
+    "ast_hash": "bc42de802f2ba0806fe805024df7755c",
+    "semantic_hash": "bc42de802f2ba0806fe805024df7755c"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/Chime/chimeFunctions.ts": {
+    "mtime": 1780039869.2934697,
+    "ast_hash": "b2e3debf87de7d2efe51093f67bc9002",
+    "semantic_hash": "b2e3debf87de7d2efe51093f67bc9002"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/Chime/useJoinCirclesServer.ts": {
+    "mtime": 1780039869.2939236,
+    "ast_hash": "e50a51b076ced0155d17f3a4c5c4b89c",
+    "semantic_hash": "e50a51b076ced0155d17f3a4c5c4b89c"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/Chime/useCreateChimeMeeting.ts": {
+    "mtime": 1780039869.2936974,
+    "ast_hash": "4ef91ef4692c20de9eb7619805c13ed2",
+    "semantic_hash": "4ef91ef4692c20de9eb7619805c13ed2"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/MediaFeatures/mediaUtils.ts": {
+    "mtime": 1773058257.6494637,
+    "ast_hash": "1b993235d29c29285d0916e698665a1d",
+    "semantic_hash": "1b993235d29c29285d0916e698665a1d"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/MediaFeatures/videoLinkUtils.ts": {
+    "mtime": 1773058257.6496084,
+    "ast_hash": "f5f8ac7b292835695b2d89b308e3d3f6",
+    "semantic_hash": "f5f8ac7b292835695b2d89b308e3d3f6"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/MediaFeatures/useMediaLoggingUtils.ts": {
+    "mtime": 1773058257.6495318,
+    "ast_hash": "d7013cb615e082903dce266720b655da",
+    "semantic_hash": "d7013cb615e082903dce266720b655da"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/MediaFeatures/ScreenShareWatcher.tsx": {
+    "mtime": 1780039869.3043702,
+    "ast_hash": "9e813cc523d618fe0206607533515b72",
+    "semantic_hash": "9e813cc523d618fe0206607533515b72"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/MediaFeatures/MediaLayoutManager.tsx": {
+    "mtime": 1773058257.649117,
+    "ast_hash": "ed1c7ddd17ae7896d6907a58bc3f09ed",
+    "semantic_hash": "ed1c7ddd17ae7896d6907a58bc3f09ed"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/MediaFeatures/MediaProcessor/MediaProcessor.tsx": {
+    "mtime": 1773058257.649332,
+    "ast_hash": "6ad3bc3571e1f492ea9fe2c1d958253d",
+    "semantic_hash": "6ad3bc3571e1f492ea9fe2c1d958253d"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/MediaFeatures/MediaLayoutManagerUtils/mediaLayoutUtils.ts": {
+    "mtime": 1773058257.6492255,
+    "ast_hash": "531c8b4e85817e9d0e26f01456cc238c",
+    "semantic_hash": "531c8b4e85817e9d0e26f01456cc238c"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/Types/GreenroomTypes.ts": {
+    "mtime": 1773058257.6517556,
+    "ast_hash": "6cb8ef3ce5155e02ca9de7ac080dd1ba",
+    "semantic_hash": "6cb8ef3ce5155e02ca9de7ac080dd1ba"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/Logger/Logger.ts": {
+    "mtime": 1778615999.36596,
+    "ast_hash": "66027c290f801d0724779e5da9cb5351",
+    "semantic_hash": "66027c290f801d0724779e5da9cb5351"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/Logger/LoggerTypes.ts": {
+    "mtime": 1780039869.3042305,
+    "ast_hash": "76f7aa60134d8d90a21eaefb18e9329c",
+    "semantic_hash": "76f7aa60134d8d90a21eaefb18e9329c"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/CirclesSurveyFeatures/CirclesSurveyPanel.tsx": {
+    "mtime": 1780039869.2943275,
+    "ast_hash": "bc58475ad420a1ea17fdeab991523493",
+    "semantic_hash": "bc58475ad420a1ea17fdeab991523493"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/CirclesSurveyFeatures/CirclesSurveyModal.tsx": {
+    "mtime": 1773058257.6385493,
+    "ast_hash": "2216c80a55f03c39f208ab7e0a5fcac1",
+    "semantic_hash": "2216c80a55f03c39f208ab7e0a5fcac1"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/CirclesSurveyFeatures/SurveyComponents/SurveyCompleteDisplay.tsx": {
+    "mtime": 1780039869.2945774,
+    "ast_hash": "355ce0e3ced340aee01617d7df5c670f",
+    "semantic_hash": "355ce0e3ced340aee01617d7df5c670f"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/CirclesSurveyFeatures/SurveyComponents/FormTextArea.tsx": {
+    "mtime": 1780039869.2944508,
+    "ast_hash": "cdab88d55e9e9748b77ed3f0eb44e0d4",
+    "semantic_hash": "cdab88d55e9e9748b77ed3f0eb44e0d4"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/CirclesSurveyFeatures/SurveyComponents/SurveyTextInput.tsx": {
+    "mtime": 1773058257.639001,
+    "ast_hash": "eeeda6e9bf6145ce02b93c0b229a715c",
+    "semantic_hash": "eeeda6e9bf6145ce02b93c0b229a715c"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/CirclesSurveyFeatures/SurveyComponents/SurveyValueButton.tsx": {
+    "mtime": 1773058257.639066,
+    "ast_hash": "9e119c8d6014cac1ddddea554f67e845",
+    "semantic_hash": "9e119c8d6014cac1ddddea554f67e845"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/CirclesSurveyFeatures/SurveyComponents/SurveyHeader.tsx": {
+    "mtime": 1780039869.295104,
+    "ast_hash": "552790c8425794cb0c1ac3d931bcf132",
+    "semantic_hash": "552790c8425794cb0c1ac3d931bcf132"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/CirclesSurveyFeatures/SurveyComponents/SurveyValuePickerTooltip.tsx": {
+    "mtime": 1773058257.6392024,
+    "ast_hash": "0aa36a3604b4a115e45aabf816543a68",
+    "semantic_hash": "0aa36a3604b4a115e45aabf816543a68"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/CirclesSurveyFeatures/SurveyComponents/SurveyValuePicker.tsx": {
+    "mtime": 1773058257.6391375,
+    "ast_hash": "7fce362086d46ac80006a76dcdd41004",
+    "semantic_hash": "7fce362086d46ac80006a76dcdd41004"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/CirclesSurveyFeatures/SurveyComponents/SurveyFooter.tsx": {
+    "mtime": 1780039869.294701,
+    "ast_hash": "3e89d0b7c63921b7d232c6f6c05b2258",
+    "semantic_hash": "3e89d0b7c63921b7d232c6f6c05b2258"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/PresenterDashboard/useDashboardStateUpdates.ts": {
+    "mtime": 1773058257.650824,
+    "ast_hash": "c6955c6f642fe60e12fce1c4a11dc81b",
+    "semantic_hash": "c6955c6f642fe60e12fce1c4a11dc81b"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/PresenterDashboard/usePresenterStateQuery.ts": {
+    "mtime": 1773058257.6508913,
+    "ast_hash": "b706313d1e9b4a906ce816fadb9d3c51",
+    "semantic_hash": "b706313d1e9b4a906ce816fadb9d3c51"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/PresenterDashboard/pdGraphql.ts": {
+    "mtime": 1773058257.6507502,
+    "ast_hash": "edbc430cca0b98f94672d71b3224a38a",
+    "semantic_hash": "edbc430cca0b98f94672d71b3224a38a"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/PresenterDashboard/useSendMessageFromDashboard.ts": {
+    "mtime": 1773058257.6509576,
+    "ast_hash": "7e2f2179b55789e480efe1cd26e101dc",
+    "semantic_hash": "7e2f2179b55789e480efe1cd26e101dc"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/ParticipantAwareNoteTaking/usePantsContextMenu.ts": {
+    "mtime": 1780039869.3048651,
+    "ast_hash": "bbff7b16afc2403dacbaaa2ab2bc88b7",
+    "semantic_hash": "bbff7b16afc2403dacbaaa2ab2bc88b7"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/ParticipantAwareNoteTaking/PantsGroupSelectPopover.tsx": {
+    "mtime": 1773058257.649924,
+    "ast_hash": "e9cf4993ae9d27bb45a8a8c41239bed7",
+    "semantic_hash": "e9cf4993ae9d27bb45a8a8c41239bed7"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/ParticipantAwareNoteTaking/PantsContextWatcher.tsx": {
+    "mtime": 1773058257.6498601,
+    "ast_hash": "d37999d3ecc5597916455adab540ba52",
+    "semantic_hash": "d37999d3ecc5597916455adab540ba52"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/ParticipantAwareNoteTaking/PantsPopover.tsx": {
+    "mtime": 1773058257.6499867,
+    "ast_hash": "ef1e0604c3d49a053e801902e82ea09f",
+    "semantic_hash": "ef1e0604c3d49a053e801902e82ea09f"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/ParticipantAwareNoteTaking/PantsContextMenu.tsx": {
+    "mtime": 1780039869.3046765,
+    "ast_hash": "1f85a2d10ef38fd19d3a0428ab731b5b",
+    "semantic_hash": "1f85a2d10ef38fd19d3a0428ab731b5b"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/ParticipantAwareNoteTaking/PantsTextInput.tsx": {
+    "mtime": 1773058257.6501994,
+    "ast_hash": "99a6a35ba9995fec411c18cf3cfbf8c2",
+    "semantic_hash": "99a6a35ba9995fec411c18cf3cfbf8c2"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/ParticipantAwareNoteTaking/PantsPopoverArrowContainer.tsx": {
+    "mtime": 1773058257.650052,
+    "ast_hash": "9e20efb15c1b935f6be4b758cce8bd65",
+    "semantic_hash": "9e20efb15c1b935f6be4b758cce8bd65"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/ParticipantAwareNoteTaking/useSetLocalUserContext.ts": {
+    "mtime": 1773058257.65056,
+    "ast_hash": "391ad20ea578d96db3b755e0bcafdc49",
+    "semantic_hash": "391ad20ea578d96db3b755e0bcafdc49"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/ParticipantAwareNoteTaking/useSetupPantsKeybinds.ts": {
+    "mtime": 1773058257.6506407,
+    "ast_hash": "2abc4f4a4cb2c78c12e87faca680fd8f",
+    "semantic_hash": "2abc4f4a4cb2c78c12e87faca680fd8f"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/ParticipantAwareNoteTaking/UserSelectPopoverNotice.tsx": {
+    "mtime": 1773058257.6503525,
+    "ast_hash": "c002f52f26027624c0b5e62391e0f06c",
+    "semantic_hash": "c002f52f26027624c0b5e62391e0f06c"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/ParticipantAwareNoteTaking/ParticpantAwareNoteTaker.tsx": {
+    "mtime": 1773058257.6502914,
+    "ast_hash": "ca98bcade24be676df400199e23fa895",
+    "semantic_hash": "ca98bcade24be676df400199e23fa895"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/ParticipantAwareNoteTaking/useActivePantsHelper.ts": {
+    "mtime": 1773058257.6504176,
+    "ast_hash": "17222113bafaba443a9f7dadad51a7c9",
+    "semantic_hash": "17222113bafaba443a9f7dadad51a7c9"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/ParticipantAwareNoteTaking/PantsResizableInput.tsx": {
+    "mtime": 1773058257.6501217,
+    "ast_hash": "2a126ee7a578165583b43bb929132786",
+    "semantic_hash": "2a126ee7a578165583b43bb929132786"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/ParticipantAwareNoteTaking/Pants.stories.tsx": {
+    "mtime": 1778615999.3660984,
+    "ast_hash": "d9fe69321ccd37abc5ecec206952c8ec",
+    "semantic_hash": "d9fe69321ccd37abc5ecec206952c8ec"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/NotificationDisplay/NotificationDisplay.tsx": {
+    "mtime": 1780039869.3034132,
+    "ast_hash": "f4961303bad57846d326d467718b7371",
+    "semantic_hash": "f4961303bad57846d326d467718b7371"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/StartupFunctions/StartupFunctions.tsx": {
+    "mtime": 1780039869.3035474,
+    "ast_hash": "f0ddcaddd6857ce767feca05a18b6cd8",
+    "semantic_hash": "f0ddcaddd6857ce767feca05a18b6cd8"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/StartupFunctions/JWTValidator/JWTValidatorUtils.ts": {
+    "mtime": 1773058257.647172,
+    "ast_hash": "bc028c587d739a6931ee1b4abf80d757",
+    "semantic_hash": "bc028c587d739a6931ee1b4abf80d757"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/StartupFunctions/JWTValidator/JWTValidator.tsx": {
+    "mtime": 1773058257.6471088,
+    "ast_hash": "72c5c062cc05b20b2f62537bfc1df99e",
+    "semantic_hash": "72c5c062cc05b20b2f62537bfc1df99e"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/StartupFunctions/LayoutManager/LayoutManager.tsx": {
+    "mtime": 1773058257.647274,
+    "ast_hash": "09ee4f6ed6f87bae97a86c58ef97f5cb",
+    "semantic_hash": "09ee4f6ed6f87bae97a86c58ef97f5cb"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/StartupFunctions/LayoutManager/OrientationManager.tsx": {
+    "mtime": 1773058257.6473417,
+    "ast_hash": "a83df9dc54717e0191fe2436a823527e",
+    "semantic_hash": "a83df9dc54717e0191fe2436a823527e"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/StartupFunctions/VoiceFocusManager/useVoiceFocusInitState.ts": {
+    "mtime": 1780039869.3039267,
+    "ast_hash": "86a3d6f61417a816ae89f313ec6422c6",
+    "semantic_hash": "86a3d6f61417a816ae89f313ec6422c6"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/StartupFunctions/VoiceFocusManager/VoiceFocusInitializer.tsx": {
+    "mtime": 1780039869.3036933,
+    "ast_hash": "961de7c9099232ecfb30c75bcf55a70d",
+    "semantic_hash": "961de7c9099232ecfb30c75bcf55a70d"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/StartupFunctions/VoiceFocusManager/useVoiceFocusObserver.ts": {
+    "mtime": 1780039869.30407,
+    "ast_hash": "7d59f1a315c1d03a6b9a8a3f265d0988",
+    "semantic_hash": "7d59f1a315c1d03a6b9a8a3f265d0988"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/StartupFunctions/VoiceFocusManager/VoiceFocusManager.tsx": {
+    "mtime": 1780039869.3038461,
+    "ast_hash": "a6f5a37dda5b3d0b511d19582a7077ce",
+    "semantic_hash": "a6f5a37dda5b3d0b511d19582a7077ce"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/StartupFunctions/WebsocketErrorHandler/WebsocketErrorHandler.tsx": {
+    "mtime": 1773058257.6478486,
+    "ast_hash": "4bd334466981cefb5251d827f5f75a73",
+    "semantic_hash": "4bd334466981cefb5251d827f5f75a73"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/StartupFunctions/InitializeMetrics/InitializeMetrics.tsx": {
+    "mtime": 1773058257.6470053,
+    "ast_hash": "0c6e102bd0fbd7ab18c5e465afeb8888",
+    "semantic_hash": "0c6e102bd0fbd7ab18c5e465afeb8888"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/StartupFunctions/InitializeMetrics/ClientMetadataManager.tsx": {
+    "mtime": 1773058257.6469347,
+    "ast_hash": "5ae440cc6a676623210baaf17e818a7a",
+    "semantic_hash": "5ae440cc6a676623210baaf17e818a7a"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/StartupFunctions/WakeLockHandler/WakeLockManager.tsx": {
+    "mtime": 1773058257.6477427,
+    "ast_hash": "2fda0ad5016aefef3ae5e15368fb5ed1",
+    "semantic_hash": "2fda0ad5016aefef3ae5e15368fb5ed1"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/CirclesMeetingContainer.tsx": {
+    "mtime": 1780039869.2982109,
+    "ast_hash": "ac77b7257afee74026befd8e759a30fc",
+    "semantic_hash": "ac77b7257afee74026befd8e759a30fc"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/UnsupportedBrowser/UnsupportedBrowserController.tsx": {
+    "mtime": 1780039869.3030217,
+    "ast_hash": "cfb775c0b2f3f5bfa32dc8d1ec7341b7",
+    "semantic_hash": "cfb775c0b2f3f5bfa32dc8d1ec7341b7"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/UnsupportedBrowser/UnsupportedBrowserModal.tsx": {
+    "mtime": 1780039869.303147,
+    "ast_hash": "8d580c4b39ba0947d90eee4fd2d401f1",
+    "semantic_hash": "8d580c4b39ba0947d90eee4fd2d401f1"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/TransitionToRoomLoader/TransitionToRoomLoader.tsx": {
+    "mtime": 1780216135.428294,
+    "ast_hash": "8dbee71bf1effb9c0211cbcf8269f22d",
+    "semantic_hash": "8dbee71bf1effb9c0211cbcf8269f22d"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/TransitionToRoomLoader/SkipGreenroomTransitionPanel.tsx": {
+    "mtime": 1780039869.3025959,
+    "ast_hash": "9b32a5baa56c137f1e9933159e53fe52",
+    "semantic_hash": "9b32a5baa56c137f1e9933159e53fe52"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/TransitionToRoomLoader/useBeginRoomTransition.ts": {
+    "mtime": 1780039869.3029425,
+    "ast_hash": "7a6a28891bad1a6ebc02c52f7013d990",
+    "semantic_hash": "7a6a28891bad1a6ebc02c52f7013d990"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/TransitionToRoomLoader/RedirectPanel/RedirectPanel.tsx": {
+    "mtime": 1773058257.645973,
+    "ast_hash": "5ed655278ccfbe583621578dd20b86b6",
+    "semantic_hash": "5ed655278ccfbe583621578dd20b86b6"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/TransitionToRoomLoader/RedirectPanel/TransitionToRoomUtils.ts": {
+    "mtime": 1773058257.6460454,
+    "ast_hash": "3641d813a4b66058163df7245e56bdfb",
+    "semantic_hash": "3641d813a4b66058163df7245e56bdfb"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/TransitionToRoomLoader/TransitionAvatarContainer/TransitionAvatarContainer.tsx": {
+    "mtime": 1780039869.3027384,
+    "ast_hash": "5b540c343fb45e629faef16512f34626",
+    "semantic_hash": "5b540c343fb45e629faef16512f34626"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/TransitionToRoomLoader/AlreadyConnectedPanel/AlreadyConnectedPanel.tsx": {
+    "mtime": 1780216135.4281728,
+    "ast_hash": "b63e124fd2bdb2957079cf069f1ad3a6",
+    "semantic_hash": "b63e124fd2bdb2957079cf069f1ad3a6"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/TransitionToRoomLoader/AlreadyConnectedPanel/AlreadyConnectedModal/AlreadyConnectedModal.tsx": {
+    "mtime": 1780039869.3022752,
+    "ast_hash": "869d3da8dfb5eebf2b4ab30ef35bc6b7",
+    "semantic_hash": "869d3da8dfb5eebf2b4ab30ef35bc6b7"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/EndSession/EndOfSessionPanelOrSurveyContainer.tsx": {
+    "mtime": 1780039869.2982817,
+    "ast_hash": "27180fb4359273d8d7fa308fa5550301",
+    "semantic_hash": "27180fb4359273d8d7fa308fa5550301"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/EndSession/EndSessionContainer.tsx": {
+    "mtime": 1773058257.6423326,
+    "ast_hash": "9cbf1be44c3c68be212070eb9fa75faf",
+    "semantic_hash": "9cbf1be44c3c68be212070eb9fa75faf"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/EndSession/EndSessionComponents/EndSessionCircleDetails.tsx": {
+    "mtime": 1773058257.64182,
+    "ast_hash": "3db2d630304ad066332aae9502eefd33",
+    "semantic_hash": "3db2d630304ad066332aae9502eefd33"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/EndSession/EndSessionComponents/EndSessionGroupSurvey.tsx": {
+    "mtime": 1773058257.6419685,
+    "ast_hash": "6e0f76683f5837b125029e3337d831e0",
+    "semantic_hash": "6e0f76683f5837b125029e3337d831e0"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/EndSession/EndSessionComponents/EndSessionFeedbackPrompt.tsx": {
+    "mtime": 1773058257.6418974,
+    "ast_hash": "59b11839ebc1b1a42b75db02b7a37283",
+    "semantic_hash": "59b11839ebc1b1a42b75db02b7a37283"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/EndSession/EndSessionComponents/EndSessionPanel.tsx": {
+    "mtime": 1780039869.2985227,
+    "ast_hash": "99f6ebce798f39aa70edaf159804d4a7",
+    "semantic_hash": "99f6ebce798f39aa70edaf159804d4a7"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/EndSession/EndSessionComponents/EndSessionSurveyFooter.tsx": {
+    "mtime": 1773058257.6422546,
+    "ast_hash": "c09e0d51ec749ac655b21dc9863f1dbc",
+    "semantic_hash": "c09e0d51ec749ac655b21dc9863f1dbc"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/EndSession/EndSessionComponents/EndSessionModalDuplicateUser.tsx": {
+    "mtime": 1780039869.298406,
+    "ast_hash": "d24d69fcccf65898ffbfefd367f4ff4e",
+    "semantic_hash": "d24d69fcccf65898ffbfefd367f4ff4e"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/EndSession/EndSessionComponents/EndSessionModal.tsx": {
+    "mtime": 1773058257.6420379,
+    "ast_hash": "9cf1f1671a69187031a61a9739ce001f",
+    "semantic_hash": "9cf1f1671a69187031a61a9739ce001f"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/Greenroom/GreenroomContainer.tsx": {
+    "mtime": 1780039869.299306,
+    "ast_hash": "93d8e92b5d5027d0749a5d47206f0b93",
+    "semantic_hash": "93d8e92b5d5027d0749a5d47206f0b93"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/Greenroom/GreenroomComponents/PreGreenroomNotificationPanel.tsx": {
+    "mtime": 1780216135.42772,
+    "ast_hash": "190a2ffcabf0bb3edb09c057635f7c14",
+    "semantic_hash": "190a2ffcabf0bb3edb09c057635f7c14"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/Greenroom/GreenroomComponents/GreenroomStep.ts": {
+    "mtime": 1780216135.4273243,
+    "ast_hash": "db10822a2a53c11cb1756edee01a7e0f",
+    "semantic_hash": "db10822a2a53c11cb1756edee01a7e0f"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/Greenroom/GreenroomComponents/MeetingDisplayStateManager.tsx": {
+    "mtime": 1780216135.4275773,
+    "ast_hash": "cd85de01e2beb211ad70a54413cbac43",
+    "semantic_hash": "cd85de01e2beb211ad70a54413cbac43"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/Greenroom/GreenroomComponents/ImagePreloader.tsx": {
+    "mtime": 1773058257.642483,
+    "ast_hash": "c44fe6aed3213292ea0b6c1eebef1d75",
+    "semantic_hash": "c44fe6aed3213292ea0b6c1eebef1d75"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/Greenroom/GreenroomComponents/TimedOutModal.tsx": {
+    "mtime": 1780216135.4277964,
+    "ast_hash": "8fe93655de0b1fb99ece31ff43f9ed70",
+    "semantic_hash": "8fe93655de0b1fb99ece31ff43f9ed70"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/Greenroom/GreenroomComponents/useMeetingDisplayState.ts": {
+    "mtime": 1780216135.4278889,
+    "ast_hash": "7c5a8a8eb631880a658ba00c7185e9c0",
+    "semantic_hash": "7c5a8a8eb631880a658ba00c7185e9c0"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/Greenroom/GreenroomComponents/AnimatedLoadingText.tsx": {
+    "mtime": 1780216135.427146,
+    "ast_hash": "6b18448828d9fe15c5c381125db35df0",
+    "semantic_hash": "6b18448828d9fe15c5c381125db35df0"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/Greenroom/GreenroomPage/GreenroomPageContainer.tsx": {
+    "mtime": 1780216135.4280388,
+    "ast_hash": "b522ab25739952dd496307f141eb2c25",
+    "semantic_hash": "b522ab25739952dd496307f141eb2c25"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/Greenroom/GreenroomPage/GreenroomPanel/GreenroomPanel.tsx": {
+    "mtime": 1780039869.301437,
+    "ast_hash": "7a86d3a26eb18fb51ffcd000d70548d2",
+    "semantic_hash": "7a86d3a26eb18fb51ffcd000d70548d2"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/Greenroom/GreenroomPage/GreenroomPanel/GreenroomDeviceManager/GreenroomDeviceManager.tsx": {
+    "mtime": 1780039869.3001807,
+    "ast_hash": "7e1fcbe6bf4573b87c0501365cb6fc63",
+    "semantic_hash": "7e1fcbe6bf4573b87c0501365cb6fc63"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/Greenroom/GreenroomPage/GreenroomPanel/GreenroomDeviceManager/GreenroomDeviceManagerComponents/GreenroomMicDropdownController.tsx": {
+    "mtime": 1780039869.3008482,
+    "ast_hash": "4752638720ae6336d333270923971032",
+    "semantic_hash": "4752638720ae6336d333270923971032"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/Greenroom/GreenroomPage/GreenroomPanel/GreenroomDeviceManager/GreenroomDeviceManagerComponents/GreenroomDeviceDropdown.tsx": {
+    "mtime": 1780039869.300706,
+    "ast_hash": "59969aee72d011c36abfd6b985f4d039",
+    "semantic_hash": "59969aee72d011c36abfd6b985f4d039"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/Greenroom/GreenroomPage/GreenroomPanel/GreenroomDeviceManager/GreenroomDeviceManagerComponents/GreenroomSpeakerTestButton.tsx": {
+    "mtime": 1780039869.301242,
+    "ast_hash": "d198f87e0e00a474d353158bfefe650a",
+    "semantic_hash": "d198f87e0e00a474d353158bfefe650a"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/Greenroom/GreenroomPage/GreenroomPanel/GreenroomDeviceManager/GreenroomDeviceManagerComponents/GreenroomAvatarDropdownController.tsx": {
+    "mtime": 1773058257.6442995,
+    "ast_hash": "444b2190e002ba9964a1067404044833",
+    "semantic_hash": "444b2190e002ba9964a1067404044833"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/Greenroom/GreenroomPage/GreenroomPanel/GreenroomDeviceManager/GreenroomDeviceManagerComponents/AudioPreviewBar.tsx": {
+    "mtime": 1780039869.3003147,
+    "ast_hash": "c71ac9fa7276f3eea389274b8616f622",
+    "semantic_hash": "c71ac9fa7276f3eea389274b8616f622"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/Greenroom/GreenroomPage/GreenroomPanel/GreenroomDeviceManager/GreenroomDeviceManagerComponents/GreenroomVoiceFocus.tsx": {
+    "mtime": 1773058257.6448412,
+    "ast_hash": "f9d5e62867306333ede1dcd44bbc14e6",
+    "semantic_hash": "f9d5e62867306333ede1dcd44bbc14e6"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/Greenroom/GreenroomPage/GreenroomPanel/GreenroomDeviceManager/GreenroomDeviceManagerComponents/SpeakerTestPanel.tsx": {
+    "mtime": 1780039869.3013194,
+    "ast_hash": "bd89ce769cd74ef1e12b42b7eaeaf6f6",
+    "semantic_hash": "bd89ce769cd74ef1e12b42b7eaeaf6f6"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/Greenroom/GreenroomPage/GreenroomPanel/GreenroomDeviceManager/GreenroomDeviceManagerComponents/GreenroomCameraDropdownController.tsx": {
+    "mtime": 1780039869.300565,
+    "ast_hash": "bf24890796f2e4e6107975a00813b6e5",
+    "semantic_hash": "bf24890796f2e4e6107975a00813b6e5"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/Greenroom/GreenroomPage/GreenroomPanel/GreenroomDeviceManager/GreenroomDeviceManagerComponents/GreenroomSpeakerDropdownController.tsx": {
+    "mtime": 1780039869.3011003,
+    "ast_hash": "a4ae24c2fc6784de7a093516603c8bf7",
+    "semantic_hash": "a4ae24c2fc6784de7a093516603c8bf7"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/Greenroom/GreenroomPage/GreenroomPanel/GreenroomDeviceManager/GreenroomDeviceManagerComponents/GreenroomMicTestButton.tsx": {
+    "mtime": 1780039869.3009808,
+    "ast_hash": "d4892aad665d653384946c2500b78428",
+    "semantic_hash": "d4892aad665d653384946c2500b78428"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/Greenroom/GreenroomPage/GreenroomPanel/GreenroomDeviceManager/GreenroomDeviceManagerComponents/GreenroomAudioPreview.tsx": {
+    "mtime": 1780039869.3004346,
+    "ast_hash": "e222001bc003ed27bb40fe863e9b1164",
+    "semantic_hash": "e222001bc003ed27bb40fe863e9b1164"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/Greenroom/GreenroomPage/GreenroomPanel/GreenroomPanelComponents/GreenroomReduceNoiseCheckbox.tsx": {
+    "mtime": 1780039869.3017511,
+    "ast_hash": "02d2e0a80418a7c24fa73a0fe1214704",
+    "semantic_hash": "02d2e0a80418a7c24fa73a0fe1214704"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/Greenroom/GreenroomPage/GreenroomPanel/GreenroomPanelComponents/GreenroomJoinSessionButton.tsx": {
+    "mtime": 1780039869.3015625,
+    "ast_hash": "8b705303a8312a1daba628b8432e1f5f",
+    "semantic_hash": "8b705303a8312a1daba628b8432e1f5f"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/Greenroom/GreenroomPage/GreenroomPanel/GreenroomPanelComponents/GreenroomAvatarPositionManager.tsx": {
+    "mtime": 1773058257.6450202,
+    "ast_hash": "dba00a75d1067c04a5f2c88bb94f0bac",
+    "semantic_hash": "dba00a75d1067c04a5f2c88bb94f0bac"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/Greenroom/GreenroomPage/GreenroomPanel/GreenroomPanelComponents/GreenroomUserDetails.tsx": {
+    "mtime": 1780039869.3018713,
+    "ast_hash": "c3ad6ddf55c0a0cf81f5526af8294475",
+    "semantic_hash": "c3ad6ddf55c0a0cf81f5526af8294475"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/Greenroom/GreenroomPage/GreenroomPanel/GreenroomPanelComponents/GreenroomPageSupport.tsx": {
+    "mtime": 1780039869.301681,
+    "ast_hash": "afe24d79e25386fde144cbe3e9fbd8cd",
+    "semantic_hash": "afe24d79e25386fde144cbe3e9fbd8cd"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/Greenroom/GreenroomPage/GreenroomPanel/GreenroomPanelComponents/GreenroomVideoTile.tsx": {
+    "mtime": 1780039869.3019998,
+    "ast_hash": "19d930a5882e1f843c1976ccd9f17336",
+    "semantic_hash": "19d930a5882e1f843c1976ccd9f17336"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/Greenroom/GreenroomPage/GreenroomPageComponents/GreenroomSupportModal.tsx": {
+    "mtime": 1773058257.6438155,
+    "ast_hash": "faba44f5f7b2448afe283371b876a64a",
+    "semantic_hash": "faba44f5f7b2448afe283371b876a64a"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/Greenroom/GreenroomPage/GreenroomPageComponents/CirclesLocalizer.tsx": {
+    "mtime": 1773058257.6436841,
+    "ast_hash": "76d3c23191c22e8e6e184ab26c1bde14",
+    "semantic_hash": "76d3c23191c22e8e6e184ab26c1bde14"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/Greenroom/GreenroomPage/GreenroomPageComponents/GreenroomDecorativeText.tsx": {
+    "mtime": 1780039869.2997582,
+    "ast_hash": "d29ed184813afa3f5cab079f58da90aa",
+    "semantic_hash": "d29ed184813afa3f5cab079f58da90aa"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/Greenroom/GreenroomUtils/GreenroomUtils.ts": {
+    "mtime": 1780039869.302135,
+    "ast_hash": "2c9b055a9205939e1f2d6ae4dcaef100",
+    "semantic_hash": "2c9b055a9205939e1f2d6ae4dcaef100"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/Greenroom/GreenroomConnection/useDevicePermissionsCheck.ts": {
+    "mtime": 1780039869.2991734,
+    "ast_hash": "610379a01d16f402a242fea8c608ee4e",
+    "semantic_hash": "610379a01d16f402a242fea8c608ee4e"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/Greenroom/GreenroomHooks/useIsUserPresent.ts": {
+    "mtime": 1773058257.6433892,
+    "ast_hash": "8fd59b530667b863c2bbba0330a3dc8b",
+    "semantic_hash": "8fd59b530667b863c2bbba0330a3dc8b"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/Greenroom/GreenroomHooks/useToggleGreenRoomCamera.tsx": {
+    "mtime": 1780039869.2995534,
+    "ast_hash": "a3de8a0ced19133f3d31faf19a417d6d",
+    "semantic_hash": "a3de8a0ced19133f3d31faf19a417d6d"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/Greenroom/GreenroomHooks/GreenroomVideoTile.tsx": {
+    "mtime": 1773058257.6431246,
+    "ast_hash": "c55536b179bfbd3189b1db50d5473494",
+    "semantic_hash": "c55536b179bfbd3189b1db50d5473494"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/CirclesDisplayContainer/Greenroom/GreenroomHooks/useHandleJoinSession.ts": {
+    "mtime": 1780039869.2994359,
+    "ast_hash": "5fd91ac3ce35d2a3e8c19cdb946fddbb",
+    "semantic_hash": "5fd91ac3ce35d2a3e8c19cdb946fddbb"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/BackgroundSelector/useBackgroundChange.ts": {
+    "mtime": 1780039869.2981377,
+    "ast_hash": "e6fffe4cdb1f8bc8a3fa7629b5df1292",
+    "semantic_hash": "e6fffe4cdb1f8bc8a3fa7629b5df1292"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/BackgroundSelector/BackgroundSelector.tsx": {
+    "mtime": 1780216135.4269185,
+    "ast_hash": "82fa4ffae417d57a7cbece0cd91582e9",
+    "semantic_hash": "82fa4ffae417d57a7cbece0cd91582e9"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/EnvStoreManager/EnvStoreManager.tsx": {
+    "mtime": 1780039869.3032763,
+    "ast_hash": "87aa762c09abe3f375e8adc4cbda4794",
+    "semantic_hash": "87aa762c09abe3f375e8adc4cbda4794"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/HomePageFeatures/PageMetaData/PageMetaData.tsx": {
+    "mtime": 1773058257.646784,
+    "ast_hash": "7ea6fe1cdaf873e7902fff07926ff071",
+    "semantic_hash": "7ea6fe1cdaf873e7902fff07926ff071"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/EventManagers/useLeaveSessionEvents.ts": {
+    "mtime": 1780039869.2968411,
+    "ast_hash": "ccd12934172dc6b0f2fefdec91fbc13b",
+    "semantic_hash": "ccd12934172dc6b0f2fefdec91fbc13b"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/EventManagers/AgendaMenuEventManager.tsx": {
+    "mtime": 1780039869.295775,
+    "ast_hash": "68d4587b9f488c1bcdb673bc772807c3",
+    "semantic_hash": "68d4587b9f488c1bcdb673bc772807c3"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/EventManagers/useMediaTrayEvents.ts": {
+    "mtime": 1780039869.2969737,
+    "ast_hash": "037c6d6d9a5ec7b1d20fd597304daaad",
+    "semantic_hash": "037c6d6d9a5ec7b1d20fd597304daaad"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/EventManagers/useShareEvents.ts": {
+    "mtime": 1780039869.297819,
+    "ast_hash": "b97769ce8d29ed80135d8228cb2b8fe1",
+    "semantic_hash": "b97769ce8d29ed80135d8228cb2b8fe1"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/EventManagers/useHelpEvents.ts": {
+    "mtime": 1780039869.2967138,
+    "ast_hash": "5a6d5bddd651b1dcf6e062332030fd37",
+    "semantic_hash": "5a6d5bddd651b1dcf6e062332030fd37"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/EventManagers/useChatEvents.ts": {
+    "mtime": 1780039869.2964506,
+    "ast_hash": "31ce869f24016b428c4a50b07c4fbf0f",
+    "semantic_hash": "31ce869f24016b428c4a50b07c4fbf0f"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/EventManagers/useReactionEvents.ts": {
+    "mtime": 1780039869.2975168,
+    "ast_hash": "abc6babb99f02e32f87bdaf81a62cb17",
+    "semantic_hash": "abc6babb99f02e32f87bdaf81a62cb17"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/EventManagers/useToolsEvents.ts": {
+    "mtime": 1780039869.2979474,
+    "ast_hash": "a56b7f53cbd864588b4cd17196eb1cee",
+    "semantic_hash": "a56b7f53cbd864588b4cd17196eb1cee"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/EventManagers/AgendaSidebarEventManager.tsx": {
+    "mtime": 1780039869.2958913,
+    "ast_hash": "c097001ea51b8d7fe514ad56390623f3",
+    "semantic_hash": "c097001ea51b8d7fe514ad56390623f3"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/EventManagers/useAgendaEvents.ts": {
+    "mtime": 1780039869.2963238,
+    "ast_hash": "73dcf45b8d014b86786722e6ca51b7c0",
+    "semantic_hash": "73dcf45b8d014b86786722e6ca51b7c0"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/EventManagers/useFacilitatorEvents.ts": {
+    "mtime": 1780039869.2965913,
+    "ast_hash": "213101c7804c2d1bcbe11f5379a3f729",
+    "semantic_hash": "213101c7804c2d1bcbe11f5379a3f729"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/EventManagers/MediaTrayEventManager.tsx": {
+    "mtime": 1780039869.2961628,
+    "ast_hash": "edd67dd59007ff7ce76943b0f148d684",
+    "semantic_hash": "edd67dd59007ff7ce76943b0f148d684"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/EventManagers/usePadEvents.ts": {
+    "mtime": 1780039869.2974,
+    "ast_hash": "a1fefa98f35567cb71e2f4f588af3dfb",
+    "semantic_hash": "a1fefa98f35567cb71e2f4f588af3dfb"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/EventManagers/useNotesEvents.ts": {
+    "mtime": 1780216135.4266257,
+    "ast_hash": "810a3d704b7aacdb296e033e85760af0",
+    "semantic_hash": "810a3d704b7aacdb296e033e85760af0"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/agendaTypes.ts": {
+    "mtime": 1773058257.638328,
+    "ast_hash": "940beec1abc95b50ed40051478d32f7f",
+    "semantic_hash": "940beec1abc95b50ed40051478d32f7f"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaUtilities/agendaUtilities.js": {
+    "mtime": 1773058257.6382658,
+    "ast_hash": "11ad381aa07719ef9165384408c1de1a",
+    "semantic_hash": "11ad381aa07719ef9165384408c1de1a"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaHooks/useActiveAgendaForumSignatureImage.ts": {
+    "mtime": 1780039869.2929785,
+    "ast_hash": "b7e7367cb51d332dc7c0d7418e6dbbaa",
+    "semantic_hash": "b7e7367cb51d332dc7c0d7418e6dbbaa"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaHooks/useAgendaUpdates.tsx": {
+    "mtime": 1773058257.6380467,
+    "ast_hash": "2275a788bc6b6bb35b7846b5c311e59e",
+    "semantic_hash": "2275a788bc6b6bb35b7846b5c311e59e"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaHooks/useAgendaActions.tsx": {
+    "mtime": 1773058257.6378903,
+    "ast_hash": "ca7d7d77766b26d04b4db2980b8d37d8",
+    "semantic_hash": "ca7d7d77766b26d04b4db2980b8d37d8"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaHooks/useParseActiveAgendaPage.tsx": {
+    "mtime": 1780039869.293273,
+    "ast_hash": "ace18c4629642f8a197e4d321e099d7a",
+    "semantic_hash": "ace18c4629642f8a197e4d321e099d7a"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaHooks/useAgendaPageUpdate.ts": {
+    "mtime": 1773058257.6379745,
+    "ast_hash": "0cd7e7fa4f441372b9b8e139b350cd55",
+    "semantic_hash": "0cd7e7fa4f441372b9b8e139b350cd55"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaContentWrapper/AgendaContentWrapper.tsx": {
+    "mtime": 1780039869.28404,
+    "ast_hash": "17a463067c9ef756d074b1df31dc2c1b",
+    "semantic_hash": "17a463067c9ef756d074b1df31dc2c1b"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaContentWrapper/AgendaContentHeader.tsx": {
+    "mtime": 1780039869.2835484,
+    "ast_hash": "10ab5aa4010a338a7825e78a673998a3",
+    "semantic_hash": "10ab5aa4010a338a7825e78a673998a3"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaBrowserFloating/FloatingBrowserConfig.json": {
+    "mtime": 1773058257.632315,
+    "ast_hash": "c1dd6ae96c134a0d09df000a2c148694",
+    "semantic_hash": "c1dd6ae96c134a0d09df000a2c148694"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaBrowserFloating/AgendaBrowserFloatingContainer.tsx": {
+    "mtime": 1780039869.278001,
+    "ast_hash": "7878ae58b8696620bbdbf6e97861092d",
+    "semantic_hash": "7878ae58b8696620bbdbf6e97861092d"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaBrowserFloating/AgendaBrowserFloatingHooks/useFloatingBrowserAuthentication.ts": {
+    "mtime": 1773058257.6321225,
+    "ast_hash": "d27a70514b467fbbace4326500446fd3",
+    "semantic_hash": "d27a70514b467fbbace4326500446fd3"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaBrowserFloating/AgendaBrowserFloatingHooks/useFloatingBrowserProps.ts": {
+    "mtime": 1776380091.419672,
+    "ast_hash": "01572beb33904cfe8c094ee5fa45f406",
+    "semantic_hash": "01572beb33904cfe8c094ee5fa45f406"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaBrowserInline/AgendaBrowserInline.tsx": {
+    "mtime": 1773058257.6324341,
+    "ast_hash": "8b42b9d8f8555c08be94d09d0cb2e93c",
+    "semantic_hash": "8b42b9d8f8555c08be94d09d0cb2e93c"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaControls/WelcomePageFooter.tsx": {
+    "mtime": 1780039869.2921798,
+    "ast_hash": "1ef0aa0dbc8c6dd2998e1b6d5425b23a",
+    "semantic_hash": "1ef0aa0dbc8c6dd2998e1b6d5425b23a"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaControls/AgendaStartMenu.stories.tsx": {
+    "mtime": 1780039869.2855527,
+    "ast_hash": "8972838ffb159508031d586131562ceb",
+    "semantic_hash": "8972838ffb159508031d586131562ceb"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaControls/AgendaStartDisplay.fixtures.ts": {
+    "mtime": 1780039869.284671,
+    "ast_hash": "5e15ba8fef5dd47e4bf32f7f2d95cfc7",
+    "semantic_hash": "5e15ba8fef5dd47e4bf32f7f2d95cfc7"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaControls/AgendaControls.tsx": {
+    "mtime": 1773058257.6334333,
+    "ast_hash": "6e7f2de15628a724699e5905d673bdcc",
+    "semantic_hash": "6e7f2de15628a724699e5905d673bdcc"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaControls/AgendaStartWrapper.tsx": {
+    "mtime": 1773058257.6337748,
+    "ast_hash": "2d082df62db5025b60fa82cf6f1ffa74",
+    "semantic_hash": "2d082df62db5025b60fa82cf6f1ffa74"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaControls/WelcomePageFooter.stories.tsx": {
+    "mtime": 1780039869.2920306,
+    "ast_hash": "ae519802b8cbd64f203b893804d193e8",
+    "semantic_hash": "ae519802b8cbd64f203b893804d193e8"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaControls/AgendaStartMenu.fixtures.ts": {
+    "mtime": 1780039869.284839,
+    "ast_hash": "42d21a13dfe66dfdf50757c45d934803",
+    "semantic_hash": "42d21a13dfe66dfdf50757c45d934803"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaControls/AgendaStartDisplay.stories.tsx": {
+    "mtime": 1780039869.284757,
+    "ast_hash": "cc915302ef5215b0d285064e405f866f",
+    "semantic_hash": "cc915302ef5215b0d285064e405f866f"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaControls/AgendaStartDisplay.tsx": {
+    "mtime": 1773058257.6335075,
+    "ast_hash": "6172917dfb15cc7edce554e5c7578b07",
+    "semantic_hash": "6172917dfb15cc7edce554e5c7578b07"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaControls/AgendaStartMenu/AgendaStartMenu.utils.test.ts": {
+    "mtime": 1780216135.426303,
+    "ast_hash": "c7ecf9230bcec006edbbb04e4356648e",
+    "semantic_hash": "c7ecf9230bcec006edbbb04e4356648e"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaControls/AgendaStartMenu/AgendaStartMenu.tsx": {
+    "mtime": 1780039869.2863386,
+    "ast_hash": "3aea0a364a6d7786b69b7580ec4a0178",
+    "semantic_hash": "3aea0a364a6d7786b69b7580ec4a0178"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaControls/AgendaStartMenu/AgendaStartMenu.utils.ts": {
+    "mtime": 1780039869.2866364,
+    "ast_hash": "94853ba23b3abb2fce41fe4e04636aeb",
+    "semantic_hash": "94853ba23b3abb2fce41fe4e04636aeb"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaControls/AgendaStartMenu/index.ts": {
+    "mtime": 1780039869.2919362,
+    "ast_hash": "651915cc8cf342f289ecc263176ad254",
+    "semantic_hash": "651915cc8cf342f289ecc263176ad254"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaControls/AgendaStartMenu/components/AgendaStartMenuButtons.tsx": {
+    "mtime": 1780039869.2915835,
+    "ast_hash": "feea67ccdcadf5cb444966bfdf5ab541",
+    "semantic_hash": "feea67ccdcadf5cb444966bfdf5ab541"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaControls/AgendaStartMenu/components/AgendaStartTimeSelector.tsx": {
+    "mtime": 1780039869.2916996,
+    "ast_hash": "049a6623504acbb168827bc13101c71b",
+    "semantic_hash": "049a6623504acbb168827bc13101c71b"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaControls/AgendaStartMenu/components/AgendaSessionPicker.tsx": {
+    "mtime": 1780039869.2909324,
+    "ast_hash": "0f3664408c9967e4e1fbe0ef96c5b234",
+    "semantic_hash": "0f3664408c9967e4e1fbe0ef96c5b234"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaControls/AgendaStartMenu/components/AgendaScheduledSessionInfo.tsx": {
+    "mtime": 1780039869.2908092,
+    "ast_hash": "793d8163b2b55b69ffccc0b484fa2224",
+    "semantic_hash": "793d8163b2b55b69ffccc0b484fa2224"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaControls/AgendaStartMenu/hooks/useAgendaStartHandler.ts": {
+    "mtime": 1780039869.291857,
+    "ast_hash": "75d4d6b93e727ed0d9e31801779b1657",
+    "semantic_hash": "75d4d6b93e727ed0d9e31801779b1657"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaControls/AgendaControlHooks/useFadeInAgendaMenu.ts": {
+    "mtime": 1773058257.6333597,
+    "ast_hash": "79b2df67f4010686c57a7e284b9d428f",
+    "semantic_hash": "79b2df67f4010686c57a7e284b9d428f"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaControls/AgendaControlHooks/useActiveAgenda.tsx": {
+    "mtime": 1773058257.6327722,
+    "ast_hash": "2347b1f131638d7e34b2d898a1016a84",
+    "semantic_hash": "2347b1f131638d7e34b2d898a1016a84"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaControls/AgendaControlHooks/useAgendaStartMenuViewportMeasurements.ts": {
+    "mtime": 1773058257.633288,
+    "ast_hash": "1f9706aa8dbe7ece8e643677100d0849",
+    "semantic_hash": "1f9706aa8dbe7ece8e643677100d0849"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaControls/AgendaControlHooks/useAgendaStartMenuContainerHeight.ts": {
+    "mtime": 1773058257.632999,
+    "ast_hash": "33651bf212e5b2857074911f8ade9aed",
+    "semantic_hash": "33651bf212e5b2857074911f8ade9aed"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaControls/AgendaControlHooks/useAgendaStartMenuMetrics.ts": {
+    "mtime": 1780039869.2845674,
+    "ast_hash": "55a185ce2e6f74555708b5cd1f22a510",
+    "semantic_hash": "55a185ce2e6f74555708b5cd1f22a510"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaControls/AgendaControlHooks/useAgendaCurrentTime.ts": {
+    "mtime": 1773058257.6328533,
+    "ast_hash": "2c30e39229ed77cc9c90ff17d9ec1bc1",
+    "semantic_hash": "2c30e39229ed77cc9c90ff17d9ec1bc1"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaControls/AgendaControlHooks/useAgendaStartMenuContainerStyle.ts": {
+    "mtime": 1773058257.633073,
+    "ast_hash": "c18ad106efd052f1921ff454698de2d8",
+    "semantic_hash": "c18ad106efd052f1921ff454698de2d8"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaControls/AgendaControlHooks/useAgendaStartMenuArrowStyle.ts": {
+    "mtime": 1773058257.632926,
+    "ast_hash": "b8d0d302505efb8deb80b9648a8f4cad",
+    "semantic_hash": "b8d0d302505efb8deb80b9648a8f4cad"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaControls/AgendaControlHooks/useAgendaStartMenuOpenLeft.ts": {
+    "mtime": 1773058257.633211,
+    "ast_hash": "5409996a92832f51a4fc4f6b370da54a",
+    "semantic_hash": "5409996a92832f51a4fc4f6b370da54a"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaWarningModal/AgendaWarningModal.tsx": {
+    "mtime": 1773058257.6377609,
+    "ast_hash": "b47b842d6d2561cbffb0a5957f4f64a5",
+    "semantic_hash": "b47b842d6d2561cbffb0a5957f4f64a5"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaMenuContainer/AgendaMenuContainer.stories.tsx": {
+    "mtime": 1780039869.2927427,
+    "ast_hash": "76766658c53df8cbd1bf38519c8ebf2d",
+    "semantic_hash": "76766658c53df8cbd1bf38519c8ebf2d"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaMenuContainer/AgendaMenuParticipantContainer.tsx": {
+    "mtime": 1773058257.6376495,
+    "ast_hash": "ae3fcca27aeace9943dd2621cbac0d98",
+    "semantic_hash": "ae3fcca27aeace9943dd2621cbac0d98"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaMenuContainer/AgendaMenuContainer.tsx": {
+    "mtime": 1773058257.6345518,
+    "ast_hash": "e5646aa23258737219a11d798463cb16",
+    "semantic_hash": "e5646aa23258737219a11d798463cb16"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaMenuContainer/AgendaMenuHooks/useShowMenuButton.tsx": {
+    "mtime": 1773058257.6375785,
+    "ast_hash": "d14017e91adfdb067abf7dcf54e2524e",
+    "semantic_hash": "d14017e91adfdb067abf7dcf54e2524e"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaMenuContainer/AgendaMenuHooks/Tools/useTimerButtons.tsx": {
+    "mtime": 1773058257.6374533,
+    "ast_hash": "2eeabd3eaff18927ee67e3c3f6c0ecae",
+    "semantic_hash": "2eeabd3eaff18927ee67e3c3f6c0ecae"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaMenuContainer/AgendaMenuHooks/Tools/useChimeFunctionality.ts": {
+    "mtime": 1773058257.6369774,
+    "ast_hash": "7a9251b566bf3695c1d2994b5ef7b2e9",
+    "semantic_hash": "7a9251b566bf3695c1d2994b5ef7b2e9"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaMenuContainer/AgendaMenuHooks/Tools/useFacilitatortoolsButtons.ts": {
+    "mtime": 1773058257.637122,
+    "ast_hash": "e21a548a1d19175d689930980c06e2a1",
+    "semantic_hash": "e21a548a1d19175d689930980c06e2a1"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaMenuContainer/AgendaMenuHooks/Tools/useLeaveButtons.tsx": {
+    "mtime": 1773058257.6371872,
+    "ast_hash": "8769c93a6fa1d4457b1d5e3b8966c49d",
+    "semantic_hash": "8769c93a6fa1d4457b1d5e3b8966c49d"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaMenuContainer/AgendaMenuHooks/Tools/useSettingsButtons.tsx": {
+    "mtime": 1773058257.6373808,
+    "ast_hash": "49bfe0a1f722ad0c2d878bf244eac91a",
+    "semantic_hash": "49bfe0a1f722ad0c2d878bf244eac91a"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaMenuContainer/AgendaMenuHooks/Tools/useRandomOrderButtons.tsx": {
+    "mtime": 1773058257.6372495,
+    "ast_hash": "4612cd8520a6c123988b4b0c36eeff26",
+    "semantic_hash": "4612cd8520a6c123988b4b0c36eeff26"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaMenuContainer/AgendaMenuHooks/Tools/useReactionsButtons.ts": {
+    "mtime": 1773058257.6373127,
+    "ast_hash": "940059442d938cf22124b4ff29f01ad4",
+    "semantic_hash": "940059442d938cf22124b4ff29f01ad4"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaMenuContainer/AgendaMenuHooks/Tools/useCreateCHPLink.ts": {
+    "mtime": 1773058257.6370485,
+    "ast_hash": "445f246bdd3cfe2a7cea744f00361560",
+    "semantic_hash": "445f246bdd3cfe2a7cea744f00361560"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaMenuContainer/AgendaMenuHooks/Tools/useUiControls.ts": {
+    "mtime": 1773058257.6375124,
+    "ast_hash": "db2cfbff0f7547037166fab48a3bc5b6",
+    "semantic_hash": "db2cfbff0f7547037166fab48a3bc5b6"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaMenuContainer/AgendaMenuHooks/Tools/ReactionsSubMenuButtons/useHugButtons.ts": {
+    "mtime": 1773058257.6368432,
+    "ast_hash": "2bdb124a8df33b9a6b0e600f858c6157",
+    "semantic_hash": "2bdb124a8df33b9a6b0e600f858c6157"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaMenuContainer/AgendaMenuHooks/Tools/ReactionsSubMenuButtons/usePersonalControlButtons.ts": {
+    "mtime": 1773058257.6369035,
+    "ast_hash": "7758eb7aa545a9967e1d25f0cad36f18",
+    "semantic_hash": "7758eb7aa545a9967e1d25f0cad36f18"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaMenuContainer/AgendaMenuHooks/Tools/ReactionsSubMenuButtons/useConfettiButtons.ts": {
+    "mtime": 1773058257.6367671,
+    "ast_hash": "6f9177051505efdeb2beb31c4a841e85",
+    "semantic_hash": "6f9177051505efdeb2beb31c4a841e85"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaMenuContainer/AgendaMenuHooks/Tools/FacilitatorSubMenuButtons/useReviewButtons.ts": {
+    "mtime": 1773058257.636563,
+    "ast_hash": "76cc62680868a956513bed03ae8b707c",
+    "semantic_hash": "76cc62680868a956513bed03ae8b707c"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaMenuContainer/AgendaMenuHooks/Tools/FacilitatorSubMenuButtons/useSessionButtons.ts": {
+    "mtime": 1773058257.6366353,
+    "ast_hash": "93bf9430ed9fe76cdeb5c76ac7094105",
+    "semantic_hash": "93bf9430ed9fe76cdeb5c76ac7094105"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaMenuContainer/AgendaMenuHooks/Tools/FacilitatorSubMenuButtons/useChangeGroupAgendaButtons.ts": {
+    "mtime": 1773058257.6363335,
+    "ast_hash": "02b0a19fe4a56b12bb686e839e5ecc09",
+    "semantic_hash": "02b0a19fe4a56b12bb686e839e5ecc09"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaMenuContainer/AgendaMenuHooks/Tools/FacilitatorSubMenuButtons/useDownloadButtons.ts": {
+    "mtime": 1773058257.6364033,
+    "ast_hash": "316a166bcf8073a521db7f9a314551de",
+    "semantic_hash": "316a166bcf8073a521db7f9a314551de"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaMenuContainer/AgendaMenuHooks/Tools/FacilitatorSubMenuButtons/useCHPButton.ts": {
+    "mtime": 1773058257.6362584,
+    "ast_hash": "6540721bfb608eaa5d491258d9c6865c",
+    "semantic_hash": "6540721bfb608eaa5d491258d9c6865c"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaMenuContainer/AgendaMenuHooks/Tools/FacilitatorSubMenuButtons/useGroupSurveyButton.ts": {
+    "mtime": 1773058257.6364758,
+    "ast_hash": "1d2a1d5b6e4d57e1e3525eb78d772c88",
+    "semantic_hash": "1d2a1d5b6e4d57e1e3525eb78d772c88"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaMenuContainer/AgendaMenuHooks/Tools/FacilitatorSubMenuButtons/useBreakoutPanelButton.ts": {
+    "mtime": 1773058257.6361837,
+    "ast_hash": "ab1ff9413983ee7fa8913c597d7ae33f",
+    "semantic_hash": "ab1ff9413983ee7fa8913c597d7ae33f"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaMenuContainer/AgendaMenuHooks/Agenda/useCloseAgendaButtons.tsx": {
+    "mtime": 1773058257.6348903,
+    "ast_hash": "013b4c4c740fc354a59af2ac3849bc12",
+    "semantic_hash": "013b4c4c740fc354a59af2ac3849bc12"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaMenuContainer/AgendaMenuHooks/Agenda/useOpenAgendaButtons.tsx": {
+    "mtime": 1773058257.6351736,
+    "ast_hash": "28997c3f94778fd08b2077c11ede322f",
+    "semantic_hash": "28997c3f94778fd08b2077c11ede322f"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaMenuContainer/AgendaMenuHooks/Agenda/useAgendaLibraryButtons.tsx": {
+    "mtime": 1773058257.6348202,
+    "ast_hash": "ac24f97dd12b80d970d39923554eaac6",
+    "semantic_hash": "ac24f97dd12b80d970d39923554eaac6"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaMenuContainer/AgendaMenuHooks/Agenda/useAgendaButtonSharedFunctions.tsx": {
+    "mtime": 1773058257.6347446,
+    "ast_hash": "da91b0bf823e644c1b64533241bc80f9",
+    "semantic_hash": "da91b0bf823e644c1b64533241bc80f9"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaMenuContainer/AgendaMenuHooks/Agenda/useGetNextSessions.ts": {
+    "mtime": 1773058257.6351001,
+    "ast_hash": "2a4da8450932e25835f36e62d36a51ba",
+    "semantic_hash": "2a4da8450932e25835f36e62d36a51ba"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaMenuContainer/AgendaMenuHooks/Agenda/useEditAgendaButtons.tsx": {
+    "mtime": 1773058257.6350296,
+    "ast_hash": "66e146f67d308aea35780828b29dc4d8",
+    "semantic_hash": "66e146f67d308aea35780828b29dc4d8"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaMenuContainer/AgendaMenuHooks/Agenda/useCreateAgendaButtons.tsx": {
+    "mtime": 1773058257.6349626,
+    "ast_hash": "7abcaceac9dcc5a1bf6069aa10dbabf5",
+    "semantic_hash": "7abcaceac9dcc5a1bf6069aa10dbabf5"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaMenuContainer/AgendaMenuHooks/Help/useAboutButtons.tsx": {
+    "mtime": 1773058257.6352882,
+    "ast_hash": "96488661353419e26bab59c656342d51",
+    "semantic_hash": "96488661353419e26bab59c656342d51"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaMenuContainer/AgendaMenuHooks/Help/useDevButtons.tsx": {
+    "mtime": 1780039869.2928927,
+    "ast_hash": "5791d673d37599bb31dfe449ab708819",
+    "semantic_hash": "5791d673d37599bb31dfe449ab708819"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaMenuContainer/AgendaMenuHooks/Help/useDesktopVideolessMode.tsx": {
+    "mtime": 1773058257.6353607,
+    "ast_hash": "dd28cf0a92d6aef4a84c8f7d5e9426f6",
+    "semantic_hash": "dd28cf0a92d6aef4a84c8f7d5e9426f6"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaMenuContainer/AgendaMenuHooks/Help/useTraceButtons.tsx": {
+    "mtime": 1773058257.6356401,
+    "ast_hash": "1055c3501f6c63affe202138d562b268",
+    "semantic_hash": "1055c3501f6c63affe202138d562b268"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaMenuContainer/AgendaMenuHooks/Help/useSupportButtons.tsx": {
+    "mtime": 1773058257.6355724,
+    "ast_hash": "12bb3455e5bb700db463a0ed3df43394",
+    "semantic_hash": "12bb3455e5bb700db463a0ed3df43394"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaMenuContainer/AgendaMenuHooks/Help/useDisableBackgroundAnimation.tsx": {
+    "mtime": 1773058257.6354992,
+    "ast_hash": "6e4160fbe1af4b8f97fbfd968e7744f4",
+    "semantic_hash": "6e4160fbe1af4b8f97fbfd968e7744f4"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaMenuContainer/AgendaMenuHooks/Share/useManageMediaButtons.ts": {
+    "mtime": 1773058257.6357722,
+    "ast_hash": "555c5ffaba6477c7debee07aaadd1570",
+    "semantic_hash": "555c5ffaba6477c7debee07aaadd1570"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaMenuContainer/AgendaMenuHooks/Share/useShareButtons.ts": {
+    "mtime": 1773058257.6360092,
+    "ast_hash": "6792a44c3f60b01e4dbfb5ae926c8076",
+    "semantic_hash": "6792a44c3f60b01e4dbfb5ae926c8076"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaMenuContainer/AgendaMenuHooks/Share/useQuickPlayButtons.ts": {
+    "mtime": 1773058257.6359174,
+    "ast_hash": "9b6f7fa1a8d431a939ee1eb3ffd13de4",
+    "semantic_hash": "9b6f7fa1a8d431a939ee1eb3ffd13de4"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaMenuContainer/AgendaMenuHooks/Share/usePlayButtons.ts": {
+    "mtime": 1773058257.6358466,
+    "ast_hash": "30080dd0c74ba8f14fcef218981b3257",
+    "semantic_hash": "30080dd0c74ba8f14fcef218981b3257"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaMenuContainer/AgendaMenuComponents/AgendaMenu.tsx": {
+    "mtime": 1773058257.6341987,
+    "ast_hash": "b424ab5469c546f993e9692ceb4836e5",
+    "semantic_hash": "b424ab5469c546f993e9692ceb4836e5"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaMenuContainer/AgendaMenuComponents/ShareMenu.tsx": {
+    "mtime": 1773058257.634345,
+    "ast_hash": "7f6833d4bcdf5efbe7660b7f3a5bf5ed",
+    "semantic_hash": "7f6833d4bcdf5efbe7660b7f3a5bf5ed"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaMenuContainer/AgendaMenuComponents/ToolsMenu.tsx": {
+    "mtime": 1773058257.6344082,
+    "ast_hash": "5bd6982f60073c2983fbd4d35c5171b5",
+    "semantic_hash": "5bd6982f60073c2983fbd4d35c5171b5"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaMenuContainer/AgendaMenuComponents/HelpMenu.tsx": {
+    "mtime": 1773058257.6342685,
+    "ast_hash": "c164d2bc5489a1b45573a6cd30885efc",
+    "semantic_hash": "c164d2bc5489a1b45573a6cd30885efc"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaEditor/AgendaEditorFloating.tsx": {
+    "mtime": 1780039869.2923167,
+    "ast_hash": "5f7c342c7e3b424114646f2e3d82bcbe",
+    "semantic_hash": "5f7c342c7e3b424114646f2e3d82bcbe"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/AgendaFeatures/AgendaComponents/AgendaEditor/FloatingEditorConfig.json": {
+    "mtime": 1773058257.6340384,
+    "ast_hash": "f54f2087ed285adfacf8563e36c8d7e0",
+    "semantic_hash": "f54f2087ed285adfacf8563e36c8d7e0"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/Inviter/GuestListUtils.ts": {
+    "mtime": 1773058257.6481578,
+    "ast_hash": "b2662b3365f29042d1ed5075f47d4363",
+    "semantic_hash": "b2662b3365f29042d1ed5075f47d4363"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/Inviter/GuestList.tsx": {
+    "mtime": 1773058257.6480887,
+    "ast_hash": "538f944ccaaaafed72acbc1fd75fa090",
+    "semantic_hash": "538f944ccaaaafed72acbc1fd75fa090"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/Inviter/inviteGql.ts": {
+    "mtime": 1773058257.648591,
+    "ast_hash": "d80b0ffd171ba6709fb288ff67efa17c",
+    "semantic_hash": "d80b0ffd171ba6709fb288ff67efa17c"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/Inviter/GuestButton.tsx": {
+    "mtime": 1773058257.647954,
+    "ast_hash": "d625b3d9c112a2989417860fd1f60e5d",
+    "semantic_hash": "d625b3d9c112a2989417860fd1f60e5d"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/Inviter/InputLabel.tsx": {
+    "mtime": 1773058257.648277,
+    "ast_hash": "85bfccf58346d43374c8a773019c69ab",
+    "semantic_hash": "85bfccf58346d43374c8a773019c69ab"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/Inviter/InviteStateManager.tsx": {
+    "mtime": 1779402020.2878313,
+    "ast_hash": "44ee92be0b94e42f3d329ab7f90d2ba7",
+    "semantic_hash": "44ee92be0b94e42f3d329ab7f90d2ba7"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/Inviter/useGuestInputKeybinds.ts": {
+    "mtime": 1773058257.6488135,
+    "ast_hash": "716d0430f2f3feb7ddef34aa603d7f0b",
+    "semantic_hash": "716d0430f2f3feb7ddef34aa603d7f0b"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/Inviter/NameInput.tsx": {
+    "mtime": 1773058257.6483986,
+    "ast_hash": "deaedfef5fea3d7c3b4b17c6a156ff64",
+    "semantic_hash": "deaedfef5fea3d7c3b4b17c6a156ff64"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/Inviter/HelpButton.tsx": {
+    "mtime": 1773058257.6482186,
+    "ast_hash": "4efa44a38f7998ba58deadc9c2b69640",
+    "semantic_hash": "4efa44a38f7998ba58deadc9c2b69640"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/Inviter/GuestList.stories.tsx": {
+    "mtime": 1778615999.3655126,
+    "ast_hash": "24c8acb85bbe72d8593f6c1a9edf2beb",
+    "semantic_hash": "24c8acb85bbe72d8593f6c1a9edf2beb"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/Inviter/useGetLinkeratorMembers.ts": {
+    "mtime": 1778615999.3656597,
+    "ast_hash": "746c7aee2e2290d75f031c1cc0bc68df",
+    "semantic_hash": "746c7aee2e2290d75f031c1cc0bc68df"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/Inviter/useCreateNewUser.ts": {
+    "mtime": 1773058257.6486676,
+    "ast_hash": "18027c8546753f4740dd77b0bf9ef7ac",
+    "semantic_hash": "18027c8546753f4740dd77b0bf9ef7ac"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/Inviter/WelcomeHeading.tsx": {
+    "mtime": 1773058257.6484601,
+    "ast_hash": "0ec7da5d8e6e4faf4480786bc3aaa141",
+    "semantic_hash": "0ec7da5d8e6e4faf4480786bc3aaa141"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/Inviter/dummyLists.ts": {
+    "mtime": 1773058257.6485264,
+    "ast_hash": "429aa452df700fcdc7a72a7ab8c99ff2",
+    "semantic_hash": "429aa452df700fcdc7a72a7ab8c99ff2"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/FeatureFlagger/FeatureFlagger.tsx": {
+    "mtime": 1773058257.6414614,
+    "ast_hash": "8cbe57fb23a2bf5d306404ef3a6e8a77",
+    "semantic_hash": "8cbe57fb23a2bf5d306404ef3a6e8a77"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/DevOnly/DevPanel/DevPanel.tsx": {
+    "mtime": 1780039869.2953773,
+    "ast_hash": "dd35352d3153b784563f736e297dda9d",
+    "semantic_hash": "dd35352d3153b784563f736e297dda9d"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/DevOnly/DevPanel/ErrorParser/ErrorParser.tsx": {
+    "mtime": 1773058257.6398144,
+    "ast_hash": "eb13c6c9757615b70dd43a9e424b4bd0",
+    "semantic_hash": "eb13c6c9757615b70dd43a9e424b4bd0"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/DevOnly/DevPanel/DevOption/DevOption.tsx": {
+    "mtime": 1773058257.6396194,
+    "ast_hash": "2b93662674056712a9c366217c7c3577",
+    "semantic_hash": "2b93662674056712a9c366217c7c3577"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/DevOnly/RTPStats/RTPStats.tsx": {
+    "mtime": 1773058257.6401484,
+    "ast_hash": "4a4a3ea4721c1faa587de445b1061dde",
+    "semantic_hash": "4a4a3ea4721c1faa587de445b1061dde"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/DevOnly/PermissionsPanel/PermissionsPanel.tsx": {
+    "mtime": 1773058257.6399267,
+    "ast_hash": "0fa6bac308e83301ae08c402ab621942",
+    "semantic_hash": "0fa6bac308e83301ae08c402ab621942"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/DevOnly/PermissionsPanel/PersonPermissionPane/PersonPermissionPane.tsx": {
+    "mtime": 1773058257.6400378,
+    "ast_hash": "36cecf816fd60c830ef887904eb3777e",
+    "semantic_hash": "36cecf816fd60c830ef887904eb3777e"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/DevOnly/DevAudioPanel/DevAudioOption.tsx": {
+    "mtime": 1773058257.6393487,
+    "ast_hash": "f50912efa225c9152e7177d36910e0f1",
+    "semantic_hash": "f50912efa225c9152e7177d36910e0f1"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/features/DevOnly/DevAudioPanel/DevAudioPanel.tsx": {
+    "mtime": 1780039869.2952342,
+    "ast_hash": "40e15e07ccb1a78cd55a6f88a013baef",
+    "semantic_hash": "40e15e07ccb1a78cd55a6f88a013baef"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/chime-policy/BandwidthPolicy.ts": {
+    "mtime": 1773058257.6120293,
+    "ast_hash": "587bd9b4949cbc4266ef15f92be2c5d4",
+    "semantic_hash": "587bd9b4949cbc4266ef15f92be2c5d4"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/chime-policy/simulcast_policies.ts": {
+    "mtime": 1780039869.263584,
+    "ast_hash": "90d1fb12572cec9fd22ac6cd1a5d031d",
+    "semantic_hash": "90d1fb12572cec9fd22ac6cd1a5d031d"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/chime-policy/circles_chime_uplink_policy.ts": {
+    "mtime": 1780039869.2634115,
+    "ast_hash": "aa3c25c5260c623f2ecd945cce66d409",
+    "semantic_hash": "aa3c25c5260c623f2ecd945cce66d409"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/chime-policy/BandwidthPolicyRule.ts": {
+    "mtime": 1773058257.6120992,
+    "ast_hash": "57dc5aee7d629b63a590d986f4c7c123",
+    "semantic_hash": "57dc5aee7d629b63a590d986f4c7c123"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/queries/subscriptions.js": {
+    "mtime": 1773058257.661597,
+    "ast_hash": "3b68dea152df850182d779259fb1cf8f",
+    "semantic_hash": "3b68dea152df850182d779259fb1cf8f"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/queries/mutations.js": {
+    "mtime": 1773058257.6612797,
+    "ast_hash": "fc8bfa26115f5c3ffd1d3cb77b8796c4",
+    "semantic_hash": "fc8bfa26115f5c3ffd1d3cb77b8796c4"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/queries/nextSessionQueries.js": {
+    "mtime": 1773058257.6614437,
+    "ast_hash": "4705c31ce217b8504a2054a2cd43152d",
+    "semantic_hash": "4705c31ce217b8504a2054a2cd43152d"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/queries/agendaMutations.js": {
+    "mtime": 1773058257.6609876,
+    "ast_hash": "a8bcdc6a10ee2b94b4087726a89dc752",
+    "semantic_hash": "a8bcdc6a10ee2b94b4087726a89dc752"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/queries/agendaQueries.js": {
+    "mtime": 1780039869.3167815,
+    "ast_hash": "5cd1b48241db8a8f5fa1caadb40dec1c",
+    "semantic_hash": "5cd1b48241db8a8f5fa1caadb40dec1c"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/queries/nextSessionMutations.js": {
+    "mtime": 1773058257.6613708,
+    "ast_hash": "58684824f975e457a96d034c01ac8578",
+    "semantic_hash": "58684824f975e457a96d034c01ac8578"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/queries/queries.js": {
+    "mtime": 1780039869.3169212,
+    "ast_hash": "0a7cf18ceab0f7440a15217c8a8a1529",
+    "semantic_hash": "0a7cf18ceab0f7440a15217c8a8a1529"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/queries/transcriptionMutations.ts": {
+    "mtime": 1773058257.661732,
+    "ast_hash": "d1276f87711a1ad754084d1edde140cc",
+    "semantic_hash": "d1276f87711a1ad754084d1edde140cc"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/queries/mocks/agenda-side-bar.mocks.js": {
+    "mtime": 1773058257.6611936,
+    "ast_hash": "f03dcf92921f36e26d0e2fbcbf163d70",
+    "semantic_hash": "f03dcf92921f36e26d0e2fbcbf163d70"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/utils/chimeBrowserBehavior.ts": {
+    "mtime": 1780039869.3182387,
+    "ast_hash": "250ebe3807038fa1dc98b8d339ea57fb",
+    "semantic_hash": "250ebe3807038fa1dc98b8d339ea57fb"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/utils/compareCirclesUserMaps.ts": {
+    "mtime": 1780039869.3185804,
+    "ast_hash": "b40c9f95397625ce87a99f0a14023eb6",
+    "semantic_hash": "b40c9f95397625ce87a99f0a14023eb6"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/utils/layoutMobile.ts": {
+    "mtime": 1773058257.6659627,
+    "ast_hash": "1122ba292b46310ce32e65bd4febf633",
+    "semantic_hash": "1122ba292b46310ce32e65bd4febf633"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/utils/mobileRegex.ts": {
+    "mtime": 1773058257.6662114,
+    "ast_hash": "418dbfb810d6628cdbc066f238692d60",
+    "semantic_hash": "418dbfb810d6628cdbc066f238692d60"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/utils/text.ts": {
+    "mtime": 1773058257.6664374,
+    "ast_hash": "1ae77776dfe269eb5391a341c744b203",
+    "semantic_hash": "1ae77776dfe269eb5391a341c744b203"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/utils/localization.ts": {
+    "mtime": 1773058257.6661522,
+    "ast_hash": "2ae460353c21870829a683f13fbd0aab",
+    "semantic_hash": "2ae460353c21870829a683f13fbd0aab"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/utils/random.ts": {
+    "mtime": 1773058257.666372,
+    "ast_hash": "96371913002014086fd2d47e2a5d6949",
+    "semantic_hash": "96371913002014086fd2d47e2a5d6949"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/utils/layout.ts": {
+    "mtime": 1773058257.6658144,
+    "ast_hash": "50547a14838eb80e63aa213ea32edef7",
+    "semantic_hash": "50547a14838eb80e63aa213ea32edef7"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/utils/layout-test.js": {
+    "mtime": 1773058257.6655889,
+    "ast_hash": "6a290db1e46d0ace34558497273d7455",
+    "semantic_hash": "6a290db1e46d0ace34558497273d7455"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/utils/previewNewRoomRedirectUrl.ts": {
+    "mtime": 1778615999.3672168,
+    "ast_hash": "f613c672f6536092261c3ca8ebc580d0",
+    "semantic_hash": "f613c672f6536092261c3ca8ebc580d0"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/utils/users.ts": {
+    "mtime": 1780039869.3192937,
+    "ast_hash": "673f19f1a9aa2af5d5c2d659c7324eb1",
+    "semantic_hash": "673f19f1a9aa2af5d5c2d659c7324eb1"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/utils/index.ts": {
+    "mtime": 1773058257.6655095,
+    "ast_hash": "58d4ca72b741e112b5fb6b31889c2502",
+    "semantic_hash": "58d4ca72b741e112b5fb6b31889c2502"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/utils/safeStorage.ts": {
+    "mtime": 1780039869.318759,
+    "ast_hash": "643130c461c305fe7ac28550ce48670f",
+    "semantic_hash": "643130c461c305fe7ac28550ce48670f"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/utils/dummyData.ts": {
+    "mtime": 1773058257.6653526,
+    "ast_hash": "e3c74b69bf1091641858394bf07577a4",
+    "semantic_hash": "e3c74b69bf1091641858394bf07577a4"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/utils/noteSort.ts": {
+    "mtime": 1773058257.666276,
+    "ast_hash": "202f7a1a5463735b0496545256300fe7",
+    "semantic_hash": "202f7a1a5463735b0496545256300fe7"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/utils/graphql.ts": {
+    "mtime": 1773058257.6654298,
+    "ast_hash": "c239715e67f9f64564bf28abf03a001e",
+    "semantic_hash": "c239715e67f9f64564bf28abf03a001e"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/utils/arrays.ts": {
+    "mtime": 1773058257.665243,
+    "ast_hash": "bd02118ca2452e76a26e28fd00e17dc2",
+    "semantic_hash": "bd02118ca2452e76a26e28fd00e17dc2"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/state/useLayoutControlsStore.tsx": {
+    "mtime": 1773058257.6637163,
+    "ast_hash": "3437a225a8a9d3bfe877bac7747ac778",
+    "semantic_hash": "3437a225a8a9d3bfe877bac7747ac778"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/state/useTraceStore.tsx": {
+    "mtime": 1773058257.6644595,
+    "ast_hash": "b10c187cfb476e2655256615a37327df",
+    "semantic_hash": "b10c187cfb476e2655256615a37327df"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/state/useSetCircleAssignedMembers.tsx": {
+    "mtime": 1773058257.664162,
+    "ast_hash": "46666c11d14bb4037f3152563b762253",
+    "semantic_hash": "46666c11d14bb4037f3152563b762253"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/state/useTranscriptionStore.tsx": {
+    "mtime": 1773058257.664531,
+    "ast_hash": "5698f693e82b2dde0cf10c444d28df12",
+    "semantic_hash": "5698f693e82b2dde0cf10c444d28df12"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/state/usePresenterDashboardStores.tsx": {
+    "mtime": 1773058257.6638641,
+    "ast_hash": "e43df0eafc09bbf6070621711607d661",
+    "semantic_hash": "e43df0eafc09bbf6070621711607d661"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/state/useCirclesUsers.tsx": {
+    "mtime": 1780039869.317343,
+    "ast_hash": "4c4c260c6ce52a043ce11e68cbc8a458",
+    "semantic_hash": "4c4c260c6ce52a043ce11e68cbc8a458"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/state/useRoomBreakoutsStore.tsx": {
+    "mtime": 1773058257.664008,
+    "ast_hash": "bbf4f995b28a515ab501a5fee71ec3ad",
+    "semantic_hash": "bbf4f995b28a515ab501a5fee71ec3ad"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/state/useChimeStore.tsx": {
+    "mtime": 1780039869.3171985,
+    "ast_hash": "7066ca824b718aae45eb4bb40137b735",
+    "semantic_hash": "7066ca824b718aae45eb4bb40137b735"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/state/useEnvStore.tsx": {
+    "mtime": 1780039869.3175159,
+    "ast_hash": "d5425b9812b7f2e10e46d410d842d908",
+    "semantic_hash": "d5425b9812b7f2e10e46d410d842d908"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/state/useSessionMediaStore.tsx": {
+    "mtime": 1773058257.6640897,
+    "ast_hash": "29562a57626f10bff9fe89318d002075",
+    "semantic_hash": "29562a57626f10bff9fe89318d002075"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/state/useAgendaStore.tsx": {
+    "mtime": 1773058257.6625974,
+    "ast_hash": "d95b9ef9bdaa9412baa1a27d84657562",
+    "semantic_hash": "d95b9ef9bdaa9412baa1a27d84657562"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/state/useReactPlayerStore.tsx": {
+    "mtime": 1773058257.663931,
+    "ast_hash": "399f4a7c4ca3860139af0decd80cc5ef",
+    "semantic_hash": "399f4a7c4ca3860139af0decd80cc5ef"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/state/useAvatarStore.tsx": {
+    "mtime": 1773058257.6628242,
+    "ast_hash": "59f38c646f1f2aaf01236d59b42feb32",
+    "semantic_hash": "59f38c646f1f2aaf01236d59b42feb32"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/state/useStorybook.tsx": {
+    "mtime": 1773058257.6643164,
+    "ast_hash": "1c2f77c9223d516862862e34ffdd6b9a",
+    "semantic_hash": "1c2f77c9223d516862862e34ffdd6b9a"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/state/useAnimationsStore.tsx": {
+    "mtime": 1780216135.4285502,
+    "ast_hash": "11f4e141b434597abae09dc7d640789e",
+    "semantic_hash": "11f4e141b434597abae09dc7d640789e"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/state/useWebsocketState.tsx": {
+    "mtime": 1773058257.6646066,
+    "ast_hash": "3e88871776c7151bf60b24d08ba29fa5",
+    "semantic_hash": "3e88871776c7151bf60b24d08ba29fa5"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/state/useInitializeState.tsx": {
+    "mtime": 1780039869.3181286,
+    "ast_hash": "606a956ba887a7a718aeec79fb3f99ec",
+    "semantic_hash": "606a956ba887a7a718aeec79fb3f99ec"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/state/useGreenRoomStore.tsx": {
+    "mtime": 1780039869.3179352,
+    "ast_hash": "f8af042640325261d67886a3c8e2973d",
+    "semantic_hash": "f8af042640325261d67886a3c8e2973d"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/state/useDeviceStore.tsx": {
+    "mtime": 1773058257.6632836,
+    "ast_hash": "f98fa87bbfda6fad0a5e547f3711bc11",
+    "semantic_hash": "f98fa87bbfda6fad0a5e547f3711bc11"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/state/useAudioVideoPlayerStore.tsx": {
+    "mtime": 1773058257.6627514,
+    "ast_hash": "cb01edebb2ce06937505749ecd729a71",
+    "semantic_hash": "cb01edebb2ce06937505749ecd729a71"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/state/useTimerStore.tsx": {
+    "mtime": 1773058257.6643863,
+    "ast_hash": "997e0d8a66525cf2c1cc70724f7ded65",
+    "semantic_hash": "997e0d8a66525cf2c1cc70724f7ded65"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/state/useLowSignalStore.tsx": {
+    "mtime": 1773058257.6637866,
+    "ast_hash": "683cd82bb7df64f942663c1bc1a9aeb2",
+    "semantic_hash": "683cd82bb7df64f942663c1bc1a9aeb2"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/state/useAgendaPanelStore.tsx": {
+    "mtime": 1773058257.6624992,
+    "ast_hash": "1a7eb5a48f1fa21b2f4bacf16a4f4d56",
+    "semantic_hash": "1a7eb5a48f1fa21b2f4bacf16a4f4d56"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/state/useGroupSurveyStore.tsx": {
+    "mtime": 1773058257.6635711,
+    "ast_hash": "776405d3b7c3cc31dadce1eebf6fd684",
+    "semantic_hash": "776405d3b7c3cc31dadce1eebf6fd684"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/state/useDevStore.tsx": {
+    "mtime": 1773058257.6631875,
+    "ast_hash": "0e8f6a964359dc18298bbabcdbd383a1",
+    "semantic_hash": "0e8f6a964359dc18298bbabcdbd383a1"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/state/useActiveSpeakerStore.tsx": {
+    "mtime": 1773058257.6624286,
+    "ast_hash": "e294d9a1e4ddf9431115a9e1740695b3",
+    "semantic_hash": "e294d9a1e4ddf9431115a9e1740695b3"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/state/useConfettiStore.tsx": {
+    "mtime": 1773058257.6631083,
+    "ast_hash": "2393037cc1568be1ebeac83488fbcf44",
+    "semantic_hash": "2393037cc1568be1ebeac83488fbcf44"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/state/useSidebarStore.tsx": {
+    "mtime": 1773058257.6642458,
+    "ast_hash": "4d343a8fbbfd1f0612a490bd743e3fc5",
+    "semantic_hash": "4d343a8fbbfd1f0612a490bd743e3fc5"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/state/useFSMStateStore.tsx": {
+    "mtime": 1773058257.663429,
+    "ast_hash": "0b64acd701097685cd4089556f3f4935",
+    "semantic_hash": "0b64acd701097685cd4089556f3f4935"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/state/LayoutStore/LayoutInitialization.ts": {
+    "mtime": 1780039869.3170526,
+    "ast_hash": "c1935c9a6a14aadd6eea22562f4cb6b9",
+    "semantic_hash": "c1935c9a6a14aadd6eea22562f4cb6b9"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/state/LayoutStore/LayoutControlPanelStates.ts": {
+    "mtime": 1773058257.6620262,
+    "ast_hash": "949b2c42946aa8a7d16024bcd959f58e",
+    "semantic_hash": "949b2c42946aa8a7d16024bcd959f58e"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/state/LayoutStore/MediaLayoutState.ts": {
+    "mtime": 1773058257.662181,
+    "ast_hash": "5bf8a67abf5ce31141be84c8d17d2523",
+    "semantic_hash": "5bf8a67abf5ce31141be84c8d17d2523"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/state/LayoutStore/ReschedulerPanelStore.ts": {
+    "mtime": 1773058257.662268,
+    "ast_hash": "1b3b27043618808c1339b7b35abe17b6",
+    "semantic_hash": "1b3b27043618808c1339b7b35abe17b6"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/state/LayoutStore/CirclesLayoutStates.ts": {
+    "mtime": 1773058257.661942,
+    "ast_hash": "80d9b148cac9e48e434013c7063c2313",
+    "semantic_hash": "80d9b148cac9e48e434013c7063c2313"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/state/LayoutStore/TransitionLayoutStates.ts": {
+    "mtime": 1773058257.6623557,
+    "ast_hash": "ec740408162fec03e649067725d96ca4",
+    "semantic_hash": "ec740408162fec03e649067725d96ca4"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaPlayer/LoadMediaModal.fixtures.ts": {
+    "mtime": 1780039869.2699106,
+    "ast_hash": "5b01bd95ad1fb8c57b3489e2a1cafc04",
+    "semantic_hash": "5b01bd95ad1fb8c57b3489e2a1cafc04"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaPlayer/LoadDocModal.stories.tsx": {
+    "mtime": 1780039869.2696733,
+    "ast_hash": "2d9e8e083b02dfbabe10b8a6a98f4ac8",
+    "semantic_hash": "2d9e8e083b02dfbabe10b8a6a98f4ac8"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaPlayer/LoadDocModal.tsx": {
+    "mtime": 1780039869.2698307,
+    "ast_hash": "f6d046e2c8673e21d4c2a8aad71f0706",
+    "semantic_hash": "f6d046e2c8673e21d4c2a8aad71f0706"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaPlayer/useMediaTrayTransitions.ts": {
+    "mtime": 1773058257.6227098,
+    "ast_hash": "07c4924b6644b0a4cf3cae8e053ecc4f",
+    "semantic_hash": "07c4924b6644b0a4cf3cae8e053ecc4f"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaPlayer/MediaOverridesModal.tsx": {
+    "mtime": 1780039869.2704544,
+    "ast_hash": "9041344a8a77533ef903d4c7a408469a",
+    "semantic_hash": "9041344a8a77533ef903d4c7a408469a"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaPlayer/MediaPlayerProgressSlider.stories.tsx": {
+    "mtime": 1780039869.2705293,
+    "ast_hash": "d8281d8add1e4918e618fe64e3e501fb",
+    "semantic_hash": "d8281d8add1e4918e618fe64e3e501fb"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaPlayer/MediaTrackLibraryPopup.stories.tsx": {
+    "mtime": 1780039869.2706046,
+    "ast_hash": "35c9008db22ef40e0759a15e2d04fd23",
+    "semantic_hash": "35c9008db22ef40e0759a15e2d04fd23"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaPlayer/MediaOverridesModal.stories.tsx": {
+    "mtime": 1780039869.270308,
+    "ast_hash": "8e1036c5e401aec476fa44536143f04b",
+    "semantic_hash": "8e1036c5e401aec476fa44536143f04b"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaPlayer/MediaControlsModal.tsx": {
+    "mtime": 1773058257.622098,
+    "ast_hash": "943774e8d8bc73cdaad2a83f5e2b3f7a",
+    "semantic_hash": "943774e8d8bc73cdaad2a83f5e2b3f7a"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaPlayer/MediaPlayerVolumeSlider.tsx": {
+    "mtime": 1773058257.622431,
+    "ast_hash": "668c8f38adacf875214b00316f11087d",
+    "semantic_hash": "668c8f38adacf875214b00316f11087d"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaPlayer/DisplayViewerDocInfo.tsx": {
+    "mtime": 1773058257.6217468,
+    "ast_hash": "0939cf7cc94c2b52925992f07ff6c310",
+    "semantic_hash": "0939cf7cc94c2b52925992f07ff6c310"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaPlayer/LoadMediaModal.stories.tsx": {
+    "mtime": 1780039869.2699862,
+    "ast_hash": "24a6f903cbed83b33ed9f1ec862ae563",
+    "semantic_hash": "24a6f903cbed83b33ed9f1ec862ae563"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaPlayer/VideoPlayerControls.tsx": {
+    "mtime": 1773058257.6226304,
+    "ast_hash": "c8ab78d0677af891fa74221272ab2ca5",
+    "semantic_hash": "c8ab78d0677af891fa74221272ab2ca5"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaPlayer/MediaPlayerProgressSlider.tsx": {
+    "mtime": 1773058257.6223595,
+    "ast_hash": "04a9a2fe2c1eba2cf8e1811580190dea",
+    "semantic_hash": "04a9a2fe2c1eba2cf8e1811580190dea"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaPlayer/DisplayAudioVideoInfo.tsx": {
+    "mtime": 1773058257.6216116,
+    "ast_hash": "4d5adb9f97991478ba97fd2ceadda8e0",
+    "semantic_hash": "4d5adb9f97991478ba97fd2ceadda8e0"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaPlayer/DisplayScreenshareInfo.tsx": {
+    "mtime": 1773058257.621679,
+    "ast_hash": "4dae161b2b49c81fdb7bd8411b5dd3ee",
+    "semantic_hash": "4dae161b2b49c81fdb7bd8411b5dd3ee"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaPlayer/FloatingMediaPlayerVolumeSlider.tsx": {
+    "mtime": 1773058257.6218977,
+    "ast_hash": "0f3f347fe43943111bd9c315bb2540c8",
+    "semantic_hash": "0f3f347fe43943111bd9c315bb2540c8"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaPlayer/FloatingMediaPlayerVolumeSlider.stories.tsx": {
+    "mtime": 1780039869.269593,
+    "ast_hash": "5089779fd2cec72b42b816e8facc3acd",
+    "semantic_hash": "5089779fd2cec72b42b816e8facc3acd"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaPlayer/MediaTrackLibraryPopup.tsx": {
+    "mtime": 1780039869.270737,
+    "ast_hash": "7a3c639eaeb039210357d6e4075b891e",
+    "semantic_hash": "7a3c639eaeb039210357d6e4075b891e"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaPlayer/LoadMediaModal.tsx": {
+    "mtime": 1780039869.2701256,
+    "ast_hash": "a44a1c79149a682440d2b9a117cc0713",
+    "semantic_hash": "a44a1c79149a682440d2b9a117cc0713"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaPlayer/MediaControlsModal.stories.tsx": {
+    "mtime": 1780039869.2702239,
+    "ast_hash": "2eb2c727fa9203ad4b1b3c79c6c53aa8",
+    "semantic_hash": "2eb2c727fa9203ad4b1b3c79c6c53aa8"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaPlayer/MediaPlayerHooks/useLocalVolumeSliderStyles.ts": {
+    "mtime": 1773058257.6222873,
+    "ast_hash": "07489d3e198a87707750400cf20b3ddf",
+    "semantic_hash": "07489d3e198a87707750400cf20b3ddf"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/Wrappers/ChimeVideoTileWrapper.tsx": {
+    "mtime": 1780039869.2777507,
+    "ast_hash": "b4a9336d3eaffa2b42b3d3567f0b17ac",
+    "semantic_hash": "b4a9336d3eaffa2b42b3d3567f0b17ac"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/Wrappers/TestVideoGrid.tsx": {
+    "mtime": 1773058257.6316895,
+    "ast_hash": "dee917390d15d2fa4767325e9a360292",
+    "semantic_hash": "dee917390d15d2fa4767325e9a360292"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/Wrappers/FloatingPanelContent.tsx": {
+    "mtime": 1773058257.6315463,
+    "ast_hash": "9a592eb8884568a798180d68a6ffb70a",
+    "semantic_hash": "9a592eb8884568a798180d68a6ffb70a"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/Wrappers/useResizeAgendaSidebar.ts": {
+    "mtime": 1773058257.6317546,
+    "ast_hash": "cf6d323f5e58ea10c8b55d663542a06f",
+    "semantic_hash": "cf6d323f5e58ea10c8b55d663542a06f"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/Wrappers/FloatingPanelWrapper.tsx": {
+    "mtime": 1773058257.6316166,
+    "ast_hash": "1c52bf69d6f4a60b22388c269d29283d",
+    "semantic_hash": "1c52bf69d6f4a60b22388c269d29283d"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/Wrappers/AVPanelWrapper.tsx": {
+    "mtime": 1773058257.6313956,
+    "ast_hash": "11ede5fedf36f5d8dcfd9cd932ce1247",
+    "semantic_hash": "11ede5fedf36f5d8dcfd9cd932ce1247"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/HiddenAgendaPanel/HiddenAgendaPanel.tsx": {
+    "mtime": 1773058257.6187382,
+    "ast_hash": "7c8505502f1091f2cc74c85869eec98c",
+    "semantic_hash": "7c8505502f1091f2cc74c85869eec98c"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/FloatingControlPanel/useFloatingControlContainerStyles.ts": {
+    "mtime": 1773058257.6182287,
+    "ast_hash": "75c29b73db9c7a585002b79a521f5252",
+    "semantic_hash": "75c29b73db9c7a585002b79a521f5252"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/FloatingControlPanel/FloatingVolumeControl.tsx": {
+    "mtime": 1780039869.2672899,
+    "ast_hash": "ef37529ed1eb79bda2b12eae670b67c0",
+    "semantic_hash": "ef37529ed1eb79bda2b12eae670b67c0"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/FloatingControlPanel/FloatingControlPanel.tsx": {
+    "mtime": 1779404911.9911156,
+    "ast_hash": "3be32699f08163b3fcd1f394c55a1c52",
+    "semantic_hash": "3be32699f08163b3fcd1f394c55a1c52"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/FloatingControlPanel/FloatingControlPanel.stories.tsx": {
+    "mtime": 1778615999.3642178,
+    "ast_hash": "aa8e663c37ff1d114f38ce64dbd38336",
+    "semantic_hash": "aa8e663c37ff1d114f38ce64dbd38336"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/FloatingControlPanel/useToggleMuteInCall.tsx": {
+    "mtime": 1773058257.6183007,
+    "ast_hash": "8021b30d7f991dd94b25c644ffeaeeed",
+    "semantic_hash": "8021b30d7f991dd94b25c644ffeaeeed"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/TranscriptionPanel/TranscriptionPanel.tsx": {
+    "mtime": 1773058257.6293228,
+    "ast_hash": "d71ba5131da7266becdafd9caabcce6d",
+    "semantic_hash": "d71ba5131da7266becdafd9caabcce6d"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/ModernMobileLayouts/MobileAgendaContentWrapper.tsx": {
+    "mtime": 1773058257.6246588,
+    "ast_hash": "1456dfb55d9e079a53641aaeaa0d800b",
+    "semantic_hash": "1456dfb55d9e079a53641aaeaa0d800b"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/ModernMobileLayouts/ActiveMobileLayoutHandler/CirclesMobileLayout.tsx": {
+    "mtime": 1773058257.6237745,
+    "ast_hash": "a21d152342316c1ff52ccd923d21701b",
+    "semantic_hash": "a21d152342316c1ff52ccd923d21701b"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/ModernMobileLayouts/ActiveMobileLayoutHandler/ActiveMobileLayoutHandler.tsx": {
+    "mtime": 1780039869.2716079,
+    "ast_hash": "a0cd42f9f4dd26c07095bc594897a9b6",
+    "semantic_hash": "a0cd42f9f4dd26c07095bc594897a9b6"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/ModernMobileLayouts/ActiveMobileLayoutHandler/components/LayoutUtils.tsx": {
+    "mtime": 1773058257.6242225,
+    "ast_hash": "c102229914cdcbff7aa5238d823f731f",
+    "semantic_hash": "c102229914cdcbff7aa5238d823f731f"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/ModernMobileLayouts/ActiveMobileLayoutHandler/components/MobileModalLayout.tsx": {
+    "mtime": 1773058257.6242998,
+    "ast_hash": "1ca6de3ab6fad6f45fecc4d1426783ad",
+    "semantic_hash": "1ca6de3ab6fad6f45fecc4d1426783ad"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/ModernMobileLayouts/ActiveMobileLayoutHandler/components/DisplayMediaMobileLayout.tsx": {
+    "mtime": 1773058257.6240745,
+    "ast_hash": "d3b29901845d6ea88bef78693e7880f0",
+    "semantic_hash": "d3b29901845d6ea88bef78693e7880f0"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/ModernMobileLayouts/ActiveMobileLayoutHandler/components/LandscapeMobileLayout.tsx": {
+    "mtime": 1773058257.6241586,
+    "ast_hash": "9777ec9334d0cd5a11074fd8251a2f8a",
+    "semantic_hash": "9777ec9334d0cd5a11074fd8251a2f8a"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/ModernMobileLayouts/ActiveMobileLayoutHandler/components/DefaultMobileLayout.tsx": {
+    "mtime": 1773058257.6239934,
+    "ast_hash": "ebc46e0cca5e7fb4b486b8d5450f4521",
+    "semantic_hash": "ebc46e0cca5e7fb4b486b8d5450f4521"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/ModernMobileLayouts/ActiveMobileLayoutHandler/components/NoVideoMobileLayoutHandler.tsx": {
+    "mtime": 1773058257.6243737,
+    "ast_hash": "6ae69c56ac5492d529aa29aba7a70989",
+    "semantic_hash": "6ae69c56ac5492d529aa29aba7a70989"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/ModernMobileLayouts/Utilities/random.ts": {
+    "mtime": 1773058257.624764,
+    "ast_hash": "228a5598a1ae8b3629b4a2dc4e619009",
+    "semantic_hash": "228a5598a1ae8b3629b4a2dc4e619009"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/ModernMobileLayouts/components/MobileAgendaTimerDisplay/MobileAgendaTimerDisplay.tsx": {
+    "mtime": 1779404911.992633,
+    "ast_hash": "d92020f6c7292f7187e0358dcc495a54",
+    "semantic_hash": "d92020f6c7292f7187e0358dcc495a54"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/ModernMobileLayouts/components/MobileSidebarHeader/useMobileSidebarHeader.ts": {
+    "mtime": 1779404911.9945142,
+    "ast_hash": "9db804c3f13a22862d3562ed03c42ba0",
+    "semantic_hash": "9db804c3f13a22862d3562ed03c42ba0"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/ModernMobileLayouts/components/MobileSidebarHeader/MobileSidebarHeader.tsx": {
+    "mtime": 1779404911.9942307,
+    "ast_hash": "9c3d7048c28f3382f117f9df19862409",
+    "semantic_hash": "9c3d7048c28f3382f117f9df19862409"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/ModernMobileLayouts/components/MobileNotesDisplay/NotesViewer.tsx": {
+    "mtime": 1780039869.2727084,
+    "ast_hash": "b4593dafb83a38026fb3df4296b9f060",
+    "semantic_hash": "b4593dafb83a38026fb3df4296b9f060"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/ModernMobileLayouts/components/MobileNotesDisplay/MobileNotesDisplay.tsx": {
+    "mtime": 1773058257.6265018,
+    "ast_hash": "22cb6e7805597b09e756c357dcc2c7af",
+    "semantic_hash": "22cb6e7805597b09e756c357dcc2c7af"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/ModernMobileLayouts/components/MobileLowSignalIndicator/MobileLowSignalIndicator.tsx": {
+    "mtime": 1773058257.6258683,
+    "ast_hash": "ef256e77f56c959bf105e9aabe3f8ae7",
+    "semantic_hash": "ef256e77f56c959bf105e9aabe3f8ae7"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/ModernMobileLayouts/components/ScrollBorder/ScrollBorder.tsx": {
+    "mtime": 1773058257.6277623,
+    "ast_hash": "92f75c76fc78944b33f24461cddfd203",
+    "semantic_hash": "92f75c76fc78944b33f24461cddfd203"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/ModernMobileLayouts/components/MobileModalDisplay/MobileModalDisplay.tsx": {
+    "mtime": 1773058257.6262002,
+    "ast_hash": "8b1d9697f3a052ccfcc17c6a093f636d",
+    "semantic_hash": "8b1d9697f3a052ccfcc17c6a093f636d"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/ModernMobileLayouts/components/MobileLeaveSessionButton/MobileLeaveSessionButton.tsx": {
+    "mtime": 1780039869.2725778,
+    "ast_hash": "eb6dbbb9e70fafc73c533bccca408b73",
+    "semantic_hash": "eb6dbbb9e70fafc73c533bccca408b73"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/ModernMobileLayouts/components/MobileSidebarWrapper/MobileSidebarWrapper.tsx": {
+    "mtime": 1773058257.6274838,
+    "ast_hash": "41fefc20493cea0e155c7fc9ad69ceb7",
+    "semantic_hash": "41fefc20493cea0e155c7fc9ad69ceb7"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/ModernMobileLayouts/components/MobileSidebarWrapper/MobileSidebarContent.tsx": {
+    "mtime": 1773058257.6274123,
+    "ast_hash": "df2689c6cdb6ea43d08ceeee139bbb61",
+    "semantic_hash": "df2689c6cdb6ea43d08ceeee139bbb61"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/ModernMobileLayouts/components/MobileLowSignalModal/MobileLowSignalModal.tsx": {
+    "mtime": 1773058257.6260555,
+    "ast_hash": "f58ffc6b0b4d6ac260d52e4cb8f0ebba",
+    "semantic_hash": "f58ffc6b0b4d6ac260d52e4cb8f0ebba"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/ModernMobileLayouts/components/MobileModalFooter/MobileModalFooter.tsx": {
+    "mtime": 1773058257.6263158,
+    "ast_hash": "68181ca50a755b4bbda1b270c111f74d",
+    "semantic_hash": "68181ca50a755b4bbda1b270c111f74d"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/ModernMobileLayouts/components/MobileSidebarFooter/MobileSidebarFooter.tsx": {
+    "mtime": 1780039869.2729902,
+    "ast_hash": "6185141bc7e73350ecea38ec0bb27e56",
+    "semantic_hash": "6185141bc7e73350ecea38ec0bb27e56"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/ModernMobileLayouts/components/MobileScratchpadDisplay/MobileScratchpadDisplay.tsx": {
+    "mtime": 1773058257.626757,
+    "ast_hash": "796243730f7b5e2be76a30b9952a98b9",
+    "semantic_hash": "796243730f7b5e2be76a30b9952a98b9"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/ModernMobileLayouts/components/MobileUtilitiesHandler/MobileUtilitiesHandler.tsx": {
+    "mtime": 1780039869.2731256,
+    "ast_hash": "16e767035339da8fd462d05186277342",
+    "semantic_hash": "16e767035339da8fd462d05186277342"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/ModernMobileLayouts/components/MobileFloatingControls/MobileFloatingControlPanel.tsx": {
+    "mtime": 1779404911.9930341,
+    "ast_hash": "d9ae58aa9f1db0871f92f25afe62482a",
+    "semantic_hash": "d9ae58aa9f1db0871f92f25afe62482a"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/ModernMobileLayouts/components/MobileFloatingControls/FloatingControlButton.tsx": {
+    "mtime": 1779404911.9928777,
+    "ast_hash": "edf4d2f96a47193f81d076b6c2115aea",
+    "semantic_hash": "edf4d2f96a47193f81d076b6c2115aea"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/ModernMobileLayouts/components/MobileAgendaDisplay/MobileAgendaSectionDisplay.tsx": {
+    "mtime": 1779404911.9921393,
+    "ast_hash": "135a973ba1c0a124d8efbbe615a7744b",
+    "semantic_hash": "135a973ba1c0a124d8efbbe615a7744b"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/ErrorBoundary/index.tsx": {
+    "mtime": 1780039869.266845,
+    "ast_hash": "21b3d42c6d614361b123c7749f60237a",
+    "semantic_hash": "21b3d42c6d614361b123c7749f60237a"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaStreamMetricsLogger/MediaStreamMetricsLogger.tsx": {
+    "mtime": 1773058257.6228435,
+    "ast_hash": "63db36ebfb6eceafdfe26d3a88c0ad16",
+    "semantic_hash": "63db36ebfb6eceafdfe26d3a88c0ad16"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/LeaveSessionModal/LeaveSessionModal.tsx": {
+    "mtime": 1780039869.2675376,
+    "ast_hash": "437cb38b179cf59cfc8be917c876ef45",
+    "semantic_hash": "437cb38b179cf59cfc8be917c876ef45"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/EndSessionReview/EndSessionReviewContainer.tsx": {
+    "mtime": 1780039869.2664444,
+    "ast_hash": "caed391ac88de0fcf6ba2d2bfd70cab9",
+    "semantic_hash": "caed391ac88de0fcf6ba2d2bfd70cab9"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/EndSessionReview/EndSessionReviewComponents/forumSubscriptions.ts": {
+    "mtime": 1773058257.6166358,
+    "ast_hash": "e8483842356b616b4d7428440831c89b",
+    "semantic_hash": "e8483842356b616b4d7428440831c89b"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/EndSessionReview/EndSessionReviewComponents/ReschedulerPanel.tsx": {
+    "mtime": 1773058257.6164114,
+    "ast_hash": "c1697a0a6b512e83d4fab581f6687ec4",
+    "semantic_hash": "c1697a0a6b512e83d4fab581f6687ec4"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/EndSessionReview/EndSessionReviewComponents/useGetRetreatData.ts": {
+    "mtime": 1780039869.2661636,
+    "ast_hash": "378abb8f00f87bc8102a90157ba1b78f",
+    "semantic_hash": "378abb8f00f87bc8102a90157ba1b78f"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/EndSessionReview/EndSessionReviewComponents/NextSessionPanel.tsx": {
+    "mtime": 1780039869.265641,
+    "ast_hash": "dd02cdd39a7c23dcc743f4f3de80aa99",
+    "semantic_hash": "dd02cdd39a7c23dcc743f4f3de80aa99"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/EndSessionReview/EndSessionReviewComponents/useRetreatSubscription.ts": {
+    "mtime": 1780039869.266305,
+    "ast_hash": "ec6a4065f08e8e90a99a6c4bcc898d60",
+    "semantic_hash": "ec6a4065f08e8e90a99a6c4bcc898d60"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/EndSessionReview/EndSessionReviewComponents/RetreatPlanning.tsx": {
+    "mtime": 1780216144.4331121,
+    "ast_hash": "d39e4c303f15248471a5fa2205795f1c",
+    "semantic_hash": "d39e4c303f15248471a5fa2205795f1c"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/EndSessionReview/EndSessionReviewComponents/RetreatDatePickerPopover.tsx": {
+    "mtime": 1780216144.4324374,
+    "ast_hash": "50b26c1b3254410a6395cace9e1bb3f4",
+    "semantic_hash": "50b26c1b3254410a6395cace9e1bb3f4"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/EndSessionReview/EndSessionReviewComponents/useCheckEditPerms.ts": {
+    "mtime": 1773058257.6167026,
+    "ast_hash": "662e594b2c3ef7142d705fdad218586b",
+    "semantic_hash": "662e594b2c3ef7142d705fdad218586b"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/EndSessionReview/EndSessionReviewComponents/NextSessionPanelHeader.tsx": {
+    "mtime": 1780039869.265763,
+    "ast_hash": "1d09085c76e7aaeb1876ba287125db5a",
+    "semantic_hash": "1d09085c76e7aaeb1876ba287125db5a"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/EndSessionReview/EndSessionReviewComponents/RetreatEditDialog.tsx": {
+    "mtime": 1780216144.4326103,
+    "ast_hash": "f3dbdfd584674b7159ec3edd9afffeb3",
+    "semantic_hash": "f3dbdfd584674b7159ec3edd9afffeb3"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/EndSessionReview/EndSessionReviewComponents/SessionUpdatedModal.tsx": {
+    "mtime": 1780039869.266033,
+    "ast_hash": "e147553a3f8430c959fdc9b77c809f71",
+    "semantic_hash": "e147553a3f8430c959fdc9b77c809f71"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/EndSessionReview/EndSessionReviewHooks/useNextSessionMutations.ts": {
+    "mtime": 1780039869.2665813,
+    "ast_hash": "8b0d327d8fc8066d39eec15fd909b86a",
+    "semantic_hash": "8b0d327d8fc8066d39eec15fd909b86a"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/EndSessionReview/EndSessionReviewHooks/useRetrieveScheduledSessionFromID.ts": {
+    "mtime": 1773058257.617145,
+    "ast_hash": "4cbd2f351cdebb4c6f1170a8140c5a9f",
+    "semantic_hash": "4cbd2f351cdebb4c6f1170a8140c5a9f"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/EndSessionReview/EndSessionReviewHooks/useRetrieveTimezoneOptions.ts": {
+    "mtime": 1780039869.2667096,
+    "ast_hash": "00468ae28fae40aeab37803c63d3dcb2",
+    "semantic_hash": "00468ae28fae40aeab37803c63d3dcb2"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/EndSessionReview/EndSessionReviewHooks/useScheduledSessions.ts": {
+    "mtime": 1773058257.6172884,
+    "ast_hash": "408842b9342f388383f3fa0cab751733",
+    "semantic_hash": "408842b9342f388383f3fa0cab751733"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/EndSessionReview/EndSessionReviewHooks/useFreezeNextSessionId.ts": {
+    "mtime": 1773058257.6170073,
+    "ast_hash": "77d7e0460c4b422824b040f3151383fa",
+    "semantic_hash": "77d7e0460c4b422824b040f3151383fa"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/VideoTileButton/TogglePlusOneButton.tsx": {
+    "mtime": 1773058257.6308439,
+    "ast_hash": "38f45e992f1577bf48a6184f8bb782bf",
+    "semantic_hash": "38f45e992f1577bf48a6184f8bb782bf"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/VideoTileButton/VideoTileButton.tsx": {
+    "mtime": 1780039869.277473,
+    "ast_hash": "03dbb224d17061b379da661f6593439d",
+    "semantic_hash": "03dbb224d17061b379da661f6593439d"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/VideoTileButton/ToggleSpotlightButton.tsx": {
+    "mtime": 1773058257.6309192,
+    "ast_hash": "56e40b8e7fe87723b0ba7c5aaaae2843",
+    "semantic_hash": "56e40b8e7fe87723b0ba7c5aaaae2843"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/VideoTileButton/VideoTileButtonConfig.json": {
+    "mtime": 1780039869.2776008,
+    "ast_hash": "b7509a3a0a0ba019c2d70810136d68ec",
+    "semantic_hash": "b7509a3a0a0ba019c2d70810136d68ec"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/VideoTileButton/LowSignalIndicator.tsx": {
+    "mtime": 1773058257.6303818,
+    "ast_hash": "b1907e8e4ffe14cd87b878eea2f4ab81",
+    "semantic_hash": "b1907e8e4ffe14cd87b878eea2f4ab81"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/VideoTileButton/ToggleVideoButton.tsx": {
+    "mtime": 1773058257.6309965,
+    "ast_hash": "0457f6fb9bf5bf0b0541ba82ff1b7833",
+    "semantic_hash": "0457f6fb9bf5bf0b0541ba82ff1b7833"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/VideoTileButton/NamePlate.tsx": {
+    "mtime": 1773058257.6305106,
+    "ast_hash": "8fc99fbc3aef181bd666f28202217fd7",
+    "semantic_hash": "8fc99fbc3aef181bd666f28202217fd7"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/VideoTileButton/LowSignalIndicatorTooltip.tsx": {
+    "mtime": 1780039869.2765164,
+    "ast_hash": "b139e6d8b43686e31d10605427aa2d4d",
+    "semantic_hash": "b139e6d8b43686e31d10605427aa2d4d"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/VideoTileButton/VideoTileButton.stories.tsx": {
+    "mtime": 1780039869.277314,
+    "ast_hash": "d63fab07a8814a5e30e22adb1ebd3b25",
+    "semantic_hash": "d63fab07a8814a5e30e22adb1ebd3b25"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/VideoTileButton/ToggleMuteButton.tsx": {
+    "mtime": 1773058257.6307766,
+    "ast_hash": "c9c8660f35927020195212c031787503",
+    "semantic_hash": "c9c8660f35927020195212c031787503"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/VideoTileButton/SpotlitMutedModal.tsx": {
+    "mtime": 1780039869.2769604,
+    "ast_hash": "0af3fba0f4a30680516af57ad43aea6d",
+    "semantic_hash": "0af3fba0f4a30680516af57ad43aea6d"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/VideoTileButton/VideoTileKeyBinds.tsx": {
+    "mtime": 1773058257.6312866,
+    "ast_hash": "7a9af849d5b7f9929907d8f7cc6857fc",
+    "semantic_hash": "7a9af849d5b7f9929907d8f7cc6857fc"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/VideoTileButton/ToggleHandraiseButton.tsx": {
+    "mtime": 1780039869.2770936,
+    "ast_hash": "db73675ee797923c73773a7b5ad1f582",
+    "semantic_hash": "db73675ee797923c73773a7b5ad1f582"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/VideoTileButton/PlusOneContainer/PlusOneContainer.tsx": {
+    "mtime": 1780039869.2766604,
+    "ast_hash": "bc194d89cab690a9eb32eeac38f68bf6",
+    "semantic_hash": "bc194d89cab690a9eb32eeac38f68bf6"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/VideoTileButton/PlusOneContainer/usePlusOnePhaseAnimations.ts": {
+    "mtime": 1780039869.2768261,
+    "ast_hash": "1e4fe60098cd4108d5389aa21d17c1a5",
+    "semantic_hash": "1e4fe60098cd4108d5389aa21d17c1a5"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/HoneybadgerProvider/HoneybadgerProvider.tsx": {
+    "mtime": 1778615999.3644738,
+    "ast_hash": "49e4fe445e6a7026b0fd82c6e15b88b4",
+    "semantic_hash": "49e4fe445e6a7026b0fd82c6e15b88b4"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/TalkTimeReporter/TalkTimeReporter.tsx": {
+    "mtime": 1773058257.6291018,
+    "ast_hash": "9deb817f371b0694aff21e5e06d67f6d",
+    "semantic_hash": "9deb817f371b0694aff21e5e06d67f6d"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/StateManager/LogUploadManager.tsx": {
+    "mtime": 1780039869.2737179,
+    "ast_hash": "d71a900406f76dc4ad0b471b6bbf4062",
+    "semantic_hash": "d71a900406f76dc4ad0b471b6bbf4062"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/StateManager/NotesStateManager.tsx": {
+    "mtime": 1773058257.6289322,
+    "ast_hash": "12ac527beb51c61512ba76abb3be342b",
+    "semantic_hash": "12ac527beb51c61512ba76abb3be342b"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/StateManager/StateManager.tsx": {
+    "mtime": 1780039869.2739635,
+    "ast_hash": "247f4756c24a048e1da3acbd6c85bf0f",
+    "semantic_hash": "247f4756c24a048e1da3acbd6c85bf0f"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/ClientOnly/ClientOnly.tsx": {
+    "mtime": 1773058257.6159987,
+    "ast_hash": "cbe1c00e28706e441607159a03b0929a",
+    "semantic_hash": "cbe1c00e28706e441607159a03b0929a"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/ToggleablePanelWrapper/ToggleablePanelWrapper.tsx": {
+    "mtime": 1773058257.6292145,
+    "ast_hash": "2b889cb87011a2dec39b67628f1cacd7",
+    "semantic_hash": "2b889cb87011a2dec39b67628f1cacd7"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/Modals/EndBreakoutsModal.stories.tsx": {
+    "mtime": 1780039869.2711825,
+    "ast_hash": "4a0ff2612ed5a858b47af9da91fda99b",
+    "semantic_hash": "4a0ff2612ed5a858b47af9da91fda99b"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/Modals/JoinBreakoutsModal.tsx": {
+    "mtime": 1773058257.6234035,
+    "ast_hash": "b242916e70f76005a029ff8375583a15",
+    "semantic_hash": "b242916e70f76005a029ff8375583a15"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/Modals/EndBreakoutsModal.tsx": {
+    "mtime": 1773058257.6233428,
+    "ast_hash": "216560b11847247175f4bcbbf3e8819e",
+    "semantic_hash": "216560b11847247175f4bcbbf3e8819e"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/Modals/JoinBreakoutsModal.stories.tsx": {
+    "mtime": 1780039869.2712476,
+    "ast_hash": "9ded502ead9d25760455dbcad1adc3a4",
+    "semantic_hash": "9ded502ead9d25760455dbcad1adc3a4"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/Modals/VoiceFocusWarningModal.tsx": {
+    "mtime": 1780216135.424575,
+    "ast_hash": "c709d9d5392811a889e201f869646375",
+    "semantic_hash": "c709d9d5392811a889e201f869646375"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/Modals/BreakoutControlsModal.tsx": {
+    "mtime": 1773058257.6232145,
+    "ast_hash": "ec99a0ddb4c1d3e90ee1d18e807263a4",
+    "semantic_hash": "ec99a0ddb4c1d3e90ee1d18e807263a4"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/Modals/VoiceFocusWarningModal.stories.tsx": {
+    "mtime": 1780039869.2713258,
+    "ast_hash": "b1acbe0388b74885c57c10b5ca55b513",
+    "semantic_hash": "b1acbe0388b74885c57c10b5ca55b513"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/Modals/BreakoutsActiveModal.stories.tsx": {
+    "mtime": 1780039869.2711132,
+    "ast_hash": "1671a1ce2a4e2ac649d37d822190074d",
+    "semantic_hash": "1671a1ce2a4e2ac649d37d822190074d"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/Modals/BreakoutsActiveModal.tsx": {
+    "mtime": 1773058257.6232805,
+    "ast_hash": "8516350eacb9a5ab35f012332a1a97c2",
+    "semantic_hash": "8516350eacb9a5ab35f012332a1a97c2"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/FloatingControls/FloatingControl.stories.tsx": {
+    "mtime": 1778615999.3643496,
+    "ast_hash": "4e08f1cecd9e152052c89f83887c5f2b",
+    "semantic_hash": "4e08f1cecd9e152052c89f83887c5f2b"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/FloatingControls/FloatingControlButtonTooltip.tsx": {
+    "mtime": 1773058257.618627,
+    "ast_hash": "b4219d5887eb64adc4c0404607eac1c5",
+    "semantic_hash": "b4219d5887eb64adc4c0404607eac1c5"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/FloatingControls/FloatingButtonConfig.json": {
+    "mtime": 1780039869.2674124,
+    "ast_hash": "02df795ab1782d2be5754704e3647703",
+    "semantic_hash": "02df795ab1782d2be5754704e3647703"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/FloatingControls/FloatingControlButton.tsx": {
+    "mtime": 1773058257.618558,
+    "ast_hash": "2fd387e34fa230e0b1ef63e3e1a61032",
+    "semantic_hash": "2fd387e34fa230e0b1ef63e3e1a61032"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MobileSmallScreenDisplay/MobileUserCard.tsx": {
+    "mtime": 1780039869.271025,
+    "ast_hash": "9af822777cd51501f009cf02487d6f8f",
+    "semantic_hash": "9af822777cd51501f009cf02487d6f8f"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MobileSmallScreenDisplay/MobileSmallScreenDisplay.tsx": {
+    "mtime": 1780039869.2708838,
+    "ast_hash": "e0daa2ad0609e06742211256b75c8aa6",
+    "semantic_hash": "e0daa2ad0609e06742211256b75c8aa6"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MobileSmallScreenDisplay/ActiveSpeakerIndicator.tsx": {
+    "mtime": 1773058257.622961,
+    "ast_hash": "acca6c69088f41f25c5dbcf004f26b8c",
+    "semantic_hash": "acca6c69088f41f25c5dbcf004f26b8c"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/BreakoutsPanelFloating/BreakoutsPanelFloating.tsx": {
+    "mtime": 1780039869.2644305,
+    "ast_hash": "46b5169934b57ab45b8662930741016a",
+    "semantic_hash": "46b5169934b57ab45b8662930741016a"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/BreakoutsPanelFloating/FloatingBreakoutsPanelConfig.json": {
+    "mtime": 1773058257.6133401,
+    "ast_hash": "60302070e5459d60528e750e72f8d536",
+    "semantic_hash": "60302070e5459d60528e750e72f8d536"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/VideoTile/CirclesVideoWrapper.tsx": {
+    "mtime": 1773058257.62942,
+    "ast_hash": "f112ed5de0f5fecf0f3dbd12e7d7193f",
+    "semantic_hash": "f112ed5de0f5fecf0f3dbd12e7d7193f"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/VideoTile/VideoTileComponents/CirclesVideoLarge.tsx": {
+    "mtime": 1780039869.2756083,
+    "ast_hash": "41a529a958d2719ab7ca481ef9d528e2",
+    "semantic_hash": "41a529a958d2719ab7ca481ef9d528e2"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/VideoTile/VideoTileComponents/CirclesVideoSmall.tsx": {
+    "mtime": 1780039869.2759168,
+    "ast_hash": "4ce68bb5e5b617678fc641df5a480408",
+    "semantic_hash": "4ce68bb5e5b617678fc641df5a480408"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/VideoTile/VideoTileComponents/CirclesVideoDisabled.tsx": {
+    "mtime": 1780039869.275454,
+    "ast_hash": "5e331135282f5142b7ef65dc69604fa1",
+    "semantic_hash": "5e331135282f5142b7ef65dc69604fa1"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/VideoTile/VideoTileComponents/CirclesVideoTooltip.tsx": {
+    "mtime": 1780039869.276209,
+    "ast_hash": "527e2d3fc24cb0df9d415d665cbf10d4",
+    "semantic_hash": "527e2d3fc24cb0df9d415d665cbf10d4"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/VideoTile/VideoTileComponents/CirclesVideoTileShadow.tsx": {
+    "mtime": 1773058257.6297936,
+    "ast_hash": "451170023d9dc8a43bf34688ca652986",
+    "semantic_hash": "451170023d9dc8a43bf34688ca652986"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/VideoTile/VideoTileComponents/RandomOrderCircle.tsx": {
+    "mtime": 1773058257.6299393,
+    "ast_hash": "19a919106686f559e4e55cd47aeefffd",
+    "semantic_hash": "19a919106686f559e4e55cd47aeefffd"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/VideoTile/VideoTileComponents/CircleShadowMask.tsx": {
+    "mtime": 1780039869.2747693,
+    "ast_hash": "4b417252a84e627150fab558bd939b9c",
+    "semantic_hash": "4b417252a84e627150fab558bd939b9c"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/VideoTile/hooks/useSetLocalCirclePosition.ts": {
+    "mtime": 1780039869.2763574,
+    "ast_hash": "2ebc0c7b8495a62647d80fed48c57996",
+    "semantic_hash": "2ebc0c7b8495a62647d80fed48c57996"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/VideoTile/hooks/useElementPosition.ts": {
+    "mtime": 1773058257.6301143,
+    "ast_hash": "ec0c3d7a2d97ca53da35366be951ff74",
+    "semantic_hash": "ec0c3d7a2d97ca53da35366be951ff74"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/VideoTile/hooks/useAnimatePantsOwnerSelect.ts": {
+    "mtime": 1773058257.6300445,
+    "ast_hash": "dc2e56145b0b606a4a565bc37ca39684",
+    "semantic_hash": "dc2e56145b0b606a4a565bc37ca39684"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/VideoTile/hooks/useSmallVideoControlsPortal.tsx": {
+    "mtime": 1773058257.6302671,
+    "ast_hash": "ea133d4f5c2d440ed834ff4cb4a8137f",
+    "semantic_hash": "ea133d4f5c2d440ed834ff4cb4a8137f"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/NotFoundPage/NotFoundPage.tsx": {
+    "mtime": 1773058257.6280677,
+    "ast_hash": "d75f6c029dc8b25a93c03abfb063e729",
+    "semantic_hash": "d75f6c029dc8b25a93c03abfb063e729"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/NotFoundPage/NotFoundPage.stories.tsx": {
+    "mtime": 1773058257.627993,
+    "ast_hash": "cda4b5e7619e71400cf3703833ce7f7b",
+    "semantic_hash": "cda4b5e7619e71400cf3703833ce7f7b"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/BreakoutLayouts/BreakoutLayouts.tsx": {
+    "mtime": 1773058257.6131213,
+    "ast_hash": "677105c0aef275f39423b51eb37e5bd1",
+    "semantic_hash": "677105c0aef275f39423b51eb37e5bd1"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/CirclesRoster/CirclesRoster.tsx": {
+    "mtime": 1773058257.6158922,
+    "ast_hash": "0d27d31e92a3084cf568e230c221d50d",
+    "semantic_hash": "0d27d31e92a3084cf568e230c221d50d"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/AVPanel/FloatingBrowserConfig.json": {
+    "mtime": 1773058257.6127229,
+    "ast_hash": "4b8ca1dedf804f9bd92afa869b741b88",
+    "semantic_hash": "4b8ca1dedf804f9bd92afa869b741b88"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/AVPanel/AVPanel.tsx": {
+    "mtime": 1780039869.2638881,
+    "ast_hash": "774cc8b0920bce86110cb01a9604871c",
+    "semantic_hash": "774cc8b0920bce86110cb01a9604871c"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/AVPanel/AVPanel.stories.tsx": {
+    "mtime": 1780039869.2637284,
+    "ast_hash": "812a79b8200d2eae57b5c06425b49ab2",
+    "semantic_hash": "812a79b8200d2eae57b5c06425b49ab2"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/ApolloClient/circlesSocket.ts": {
+    "mtime": 1780039869.2640402,
+    "ast_hash": "1fc22b572f5aebe17d0abf323bf2ccb4",
+    "semantic_hash": "1fc22b572f5aebe17d0abf323bf2ccb4"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/ApolloClient/useCreateCirclesApolloConnection.tsx": {
+    "mtime": 1780039869.2642667,
+    "ast_hash": "d4d279905565fd28929ce5a087c78126",
+    "semantic_hash": "d4d279905565fd28929ce5a087c78126"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/ApolloClient/CirclesApolloClient.tsx": {
+    "mtime": 1773058257.612839,
+    "ast_hash": "f6693d8639efe3502094d3f41bb2faf8",
+    "semantic_hash": "f6693d8639efe3502094d3f41bb2faf8"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/ApolloClient/graphqlWsTransportPolicy.ts": {
+    "mtime": 1780039869.2641156,
+    "ast_hash": "0544d30a5e0a358ba21adb251a021477",
+    "semantic_hash": "0544d30a5e0a358ba21adb251a021477"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/ChimeContextWrapper/MeetingUtilitiesWrapper.tsx": {
+    "mtime": 1780039869.2645166,
+    "ast_hash": "bf5902db8b64d994cab9c799ece7ed11",
+    "semantic_hash": "bf5902db8b64d994cab9c799ece7ed11"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/ChimeContextWrapper/chimeCustomLogger.ts": {
+    "mtime": 1773058257.613705,
+    "ast_hash": "79fb8bd4f15b7c95629b80472bf8ee04",
+    "semantic_hash": "79fb8bd4f15b7c95629b80472bf8ee04"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/ChimeContextWrapper/useChimeLogger.ts": {
+    "mtime": 1780039869.2646534,
+    "ast_hash": "119848dab4386106592cbfed1a7cf2a9",
+    "semantic_hash": "119848dab4386106592cbfed1a7cf2a9"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/ChimeContextWrapper/ChimeContextWrapper.tsx": {
+    "mtime": 1773058257.6136272,
+    "ast_hash": "512e51a4d76aff5a280d77533e7fdbd7",
+    "semantic_hash": "512e51a4d76aff5a280d77533e7fdbd7"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaLibrary/mediaLibraryTracks.json": {
+    "mtime": 1773058257.6214936,
+    "ast_hash": "b0ab23beb72807988ad9fb9135d31bbe",
+    "semantic_hash": "b0ab23beb72807988ad9fb9135d31bbe"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaLibrary/MediaLibraryTrack.tsx": {
+    "mtime": 1780039869.2692373,
+    "ast_hash": "b38c6aca9cd8a259704a3401d3560b5d",
+    "semantic_hash": "b38c6aca9cd8a259704a3401d3560b5d"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaLibrary/ManageMediaModal.tsx": {
+    "mtime": 1780039869.2691162,
+    "ast_hash": "6bf01598f9331fad9103158bb2f56e72",
+    "semantic_hash": "6bf01598f9331fad9103158bb2f56e72"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaLibrary/MediaTrackDetails.tsx": {
+    "mtime": 1780039869.2693086,
+    "ast_hash": "f18b0aaf94ff68d894ce7ffe360dbbb5",
+    "semantic_hash": "f18b0aaf94ff68d894ce7ffe360dbbb5"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/LoadingSpinner/LoadingSpinner.stories.tsx": {
+    "mtime": 1778615999.3646119,
+    "ast_hash": "52abd130c0343dbd062e7f973668e1ec",
+    "semantic_hash": "52abd130c0343dbd062e7f973668e1ec"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/LoadingSpinner/LoadingSpinner.tsx": {
+    "mtime": 1773058257.6190882,
+    "ast_hash": "a4ee134d837cd3ea7151d3c23d527277",
+    "semantic_hash": "a4ee134d837cd3ea7151d3c23d527277"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/LoadingSpinner/JoinSessionLoader.tsx": {
+    "mtime": 1773058257.61896,
+    "ast_hash": "3818385069804d2b6fc65c0623758c8f",
+    "semantic_hash": "3818385069804d2b6fc65c0623758c8f"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/CirclesConfetti/CirclesConfetti.tsx": {
+    "mtime": 1773058257.6138916,
+    "ast_hash": "2914dab4d02297811abc0ea7507e046c",
+    "semantic_hash": "2914dab4d02297811abc0ea7507e046c"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/Errors/ConnectionError/ConnectionErrorManager.tsx": {
+    "mtime": 1780039869.266931,
+    "ast_hash": "2f9ed53baca1ab5f8b72d329800a0d77",
+    "semantic_hash": "2f9ed53baca1ab5f8b72d329800a0d77"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/Errors/ConnectionError/SupportModalContent.tsx": {
+    "mtime": 1780039869.2670445,
+    "ast_hash": "31a93e3e27fadccbaeed3b0abac95c95",
+    "semantic_hash": "31a93e3e27fadccbaeed3b0abac95c95"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/Errors/ConnectionError/ConnectionError.tsx": {
+    "mtime": 1773058257.6175961,
+    "ast_hash": "0e48ee5141f102ca8f7ff62b9615a421",
+    "semantic_hash": "0e48ee5141f102ca8f7ff62b9615a421"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/Errors/ConnectionError/GetSupportModal.tsx": {
+    "mtime": 1773058257.6176593,
+    "ast_hash": "041ae2b744478d9d03836612a6fee114",
+    "semantic_hash": "041ae2b744478d9d03836612a6fee114"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/Errors/ConnectionError/ConnectionError.stories.tsx": {
+    "mtime": 1778615999.3639472,
+    "ast_hash": "6cf2a48e01531014d27b6082d577af90",
+    "semantic_hash": "6cf2a48e01531014d27b6082d577af90"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/Errors/ContactUsTile/ContactUsTile.stories.tsx": {
+    "mtime": 1778615999.3640764,
+    "ast_hash": "6b68ca2942470ee46abdc3e926f4e186",
+    "semantic_hash": "6b68ca2942470ee46abdc3e926f4e186"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/Errors/ContactUsTile/ContactUsTile.tsx": {
+    "mtime": 1780039869.267163,
+    "ast_hash": "f69ac91c15a2efecca40e528ddac2ace",
+    "semantic_hash": "f69ac91c15a2efecca40e528ddac2ace"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/DisplayTimer/DisplayTimer.tsx": {
+    "mtime": 1773058257.616114,
+    "ast_hash": "8d949d6aa37d99a7fda38928e96310ab",
+    "semantic_hash": "8d949d6aa37d99a7fda38928e96310ab"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/CirclesLayout/CirclesGrid.tsx": {
+    "mtime": 1780039869.265086,
+    "ast_hash": "56080cf45fcfd718329dd927e4dec44a",
+    "semantic_hash": "56080cf45fcfd718329dd927e4dec44a"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/CirclesLayout/CirclesDefaultLayoutFloatingPanel.tsx": {
+    "mtime": 1773058257.6141255,
+    "ast_hash": "1fc2c78aef05d6a5fcb3e2b8e57a2f43",
+    "semantic_hash": "1fc2c78aef05d6a5fcb3e2b8e57a2f43"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/CirclesLayout/CirclesVideoContainer.tsx": {
+    "mtime": 1773058257.6157858,
+    "ast_hash": "2347768cd2eb0a2533d30387ad0f24bd",
+    "semantic_hash": "2347768cd2eb0a2533d30387ad0f24bd"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/CirclesLayout/CirclesLayoutUtilitiesHandler.tsx": {
+    "mtime": 1780039869.2655096,
+    "ast_hash": "c501334e403f9323a84ef89817cfadce",
+    "semantic_hash": "c501334e403f9323a84ef89817cfadce"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/CirclesLayout/CirclesLayoutContainer.tsx": {
+    "mtime": 1780216135.4237118,
+    "ast_hash": "c42e01ae714706471b48b25e76b0f939",
+    "semantic_hash": "c42e01ae714706471b48b25e76b0f939"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/CirclesLayout/CirclesPreCalculatedMediaLayout.tsx": {
+    "mtime": 1773058257.6157146,
+    "ast_hash": "e043ebe26afd29c5b2263fbc0cbba692",
+    "semantic_hash": "e043ebe26afd29c5b2263fbc0cbba692"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/CirclesLayout/ChimeMicrophoneActivityMonitor.tsx": {
+    "mtime": 1773058257.614048,
+    "ast_hash": "1590e8e8728a352a19b807a00e204b1c",
+    "semantic_hash": "1590e8e8728a352a19b807a00e204b1c"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/CirclesLayout/CirclesNoVideoLayoutExpandedContent.tsx": {
+    "mtime": 1773058257.6154797,
+    "ast_hash": "3d5fb95acf8b65d8857ff7242c096968",
+    "semantic_hash": "3d5fb95acf8b65d8857ff7242c096968"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/CirclesLayout/CirclesPreCalculatedDefaultLayout.tsx": {
+    "mtime": 1773058257.6155775,
+    "ast_hash": "85133d970b86238bb95acd9d91bac5ab",
+    "semantic_hash": "85133d970b86238bb95acd9d91bac5ab"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/CirclesLayout/CirclesDesktopLayout.tsx": {
+    "mtime": 1780216135.4236026,
+    "ast_hash": "1b4f95640dfaaf6c7598a849968feb9b",
+    "semantic_hash": "1b4f95640dfaaf6c7598a849968feb9b"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/CirclesLayout/CirclesDefaultLayoutHandler.tsx": {
+    "mtime": 1780216135.4234903,
+    "ast_hash": "664eac0ee9f3012fb66b97154556814f",
+    "semantic_hash": "664eac0ee9f3012fb66b97154556814f"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/CirclesLayout/CirclesPreCalculatedLayoutController.tsx": {
+    "mtime": 1773058257.6156511,
+    "ast_hash": "5f5495c1328462f77b1279fbd7416afb",
+    "semantic_hash": "5f5495c1328462f77b1279fbd7416afb"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/CirclesLayout/CirclesLayoutHooks/useOrientateDocumentViewer.tsx": {
+    "mtime": 1773058257.6147878,
+    "ast_hash": "4864908987edf3279f7d4872e84df252",
+    "semantic_hash": "4864908987edf3279f7d4872e84df252"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/CirclesLayout/CirclesLayoutHooks/useVirtualKeyboardActive.tsx": {
+    "mtime": 1773058257.6153154,
+    "ast_hash": "c89cd19755fcc29a077a5066761fbc81",
+    "semantic_hash": "c89cd19755fcc29a077a5066761fbc81"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/CirclesLayout/CirclesLayoutHooks/useActiveMobileLayout.ts": {
+    "mtime": 1773058257.6145546,
+    "ast_hash": "843893490b2dc837c1eba3102ba1ebd6",
+    "semantic_hash": "843893490b2dc837c1eba3102ba1ebd6"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/CirclesLayout/CirclesLayoutHooks/useDisabledVideoMode.tsx": {
+    "mtime": 1773058257.6146374,
+    "ast_hash": "7176a1fd2e5f9e3d41b1c43c037616a3",
+    "semantic_hash": "7176a1fd2e5f9e3d41b1c43c037616a3"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/CirclesLayout/CirclesLayoutHooks/usePrecomputedLayouts.tsx": {
+    "mtime": 1780216135.42432,
+    "ast_hash": "1f2f1ba337f3d68cb430fc2d98635549",
+    "semantic_hash": "1f2f1ba337f3d68cb430fc2d98635549"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/CirclesLayout/CirclesLayoutHooks/useUserAvatarContainerHeight.tsx": {
+    "mtime": 1773058257.6151752,
+    "ast_hash": "085af17a8f59b0a4c19ed41c0b2fce69",
+    "semantic_hash": "085af17a8f59b0a4c19ed41c0b2fce69"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/CirclesLayout/CirclesLayoutHooks/usePercentageOfScreenWidth.ts": {
+    "mtime": 1780216135.4241817,
+    "ast_hash": "ccf30f087e70e536344765c7f31fbe1a",
+    "semantic_hash": "ccf30f087e70e536344765c7f31fbe1a"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/CirclesLayout/CirclesLayoutHooks/useNoVideoLayoutCalculations.tsx": {
+    "mtime": 1780216135.4239247,
+    "ast_hash": "e6b76d862f12342647553b3346945e3b",
+    "semantic_hash": "e6b76d862f12342647553b3346945e3b"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/CirclesLayout/CirclesLayoutHooks/useViewportHeight.tsx": {
+    "mtime": 1780216135.4244456,
+    "ast_hash": "140ab28a6098c85be93f20eb93820dab",
+    "semantic_hash": "140ab28a6098c85be93f20eb93820dab"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/ChatWrapper/ChatWrapperHooks/useGetAvatarColour.tsx": {
+    "mtime": 1773058257.6135044,
+    "ast_hash": "8aaf3d34a79489104c1db349525fcb38",
+    "semantic_hash": "8aaf3d34a79489104c1db349525fcb38"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/Notifications/DeviceNotifications.tsx": {
+    "mtime": 1780039869.2735846,
+    "ast_hash": "2e7616955d1854b1e7886dc9f7e2b263",
+    "semantic_hash": "2e7616955d1854b1e7886dc9f7e2b263"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/Notifications/useRemovedDeviceNotification.tsx": {
+    "mtime": 1773058257.628606,
+    "ast_hash": "0fb9837c9feedf95d67d3cb22a59b036",
+    "semantic_hash": "0fb9837c9feedf95d67d3cb22a59b036"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/Notifications/DeviceNotificationComponents/ActiveDeviceSwitchedTooltip.tsx": {
+    "mtime": 1780039869.2732816,
+    "ast_hash": "a402b6e5a8593aa4d99c6b3230bd0b14",
+    "semantic_hash": "a402b6e5a8593aa4d99c6b3230bd0b14"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/Notifications/DeviceNotificationComponents/NewDeviceAvailableTooltip.tsx": {
+    "mtime": 1780039869.2734349,
+    "ast_hash": "048832d31d7423530a919976f68f75a2",
+    "semantic_hash": "048832d31d7423530a919976f68f75a2"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaIframe/MediaContentDisplay.tsx": {
+    "mtime": 1780039869.2683206,
+    "ast_hash": "8649f9740f17443c63dd21b2cf2dbc04",
+    "semantic_hash": "8649f9740f17443c63dd21b2cf2dbc04"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaIframe/MobileMediaContentDisplay.tsx": {
+    "mtime": 1773058257.6211915,
+    "ast_hash": "243b8b1130a88f3ef8b94c8b2a57e5cc",
+    "semantic_hash": "243b8b1130a88f3ef8b94c8b2a57e5cc"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaIframe/MobileMediaComponents/MobileActiveReviewPrompt.tsx": {
+    "mtime": 1773058257.620503,
+    "ast_hash": "f045fe8c20f24910d3d156ef3000f9dc",
+    "semantic_hash": "f045fe8c20f24910d3d156ef3000f9dc"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaIframe/MobileMediaComponents/MobileMediaMuteButton.tsx": {
+    "mtime": 1773058257.620822,
+    "ast_hash": "e04a1531675aa5416c0bf8c6236dc676",
+    "semantic_hash": "e04a1531675aa5416c0bf8c6236dc676"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaIframe/MobileMediaComponents/MobileRemoteParticipantAvatar.tsx": {
+    "mtime": 1780039869.2687502,
+    "ast_hash": "f054ea2169e04344e2945fe277eb6911",
+    "semantic_hash": "f054ea2169e04344e2945fe277eb6911"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaIframe/MobileMediaComponents/MobileViewMediaPrompt.tsx": {
+    "mtime": 1773058257.621121,
+    "ast_hash": "ff68919c2037e17e1613f295577670f9",
+    "semantic_hash": "ff68919c2037e17e1613f295577670f9"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaIframe/MobileMediaComponents/MobileEndSessionReviewContainer.tsx": {
+    "mtime": 1773058257.6206615,
+    "ast_hash": "2eb0202aa011e5cbe85803f1077d4262",
+    "semantic_hash": "2eb0202aa011e5cbe85803f1077d4262"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaIframe/MobileMediaComponents/MobileAudioMediaPrompt.tsx": {
+    "mtime": 1773058257.6205835,
+    "ast_hash": "cb30d8bf49c5407a2cc0ca379dbb3d2a",
+    "semantic_hash": "cb30d8bf49c5407a2cc0ca379dbb3d2a"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaIframe/MobileMediaComponents/MobileActiveMediaPrompt.tsx": {
+    "mtime": 1773058257.6203568,
+    "ast_hash": "11059fbbbcc1a5cd7a571ee5816c066b",
+    "semantic_hash": "11059fbbbcc1a5cd7a571ee5816c066b"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaIframe/MobileMediaComponents/MobileMediaLocalUserAvatar.tsx": {
+    "mtime": 1780039869.2684994,
+    "ast_hash": "4dcea347276a86b1cf3b571bfa6de3ea",
+    "semantic_hash": "4dcea347276a86b1cf3b571bfa6de3ea"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaIframe/MobileMediaComponents/MobileNextSessionRescheduler.tsx": {
+    "mtime": 1773058257.620979,
+    "ast_hash": "bd2f73a2639fc125cf1f38ad0b0646b3",
+    "semantic_hash": "bd2f73a2639fc125cf1f38ad0b0646b3"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaIframe/MobileMediaComponents/MobileActiveMediaPromptContainer.tsx": {
+    "mtime": 1773058257.6204312,
+    "ast_hash": "867576f673208a6778cfb172e851b2b6",
+    "semantic_hash": "867576f673208a6778cfb172e851b2b6"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaIframe/MobileMediaComponents/MobileMediaUserAvatars.tsx": {
+    "mtime": 1780039869.2686327,
+    "ast_hash": "660b033952514ac735e36e82b79c117b",
+    "semantic_hash": "660b033952514ac735e36e82b79c117b"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaIframe/MediaComponents/ImageViewer.tsx": {
+    "mtime": 1773058257.6198123,
+    "ast_hash": "35496f03404dffc88e0ce8628100f802",
+    "semantic_hash": "35496f03404dffc88e0ce8628100f802"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaIframe/MediaComponents/ReactPlayerWrapper.tsx": {
+    "mtime": 1773058257.620018,
+    "ast_hash": "6f72402a8cd3bd2b88b0effceecb397a",
+    "semantic_hash": "6f72402a8cd3bd2b88b0effceecb397a"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaIframe/MediaComponents/ImageViewerConfig.json": {
+    "mtime": 1773058257.6198764,
+    "ast_hash": "ea34299495081d6c92222dac595bc63c",
+    "semantic_hash": "ea34299495081d6c92222dac595bc63c"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaIframe/MediaComponents/NotesViewer.tsx": {
+    "mtime": 1780039869.2680132,
+    "ast_hash": "c05fb43bbf0fb0ded8f27f440a56bbc7",
+    "semantic_hash": "c05fb43bbf0fb0ded8f27f440a56bbc7"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaIframe/MediaComponents/CloseDocumentHeader.tsx": {
+    "mtime": 1773058257.6194787,
+    "ast_hash": "ac42b3a26f22d0f5791087ae4e8a0b46",
+    "semantic_hash": "ac42b3a26f22d0f5791087ae4e8a0b46"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaIframe/MediaComponents/GroupSurveyModal.tsx": {
+    "mtime": 1773058257.61968,
+    "ast_hash": "0713c22eac1e88ba26479703d8e8e234",
+    "semantic_hash": "0713c22eac1e88ba26479703d8e8e234"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaIframe/MediaComponents/DocumentViewer.tsx": {
+    "mtime": 1773058257.619545,
+    "ast_hash": "2135ba9b639e1ee29e2664cdd0feecff",
+    "semantic_hash": "2135ba9b639e1ee29e2664cdd0feecff"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaIframe/MediaComponents/ImageIframe.stories.tsx": {
+    "mtime": 1780039869.2678995,
+    "ast_hash": "65d19c267057047ce451d245cb8e523d",
+    "semantic_hash": "65d19c267057047ce451d245cb8e523d"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaIframe/MediaComponents/DocumentViewerDisplay.tsx": {
+    "mtime": 1780039869.2677817,
+    "ast_hash": "16d74af47a1fcab62e9d5e43188465e5",
+    "semantic_hash": "16d74af47a1fcab62e9d5e43188465e5"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaIframe/MediaComponents/usePreventIframeFocus.ts": {
+    "mtime": 1773058257.620158,
+    "ast_hash": "eca67add9405d18052cac4ace1144ad8",
+    "semantic_hash": "eca67add9405d18052cac4ace1144ad8"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaIframe/MediaComponents/ResizableIframe.stories.tsx": {
+    "mtime": 1778615999.3649025,
+    "ast_hash": "906996676e7c5201290517ac12af9a75",
+    "semantic_hash": "906996676e7c5201290517ac12af9a75"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/MediaIframe/MediaComponents/ClickTourPanel.tsx": {
+    "mtime": 1773058257.619414,
+    "ast_hash": "5a7fbdcd93ad9a5297776629376ee46d",
+    "semantic_hash": "5a7fbdcd93ad9a5297776629376ee46d"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/Localization/CirclesLocalization.tsx": {
+    "mtime": 1780039869.267657,
+    "ast_hash": "96b807876e89224d7fd117eceec2ff39",
+    "semantic_hash": "96b807876e89224d7fd117eceec2ff39"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/Localization/localizationUtils.ts": {
+    "mtime": 1773058257.6192641,
+    "ast_hash": "c6caa4390874c2935455811228b113aa",
+    "semantic_hash": "c6caa4390874c2935455811228b113aa"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/RecordingIndicator/CirclesTranscriptionIndicator.tsx": {
+    "mtime": 1773058257.6287072,
+    "ast_hash": "ad5bc125435bce5d65e0c4c8e7f6f59b",
+    "semantic_hash": "ad5bc125435bce5d65e0c4c8e7f6f59b"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/components/RecordingIndicator/RecordingIndicator.tsx": {
+    "mtime": 1773058257.6287692,
+    "ast_hash": "30dc88ccdaed16b0ad96658662e1e26e",
+    "semantic_hash": "30dc88ccdaed16b0ad96658662e1e26e"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useLeaveSession.tsx": {
+    "mtime": 1780039869.3150864,
+    "ast_hash": "b8b70da1e30bc6bbc657dffdcfc24cc6",
+    "semantic_hash": "b8b70da1e30bc6bbc657dffdcfc24cc6"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useChatlio.tsx": {
+    "mtime": 1773058257.6555753,
+    "ast_hash": "07f1fd8d9ef27068267cc90c3b784e3a",
+    "semantic_hash": "07f1fd8d9ef27068267cc90c3b784e3a"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useReactPlayerControls.tsx": {
+    "mtime": 1773058257.6591694,
+    "ast_hash": "dc07f61da75d7f716597a4d311f82f97",
+    "semantic_hash": "dc07f61da75d7f716597a4d311f82f97"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useStorage.tsx": {
+    "mtime": 1773058257.6596398,
+    "ast_hash": "01f5f399d832135a2b543d58dfe87b4d",
+    "semantic_hash": "01f5f399d832135a2b543d58dfe87b4d"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useDetectOrientation.ts": {
+    "mtime": 1773058257.6559894,
+    "ast_hash": "e006952f64b538f5d36d374c0d36860b",
+    "semantic_hash": "e006952f64b538f5d36d374c0d36860b"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useTransitionAnimation.tsx": {
+    "mtime": 1773058257.6599216,
+    "ast_hash": "502ec4a6fa283c0b023a02a042e4cdab",
+    "semantic_hash": "502ec4a6fa283c0b023a02a042e4cdab"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useUserList.tsx": {
+    "mtime": 1780039869.3162615,
+    "ast_hash": "19bafcbaad5eef210d79966ede58b1a6",
+    "semantic_hash": "19bafcbaad5eef210d79966ede58b1a6"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useTransitionSidebar.tsx": {
+    "mtime": 1773058257.6599927,
+    "ast_hash": "42491edb818e5b0489a2fe724ed25fd1",
+    "semantic_hash": "42491edb818e5b0489a2fe724ed25fd1"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useGetUrl.tsx": {
+    "mtime": 1773058257.6565769,
+    "ast_hash": "43f449f0e4cec28a59d889b6d3b5e0ba",
+    "semantic_hash": "43f449f0e4cec28a59d889b6d3b5e0ba"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useLogger.tsx": {
+    "mtime": 1773058257.6579833,
+    "ast_hash": "a8122e742e2a3647c5b90625bfecc637",
+    "semantic_hash": "a8122e742e2a3647c5b90625bfecc637"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useHandleMediaSrcChange.tsx": {
+    "mtime": 1773058257.656965,
+    "ast_hash": "a2b717aae8f7beac2c456685ff4c829e",
+    "semantic_hash": "a2b717aae8f7beac2c456685ff4c829e"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useCheckIsForum.ts": {
+    "mtime": 1780039869.3135154,
+    "ast_hash": "36553a37c73a2aca4984365088590bcb",
+    "semantic_hash": "36553a37c73a2aca4984365088590bcb"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useNotifications.tsx": {
+    "mtime": 1773058257.6584046,
+    "ast_hash": "c77c01697a316602d92d3a8e4381cd25",
+    "semantic_hash": "c77c01697a316602d92d3a8e4381cd25"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useAudioVideoObservers.tsx": {
+    "mtime": 1780039869.3122847,
+    "ast_hash": "56e749139658db3da684db4078474e68",
+    "semantic_hash": "56e749139658db3da684db4078474e68"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useDetectVisibilityChange.tsx": {
+    "mtime": 1773058257.6560535,
+    "ast_hash": "07ca0559d419c6df48d6e0d5cd3e8d76",
+    "semantic_hash": "07ca0559d419c6df48d6e0d5cd3e8d76"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useLeaveSessionOnCriticalError.tsx": {
+    "mtime": 1780039869.315216,
+    "ast_hash": "da2f42a72d90b1417ae01672f8ada319",
+    "semantic_hash": "da2f42a72d90b1417ae01672f8ada319"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useDeviceObserver.ts": {
+    "mtime": 1773058257.6561496,
+    "ast_hash": "c609e02545c0a44573edf437d7fa5283",
+    "semantic_hash": "c609e02545c0a44573edf437d7fa5283"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useGroupHideAgendaPanel.ts": {
+    "mtime": 1773058257.6567085,
+    "ast_hash": "ae147343f0be73097394db349c8d1bc7",
+    "semantic_hash": "ae147343f0be73097394db349c8d1bc7"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useDisplaySafariDeviceWarning.tsx": {
+    "mtime": 1773058257.6562104,
+    "ast_hash": "3f30b6e1995906831341ba4e17a333a6",
+    "semantic_hash": "3f30b6e1995906831341ba4e17a333a6"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useAgendaSidebarLogger.ts": {
+    "mtime": 1773058257.655435,
+    "ast_hash": "c9637828de0bfbe1bd1bce395c7a2bc7",
+    "semantic_hash": "c9637828de0bfbe1bd1bce395c7a2bc7"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useRerenderTracker.tsx": {
+    "mtime": 1773058257.6593459,
+    "ast_hash": "58db7db92df75eea4d942702ba21818d",
+    "semantic_hash": "58db7db92df75eea4d942702ba21818d"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useGetMediaCurrentTime.tsx": {
+    "mtime": 1773058257.6565168,
+    "ast_hash": "6f76677a01a08e0649f388b4adb06ee5",
+    "semantic_hash": "6f76677a01a08e0649f388b4adb06ee5"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useGzipCompress.tsx": {
+    "mtime": 1780039869.3141303,
+    "ast_hash": "b28bbc230b284450f9e73b6e721dfcdd",
+    "semantic_hash": "b28bbc230b284450f9e73b6e721dfcdd"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useGroupSurvey.tsx": {
+    "mtime": 1773058257.6567688,
+    "ast_hash": "2d6917602ac10b1e661f0494e9d7d7fb",
+    "semantic_hash": "2d6917602ac10b1e661f0494e9d7d7fb"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useSetClientMetadata.ts": {
+    "mtime": 1773058257.6595676,
+    "ast_hash": "137c0734d0b3e9cd04d7bd4466bf9227",
+    "semantic_hash": "137c0734d0b3e9cd04d7bd4466bf9227"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useInitialize.tsx": {
+    "mtime": 1780039869.3148854,
+    "ast_hash": "b45513e7903e0a4d7599198565a14021",
+    "semantic_hash": "b45513e7903e0a4d7599198565a14021"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useIsMounted.tsx": {
+    "mtime": 1773058257.6572676,
+    "ast_hash": "ff25a49f2470f5e9c912664709bb3b6a",
+    "semantic_hash": "ff25a49f2470f5e9c912664709bb3b6a"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useTargetSize.tsx": {
+    "mtime": 1773058257.6597083,
+    "ast_hash": "19d54b0a17738c0439bd9cbcca06dcfa",
+    "semantic_hash": "19d54b0a17738c0439bd9cbcca06dcfa"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useMountTransition.tsx": {
+    "mtime": 1773058257.658292,
+    "ast_hash": "476b6066d60682bce0995a4a28139e40",
+    "semantic_hash": "476b6066d60682bce0995a4a28139e40"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useFacilitatorMode.tsx": {
+    "mtime": 1773058257.6564536,
+    "ast_hash": "8b9af0cb4931e9772f9aa3feed113054",
+    "semantic_hash": "8b9af0cb4931e9772f9aa3feed113054"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useKeyBinding.tsx": {
+    "mtime": 1773058257.6573277,
+    "ast_hash": "a42d1388462904b2985fbd30573bcc3e",
+    "semantic_hash": "a42d1388462904b2985fbd30573bcc3e"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useHandleWebsocketReconnection.tsx": {
+    "mtime": 1780039869.3143537,
+    "ast_hash": "b88f7ecb3e32ab421b52cfc15f578d6b",
+    "semantic_hash": "b88f7ecb3e32ab421b52cfc15f578d6b"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useCircleSize.tsx": {
+    "mtime": 1773058257.6557848,
+    "ast_hash": "d2ca5809fa971ee5bb8f0bf3e030bea6",
+    "semantic_hash": "d2ca5809fa971ee5bb8f0bf3e030bea6"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useChimeEventHandler.tsx": {
+    "mtime": 1773058257.655718,
+    "ast_hash": "115b1b083e3902ced69b4f63dd14c2f1",
+    "semantic_hash": "115b1b083e3902ced69b4f63dd14c2f1"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useGzipDecompress.tsx": {
+    "mtime": 1773058257.6569033,
+    "ast_hash": "50af49cc1ede0afd6a67a76d8579382f",
+    "semantic_hash": "50af49cc1ede0afd6a67a76d8579382f"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useTranscriptionEvents.tsx": {
+    "mtime": 1780039869.3160944,
+    "ast_hash": "181e26ea63bb9e28aeda4f99660f0cb1",
+    "semantic_hash": "181e26ea63bb9e28aeda4f99660f0cb1"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useCustomAvatars.tsx": {
+    "mtime": 1773058257.6559212,
+    "ast_hash": "60e7b16f43f2b4ad93a1b48539cc33b8",
+    "semantic_hash": "60e7b16f43f2b4ad93a1b48539cc33b8"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useRoomStateUpdates.tsx": {
+    "mtime": 1780039869.3158927,
+    "ast_hash": "557579fb955aa802fe71d5104d0658c4",
+    "semantic_hash": "557579fb955aa802fe71d5104d0658c4"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useTranscriptionActions.tsx": {
+    "mtime": 1773058257.6597764,
+    "ast_hash": "c575fbb0acbbbcc8d8951489e8968c8d",
+    "semantic_hash": "c575fbb0acbbbcc8d8951489e8968c8d"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useRegex.tsx": {
+    "mtime": 1773058257.6592596,
+    "ast_hash": "67d9c864fbb358e73935e6ac4316e0ad",
+    "semantic_hash": "67d9c864fbb358e73935e6ac4316e0ad"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useLoadTimeMetrics.tsx": {
+    "mtime": 1780039869.3153033,
+    "ast_hash": "f3166094880723fe0d6d9819ad37c673",
+    "semantic_hash": "f3166094880723fe0d6d9819ad37c673"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useMobileOnly.tsx": {
+    "mtime": 1773058257.658188,
+    "ast_hash": "5953b4694b4fc7f2d4768c9c1b18c246",
+    "semantic_hash": "5953b4694b4fc7f2d4768c9c1b18c246"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useInitChatlio.tsx": {
+    "mtime": 1773058257.657133,
+    "ast_hash": "392e078b67d3f6ee790a9f301d8c1db4",
+    "semantic_hash": "392e078b67d3f6ee790a9f301d8c1db4"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useEscapeKeybind.tsx": {
+    "mtime": 1773058257.6563935,
+    "ast_hash": "0b054d75bc74d4b57083bfb46d2ee36a",
+    "semantic_hash": "0b054d75bc74d4b57083bfb46d2ee36a"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useDebouncedDeadRemoteUserPrune.ts": {
+    "mtime": 1780039869.3139036,
+    "ast_hash": "b9b9db530e58d6006b253adb57ee7111",
+    "semantic_hash": "b9b9db530e58d6006b253adb57ee7111"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/useCirclesSubscription.tsx": {
+    "mtime": 1773058257.655852,
+    "ast_hash": "b17b051a627818e376c48295803a51c5",
+    "semantic_hash": "b17b051a627818e376c48295803a51c5"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/usePositionVolumeSlider.tsx": {
+    "mtime": 1773058257.6590602,
+    "ast_hash": "e95d6763b36b08072d855e90bdc26d72",
+    "semantic_hash": "e95d6763b36b08072d855e90bdc26d72"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/FeatureHooks/useSpotlight.tsx": {
+    "mtime": 1773058257.6541362,
+    "ast_hash": "86416a4ec9ea9ce9327117e107b15f5d",
+    "semantic_hash": "86416a4ec9ea9ce9327117e107b15f5d"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/FeatureHooks/useBackgroundBlurTransformer.tsx": {
+    "mtime": 1780039869.309333,
+    "ast_hash": "45901d595cc589d55c83a8700d27b74f",
+    "semantic_hash": "45901d595cc589d55c83a8700d27b74f"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/FeatureHooks/useHug.tsx": {
+    "mtime": 1773058257.653863,
+    "ast_hash": "a185853c31c76d2a83f7d52d4035047d",
+    "semantic_hash": "a185853c31c76d2a83f7d52d4035047d"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/FeatureHooks/useHandraise.tsx": {
+    "mtime": 1773058257.6537938,
+    "ast_hash": "495492d1c5d35c9196c121613682afd6",
+    "semantic_hash": "495492d1c5d35c9196c121613682afd6"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/FeatureHooks/useAssignAvatarBackground.test.ts": {
+    "mtime": 1780039869.3092005,
+    "ast_hash": "1fb2277b79565157dc88fcf00aae7b63",
+    "semantic_hash": "1fb2277b79565157dc88fcf00aae7b63"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/FeatureHooks/useRandomOrder.tsx": {
+    "mtime": 1773058257.6539972,
+    "ast_hash": "e095beed022a9697aba550d355344a03",
+    "semantic_hash": "e095beed022a9697aba550d355344a03"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/FeatureHooks/useToggleHideAgenda.tsx": {
+    "mtime": 1773058257.6542003,
+    "ast_hash": "928bb23dbe465d1bba80dff0eddcd838",
+    "semantic_hash": "928bb23dbe465d1bba80dff0eddcd838"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/FeatureHooks/useRequestMute.tsx": {
+    "mtime": 1773058257.6540625,
+    "ast_hash": "7ecb0b39eca21d9b6b0c75674e257394",
+    "semantic_hash": "7ecb0b39eca21d9b6b0c75674e257394"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/FeatureHooks/useAssignAvatarBackground.tsx": {
+    "mtime": 1778615999.3663259,
+    "ast_hash": "97edab863523c7ce9cca84c367a11201",
+    "semantic_hash": "97edab863523c7ce9cca84c367a11201"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/FeatureHooks/useConfetti.tsx": {
+    "mtime": 1773058257.6536515,
+    "ast_hash": "826e36f60f477f9868a31e74e5029ed0",
+    "semantic_hash": "826e36f60f477f9868a31e74e5029ed0"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/FeatureHooks/usePlusOne.tsx": {
+    "mtime": 1773058257.6539304,
+    "ast_hash": "3112152d28d8bba276adeb9e24026960",
+    "semantic_hash": "3112152d28d8bba276adeb9e24026960"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/FeatureHooks/useDisableSafariDoubleSwipeBack.tsx": {
+    "mtime": 1773058257.6537187,
+    "ast_hash": "4759246b2bcb29587065885816b35e98",
+    "semantic_hash": "4759246b2bcb29587065885816b35e98"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/FeatureHooks/DeviceHandling/useDeviceListNotifications.tsx": {
+    "mtime": 1780039869.3080413,
+    "ast_hash": "e62195464e8f38c0a2dfe7880e53dd30",
+    "semantic_hash": "e62195464e8f38c0a2dfe7880e53dd30"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/FeatureHooks/DeviceHandling/useDeviceManager.tsx": {
+    "mtime": 1780039869.3082123,
+    "ast_hash": "0957dc1ef24da034ed2920a757124759",
+    "semantic_hash": "0957dc1ef24da034ed2920a757124759"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/FeatureHooks/DeviceHandling/useProcessNewDeviceQueue.ts": {
+    "mtime": 1780039869.3086169,
+    "ast_hash": "27a1a2dd303de8533deeb940098e7b22",
+    "semantic_hash": "27a1a2dd303de8533deeb940098e7b22"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/FeatureHooks/DeviceHandling/useSetChimeMicrophoneQueue.ts": {
+    "mtime": 1780039869.308779,
+    "ast_hash": "6619028caf018c30b8945afa028bf79a",
+    "semantic_hash": "6619028caf018c30b8945afa028bf79a"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/FeatureHooks/DeviceHandling/useParseNewDetectedDeviceList.ts": {
+    "mtime": 1780039869.3084712,
+    "ast_hash": "c211c2108dc9099f4a0cb1d5645621f5",
+    "semantic_hash": "c211c2108dc9099f4a0cb1d5645621f5"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/FeatureHooks/DeviceHandling/deviceUtilities.ts": {
+    "mtime": 1780039869.307419,
+    "ast_hash": "17c1a90111b9ae1d1ff1df6430c1df3f",
+    "semantic_hash": "17c1a90111b9ae1d1ff1df6430c1df3f"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/FeatureHooks/DeviceHandling/useChimeMicrophone.tsx": {
+    "mtime": 1780039869.307741,
+    "ast_hash": "420306879c14d6a12a7b19a471ebe822",
+    "semantic_hash": "420306879c14d6a12a7b19a471ebe822"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/FeatureHooks/DeviceHandling/useGlobalAudioMute.ts": {
+    "mtime": 1780039869.308313,
+    "ast_hash": "15d2effa13fd14cbff2ccafc03718ad9",
+    "semantic_hash": "15d2effa13fd14cbff2ccafc03718ad9"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/FeatureHooks/DeviceHandling/useParseNewDetecteDeviceList.ts": {
+    "mtime": 1780039869.3083935,
+    "ast_hash": "c211c2108dc9099f4a0cb1d5645621f5",
+    "semantic_hash": "c211c2108dc9099f4a0cb1d5645621f5"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/FeatureHooks/DeviceHandling/useChimeSpeaker.tsx": {
+    "mtime": 1780039869.307892,
+    "ast_hash": "6c1ae95de8a72c7dc85157c422882a36",
+    "semantic_hash": "6c1ae95de8a72c7dc85157c422882a36"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/FeatureHooks/DeviceHandling/useChimeCamera.tsx": {
+    "mtime": 1780039869.3075852,
+    "ast_hash": "1d40a3c0229ec826a09edc1fe13f5f6b",
+    "semantic_hash": "1d40a3c0229ec826a09edc1fe13f5f6b"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/FeatureHooks/VoiceFocus/voiceFocusUtils.ts": {
+    "mtime": 1780039869.3090603,
+    "ast_hash": "9e29eea9c70d94413d7fa05f6292c174",
+    "semantic_hash": "9e29eea9c70d94413d7fa05f6292c174"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/FeatureHooks/VoiceFocus/useVoiceFocus.tsx": {
+    "mtime": 1773058257.6533155,
+    "ast_hash": "b5d4320fd52ed959a657001179f7ac43",
+    "semantic_hash": "b5d4320fd52ed959a657001179f7ac43"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/FeatureHooks/VoiceFocus/voiceFocusConfig.ts": {
+    "mtime": 1780039869.3089285,
+    "ast_hash": "62cf86401ecf4b453167c26b6c1b50f2",
+    "semantic_hash": "62cf86401ecf4b453167c26b6c1b50f2"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/FeatureHooks/Notes/useNoteOrderSubscription.tsx": {
+    "mtime": 1773058257.653141,
+    "ast_hash": "cb9bf8b9b65c3565fd5380205677750f",
+    "semantic_hash": "cb9bf8b9b65c3565fd5380205677750f"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/FeatureHooks/Notes/useNotes.tsx": {
+    "mtime": 1773058257.6532109,
+    "ast_hash": "3f1a7c3757edfe7328e2fba949a9eda4",
+    "semantic_hash": "3f1a7c3757edfe7328e2fba949a9eda4"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/StateHooks/useDocShare.tsx": {
+    "mtime": 1773058257.65476,
+    "ast_hash": "b46fe484181b9e77a54cc63636c80f85",
+    "semantic_hash": "b46fe484181b9e77a54cc63636c80f85"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/StateHooks/useLocalUserHandraiseQueue.tsx": {
+    "mtime": 1773058257.6548238,
+    "ast_hash": "48ccfa1f4ef01ff557052f43393ef08c",
+    "semantic_hash": "48ccfa1f4ef01ff557052f43393ef08c"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/StateHooks/useMediaPlayer.tsx": {
+    "mtime": 1773058257.6549602,
+    "ast_hash": "f52c71595b6dab3d749abb740f5b54b5",
+    "semantic_hash": "f52c71595b6dab3d749abb740f5b54b5"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/StateHooks/useMediaPlayerMutations.tsx": {
+    "mtime": 1773058257.6550453,
+    "ast_hash": "8f263f2efef2ef0986e4201550e733b5",
+    "semantic_hash": "8f263f2efef2ef0986e4201550e733b5"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/StateHooks/useMediaLayouts.tsx": {
+    "mtime": 1773058257.6548889,
+    "ast_hash": "b46bb47f626fd66277a0c43d6ca3f799",
+    "semantic_hash": "b46bb47f626fd66277a0c43d6ca3f799"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/StateHooks/useSessionTimerUpdates.tsx": {
+    "mtime": 1773058257.655192,
+    "ast_hash": "9e52045f9c539886884e5ce08933600d",
+    "semantic_hash": "9e52045f9c539886884e5ce08933600d"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/StateHooks/useScreenShare.tsx": {
+    "mtime": 1773058257.6551254,
+    "ast_hash": "e0cfaeadc3e744a56fde22935b995a5d",
+    "semantic_hash": "e0cfaeadc3e744a56fde22935b995a5d"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/Breakouts/useBreakoutParticipants.tsx": {
+    "mtime": 1773058257.6519756,
+    "ast_hash": "0285b5d2203870d615751454e44a537e",
+    "semantic_hash": "0285b5d2203870d615751454e44a537e"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/Breakouts/useBreakoutPanelLockManager.tsx": {
+    "mtime": 1773058257.651911,
+    "ast_hash": "72ada140519b91939f42c3c241fb7601",
+    "semantic_hash": "72ada140519b91939f42c3c241fb7601"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/Breakouts/useSessionStorageSettings.tsx": {
+    "mtime": 1780039869.3061466,
+    "ast_hash": "644195e8f291b4160f184af9e7f88b42",
+    "semantic_hash": "644195e8f291b4160f184af9e7f88b42"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/TransitionHooks/usePrepareBreakoutRedirect.tsx": {
+    "mtime": 1780039869.3099012,
+    "ast_hash": "ea45639170356b672cb1405ec64577fa",
+    "semantic_hash": "ea45639170356b672cb1405ec64577fa"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/GraphqlHooks/useNoteMutations.tsx": {
+    "mtime": 1773058257.6544495,
+    "ast_hash": "3a8daafb07beaea48e779bb2d1a1252d",
+    "semantic_hash": "3a8daafb07beaea48e779bb2d1a1252d"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/GraphqlHooks/useRetrieveChat.tsx": {
+    "mtime": 1773058257.6545205,
+    "ast_hash": "8ec48125ae1d133060c7b235b6d65031",
+    "semantic_hash": "8ec48125ae1d133060c7b235b6d65031"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/GraphqlHooks/useClientMetricsData.tsx": {
+    "mtime": 1780039869.3094914,
+    "ast_hash": "769aff0e402b51ec5fe8c4fda5102e57",
+    "semantic_hash": "769aff0e402b51ec5fe8c4fda5102e57"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/GraphqlHooks/useEventsSubscription.tsx": {
+    "mtime": 1773058257.6543787,
+    "ast_hash": "2839a81b08549c64800a7ab4e5794257",
+    "semantic_hash": "2839a81b08549c64800a7ab4e5794257"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/GraphqlHooks/useTalkTime.tsx": {
+    "mtime": 1773058257.6546566,
+    "ast_hash": "8affad6a4cb8d3139e5940bb6074aaf6",
+    "semantic_hash": "8affad6a4cb8d3139e5940bb6074aaf6"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/GraphqlHooks/useSendChat.tsx": {
+    "mtime": 1773058257.6545851,
+    "ast_hash": "79ef9f7a67202269f0126f94733e38c2",
+    "semantic_hash": "79ef9f7a67202269f0126f94733e38c2"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/ChimeExt/useCirclesAudioPreview.ts": {
+    "mtime": 1773058257.6522212,
+    "ast_hash": "b43af2f5e52154c99e9c56b431a82cf8",
+    "semantic_hash": "b43af2f5e52154c99e9c56b431a82cf8"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/hooks/ChimeExt/useActiveSpeakerScores.tsx": {
+    "mtime": 1780039869.3063438,
+    "ast_hash": "21c3ae40e2de989e71e7f1f467906644",
+    "semantic_hash": "21c3ae40e2de989e71e7f1f467906644"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/workers/gzip.decompress.worker.ts": {
+    "mtime": 1773058257.666681,
+    "ast_hash": "1d9c2b0524f7ba7948340e11d246ef81",
+    "semantic_hash": "1d9c2b0524f7ba7948340e11d246ef81"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/workers/gzip.compress.worker.ts": {
+    "mtime": 1773058257.666612,
+    "ast_hash": "36c68c6394026e4f343893466dc1ae77",
+    "semantic_hash": "36c68c6394026e4f343893466dc1ae77"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/.yarnrc.yml": {
+    "mtime": 1773058257.5991127,
+    "ast_hash": "59c80d1857cbce1ec413c62bdf5210e6",
+    "semantic_hash": "59c80d1857cbce1ec413c62bdf5210e6"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/README.md": {
+    "mtime": 1773058257.5992393,
+    "ast_hash": "edcadd8d9ca02734db8015668b85884d",
+    "semantic_hash": "edcadd8d9ca02734db8015668b85884d"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/app/routes.md": {
+    "mtime": 1780039869.2591329,
+    "ast_hash": "27593656df40f233ae89b0d251ca2c5b",
+    "semantic_hash": "27593656df40f233ae89b0d251ca2c5b"
+  },
+  "/Users/lithial/coding/circles-frontend/apps/circle-spaces/src/presence-visibility-behavior.md": {
+    "mtime": 1780039869.316638,
+    "ast_hash": "b076dc7abb57a70901ab2a483d040c24",
+    "semantic_hash": "b076dc7abb57a70901ab2a483d040c24"
+  }
+}

@@ -73,7 +73,7 @@ _Clean (no issue): **new-asb** uses primitive selectors (`(s) => s.x`) — refer
 
 ## Maps & graphs
 - [MAP-circle-homepages.md](MAP-circle-homepages.md) — architecture overview (routes, stores, Apollo clients)
-- Graphs (graph.html · GRAPH_REPORT.md · wiki/): repo-root `graphify-out/` (circle-spaces) · `apps/circle-homepages/graphify-out/` · `apps/my-circles/graphify-out/`
+- [graphs/](graphs/) — committed snapshots of all 4 graphify graphs (`graph.json` + `wiki/` + `GRAPH_REPORT.md`; `graph.html`/`cache` excluded). See [graphs/README.md](graphs/README.md). Live/queryable copies remain in the monorepo's gitignored `graphify-out/` dirs.
 
 ## Cross-cutting themes
 - **Zustand `shallow` never enabled** (002/101/201/301): three apps + breakouts-panel import `createWithEqualityFn` and never pass a comparator → ~43 stores, ~557 unguarded selectors repo-wide. **The fix already exists in-repo:** `new-asb` uses primitive selectors (`(s) => s.x`) and is clean — adopt that as the house standard, or add the `shallow` default per store. One sweep fixes everything.
