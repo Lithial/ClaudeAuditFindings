@@ -37,6 +37,7 @@ here is fixed yet. Each entry is evidence-backed and ready to be triaged into a 
 | ID | Title | Severity | Status | Area |
 |----|-------|----------|--------|------|
 | [011](ISSUE-011-unguarded-edges-shape-crossapp.md) | Unguarded `.edges.<method>` GraphQL shape assumptions — ~9 crash sites across all 3 apps ✓ | S2 | 🔴 confirmed | graphql (all apps) |
+| [012](ISSUE-012-ci-paths-ignore-vs-required-checks.md) | on-pull-request.yml `paths-ignore` can hang docs-only PRs if jobs are required checks — verify branch protection ✓ | S3 | 🔵 investigate | CI |
 
 ### packages / shared libraries (ISSUE-3xx)
 | ID | Title | Severity | Status | Area |
@@ -68,6 +69,7 @@ _Clean (no issue): **new-asb** uses primitive selectors (`(s) => s.x`) — refer
 | [205](ISSUE-205-mycircles-send-session-stub-shipped.md) | `SendSessionDetailsModal` Send button only `console.log`s a TODO — shipped dead feature ✓ — _stub fixed; residual fire-and-forget folds into 202/203_ | S3 | 🟢 partially resolved | modals |
 | [206](ISSUE-206-mycircles-dead-i18n-keys.md) | Dead / unaudited i18n keys (`shared.close` confirmed unused; naive scan unreliable — needs proper audit) ✓ | S3 | 🟡 suspected | localization |
 | [207](ISSUE-207-mycircles-send-session-disclaimer-accuracy.md) | `SendSessionDetailsModal` calendar disclaimer copy needs verification against actual `circleSendInviteToMeetingEmail` behaviour ✓ | S3 | 🔵 investigate | content |
+| [208](ISSUE-208-mycircles-modal-close-loses-form-progress.md) | Modal Cancel/close discards in-progress form input with no confirmation (PR #931 c9) — product decision ✓ | S3 | 🔵 investigate | modals/UX |
 
 ## Maps & graphs
 - [MAP-circle-homepages.md](MAP-circle-homepages.md) — architecture overview (routes, stores, Apollo clients)
