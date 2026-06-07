@@ -32,6 +32,7 @@ here is fixed yet. Each entry is evidence-backed and ready to be triaged into a 
 | [008](ISSUE-008-handraise-find-vs-null-always-true.md) | `find(...) !== null` is always true → local hand-raise flag can never clear ✓ | S1 | 🔴 confirmed | state |
 | [009](ISSUE-009-setspotlit-iterator-foreach.md) | `setSpotlit` uses `MapIterator.forEach` (iterator-helpers) — may throw on older runtimes | S2 | 🔵 investigate | state |
 | [010](ISSUE-010-layout-duplication-spaces.md) | `layout.ts` & `layoutMobile.ts` are near-duplicate forks (96 shared symbols, ~1,270 lines) ✓ | S3 | 🔴 confirmed | layout |
+| [013](ISSUE-013-state-any-masked-type-errors.md) | `(state: any)` selector casts masked 18 real type errors across 13 files (several likely S1 crashes) ✓ | S2 | 🟡 suspected | state |
 
 ### Cross-app (ISSUE-01x shared)
 | ID | Title | Severity | Status | Area |
