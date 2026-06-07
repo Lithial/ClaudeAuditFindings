@@ -1,8 +1,9 @@
 # Audit Findings
 
 A running collection of problems discovered during codebase exploration (graphify-driven
-architecture audit of `apps/circle-spaces`, started 2026-06-01). **Discovery only** — nothing
-here is fixed yet. Each entry is evidence-backed and ready to be triaged into a real ticket later.
+architecture audit of `apps/circle-spaces`, started 2026-06-01; `fallow` static-analysis pass added
+the 4xx series 2026-06-07). **Discovery only** — nothing here is fixed yet. Each entry is
+evidence-backed and ready to be triaged into a real ticket later.
 
 ## Status legend
 - 🔴 **confirmed** — verified against source/runtime, mechanism understood
@@ -72,6 +73,17 @@ _Clean (no issue): **new-asb** uses primitive selectors (`(s) => s.x`) — refer
 | [207](ISSUE-207-mycircles-send-session-disclaimer-accuracy.md) | `SendSessionDetailsModal` calendar disclaimer copy needs verification against actual `circleSendInviteToMeetingEmail` behaviour ✓ | S3 | 🔵 investigate | content |
 | [208](ISSUE-208-mycircles-modal-close-loses-form-progress.md) | Modal Cancel/close discards in-progress form input with no confirmation (PR #931 c9) — product decision ✓ | S3 | 🔵 investigate | modals/UX |
 
+### Dependency & structure hygiene (fallow-surfaced, ISSUE-4xx)
+Surfaced by `fallow` (dead-code / dupes / health / security), 2026-06-07. Tool config + full
+per-command triage tables live in [`docs/fallow-rollout-decisions.md`](../docs/fallow-rollout-decisions.md).
+| ID | Title | Severity | Status | Area |
+|----|-------|----------|--------|------|
+| [401](ISSUE-401-unlisted-dependencies.md) | 29 dependencies imported but undeclared (rely on Yarn hoisting) | S2 | 🔴 confirmed | deps (all) |
+| [402](ISSUE-402-unused-misplaced-dependencies.md) | 27 declared production dependencies unused or misplaced | S3 | 🟡 suspected | deps (all) |
+| [403](ISSUE-403-cross-app-utility-duplication.md) | Cross-app utility duplication + dead `agendaUtilities` exports (×3 apps) | S3 | 🔴 confirmed | dedupe (all) |
+| [404](ISSUE-404-complexity-hotspots.md) | Complexity hotspots — `useNotesEvents` (CRAP 3080) + top critical fns | S2 | 🔴 confirmed | complexity |
+| [405](ISSUE-405-security-candidates-backlog.md) | 135 fallow `security` candidates to triage (unverified) | S3 | 🔵 investigate | security |
+
 ## Maps & graphs
 - [MAP-circle-homepages.md](MAP-circle-homepages.md) — architecture overview (routes, stores, Apollo clients)
 - [graphs/](graphs/) — committed snapshots of all 4 graphify graphs (`graph.json` + `wiki/` + `GRAPH_REPORT.md`; `graph.html`/`cache` excluded). See [graphs/README.md](graphs/README.md). Live/queryable copies remain in the monorepo's gitignored `graphify-out/` dirs.
@@ -81,11 +93,13 @@ _Clean (no issue): **new-asb** uses primitive selectors (`(s) => s.x`) — refer
 - **Ash/Absinthe `{ successful, messages }` mishandled** (007/103/202/203): mutations either skip the `successful` check (false success) or read the wrong result object (crash) or omit `onError` (silent failure). A shared mutation-result helper would kill this class.
 - **Relay `.edges` dereferenced without guards** (003/106/011): the read side of the GraphQL contract is assumed non-null across all three apps (~9 live crash sites + suppressed-type instances). A schema-generated-types + `edgesOf()` helper would kill this class.
 - **`useLogger` is the #1 god node in every app** and rides the store-coupling bug along with it (001/101).
+- **Cross-app utility copy-paste, no shared `@circles/utils`** (010/403/404, ties 004/108): `graphql.ts`, `useStorage`, `useClientMetricsData`, `noteSort`, `agendaUtilities`, layout math each exist as 3 drifting copies. `useNotesEvents` is duplicated *and* the #1 complexity hotspot. A shared utils package + dedupe kills a whole maintenance class.
+- **Implicit dependency graph** (401/402): 29 packages imported but undeclared (work only via Yarn hoisting) and 27 declared-but-unused — the dependency manifests don't match actual imports, which is also what inflates the `fallow health` F grade.
 
 ## How entries are created
 1. Found during exploration → write `ISSUE-NNN-slug.md` from the template below.
 2. Pick `NNN` from the per-area range, taking the next free number in that range:
-   - `0xx` — circle-spaces · `01x` — cross-app (shared across ≥2 apps) · `1xx` — circle-homepages · `2xx` — my-circles · `3xx` — packages / shared libraries.
+   - `0xx` — circle-spaces · `01x` — cross-app (shared across ≥2 apps) · `1xx` — circle-homepages · `2xx` — my-circles · `3xx` — packages / shared libraries · `4xx` — cross-cutting / tooling-surfaced (fallow: deps, duplication, complexity, security).
 3. Add a row to the matching section's index table. Append `✓` to the title only once you've **independently re-verified** the finding in source (not just agent-reported).
 4. Do **not** fix yet — capture evidence so triage is cheap. (If a finding is partially fixed in passing, keep the entry and mark in the body what's done vs outstanding.)
 
