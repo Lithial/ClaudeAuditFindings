@@ -1,9 +1,12 @@
 # ISSUE-009: `setSpotlit` calls `.forEach()` on a Map iterator (`map.values().forEach`) — relies on unshipped iterator-helpers, throws on older runtimes
 
 - **Severity:** S2
-- **Status:** suspected
+- **Status:** partially resolved — fixed in branch `fix/duplicate-user-by-person-id` (commit `212c65fc`), pending merge to `staging`
 - **Area:** circle-spaces / state (useCirclesUsers)
 - **Found:** 2026-06-01 (manual read)
+
+## Resolution (2026-06-08)
+Fixed on branch `fix/duplicate-user-by-person-id`: `setSpotlit` now spreads first — `[...usersMapClone.values()].forEach(...)` — so it no longer depends on ES2025 Iterator Helpers. Outstanding only: merge to `staging`. Confirming the original runtime-floor risk against the browser matrix is moot once merged.
 
 ## Symptom
 `setSpotlit` iterates the users map with `usersMapClone.values().forEach(...)`. `Map.prototype.values()` returns a **MapIterator**, and `Iterator.prototype.forEach` is a Stage-3 / ES2025 "iterator helpers" proposal that is not available in all supported browsers. On a runtime without iterator helpers this throws `TypeError: ...values(...).forEach is not a function`, breaking spotlight selection entirely.

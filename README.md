@@ -31,9 +31,11 @@ evidence-backed and ready to be triaged into a real ticket later.
 | [006](ISSUE-006-agendastartmenu-import-cycle.md) | AgendaStartMenu 3-file import cycle (one stray type import; one-line fix) | S3 | 🔴 confirmed | agenda |
 | [007](ISSUE-007-agendaclose-wrong-result-field-crash.md) | `agendaClose` error path reads `result.circleSetAgenda.messages` → TypeError when close fails ✓ | S1 | 🔴 confirmed | agenda/graphql |
 | [008](ISSUE-008-handraise-find-vs-null-always-true.md) | `find(...) !== null` is always true → local hand-raise flag can never clear ✓ | S1 | 🔴 confirmed | state |
-| [009](ISSUE-009-setspotlit-iterator-foreach.md) | `setSpotlit` uses `MapIterator.forEach` (iterator-helpers) — may throw on older runtimes | S2 | 🔵 investigate | state |
+| [009](ISSUE-009-setspotlit-iterator-foreach.md) | `setSpotlit` uses `MapIterator.forEach` (iterator-helpers) — may throw on older runtimes ✓ | S2 | 🟢 partially resolved | state |
 | [010](ISSUE-010-layout-duplication-spaces.md) | `layout.ts` & `layoutMobile.ts` are near-duplicate forks (96 shared symbols, ~1,270 lines) ✓ | S3 | 🔴 confirmed | layout |
 | [013](ISSUE-013-state-any-masked-type-errors.md) | `(state: any)` selector casts masked 18 real type errors across 13 files (several likely S1 crashes) ✓ | S2 | 🟡 suspected | state |
+| [014](ISSUE-014-presence-predicate-and-or-split.md) | "Is user connected?" decided per-consumer (AND vs OR) — no shared predicate (4 AND + 2 OR sites) ✓ | S3 | 🔴 confirmed | state/presence |
+| [015](ISSUE-015-usermap-lifecycle-edge-cases.md) | User-map connection-lifecycle edge cases — pre-greenroom phantoms unpruned, useUserList self-dep, addUser undefined-overwrite ✓ | S3 | 🔴 confirmed | state/presence |
 
 ### Cross-app (ISSUE-01x shared)
 | ID | Title | Severity | Status | Area |
