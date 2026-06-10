@@ -102,7 +102,7 @@ per-command triage tables live in [`docs/fallow-rollout-decisions.md`](../docs/f
 | [403](ISSUE-403-cross-app-utility-duplication.md) | Cross-app utility duplication + dead `agendaUtilities` exports (×3 apps) | S3 | 🔴 confirmed | dedupe (all) |
 | [404](ISSUE-404-complexity-hotspots.md) | Complexity hotspots — `useNotesEvents` (CRAP 3080) + top critical fns | S2 | 🔴 confirmed | complexity |
 | [405](ISSUE-405-security-candidates-backlog.md) | 135 fallow `security` candidates to triage (unverified) | S3 | 🔵 investigate | security |
-| [406](ISSUE-406-storybook-vrt-coverage-gap.md) | Storybook/VRT coverage gap — harness wired on `ccc` only; ~360 story-worthy components unstoried | S3 | 🔵 investigate | testing (all) |
+| [406](ISSUE-406-storybook-vrt-coverage-gap.md) | Storybook/VRT coverage gap — harness wired in 7 workspaces; gap is story coverage (~360 story-worthy components unstoried) + 2 infra gaps (circle-spaces no visual-test file, cui-icons unwired) | S3 | 🔵 investigate | testing (all) |
 
 ## Maps & graphs
 - [MAP-circle-homepages.md](MAP-circle-homepages.md) — architecture overview (routes, stores, Apollo clients)
@@ -115,7 +115,7 @@ per-command triage tables live in [`docs/fallow-rollout-decisions.md`](../docs/f
 - **`useLogger` is the #1 god node in every app** and rides the store-coupling bug along with it (001/101).
 - **Cross-app utility copy-paste, no shared `@circles/utils`** (010/403/404, ties 004/108): `graphql.ts`, `useStorage`, `useClientMetricsData`, `noteSort`, `agendaUtilities`, layout math each exist as 3 drifting copies. `useNotesEvents` is duplicated *and* the #1 complexity hotspot. A shared utils package + dedupe kills a whole maintenance class.
 - **Implicit dependency graph** (401/402): 29 packages imported but undeclared (work only via Yarn hoisting) and 27 declared-but-unused — the dependency manifests don't match actual imports, which is also what inflates the `fallow health` F grade.
-- **No VRT regression net for most of the UI** (406, gates 302): the `@repo/testing` snapshot harness is wired on `packages/ccc` only; ~360 story-worthy components across the monorepo have no story, so visual regressions ship unseen. This is also why the runtime-value half of 302 is stuck — it's VRT-gated with no coverage to catch breakage. Rolling the cheap `ccc`→`cui` wiring outward + backfilling design-system stories first kills the class.
+- **Thin VRT regression net for most of the UI** (406, under-protects 302): the `@repo/testing` snapshot harness is already wired in 7 workspaces, but stories accrue ad-hoc — ~360 story-worthy components have no story, so snapshots cover a fraction of the surface. Two infra gaps remain (`circle-spaces` has the config but no visual-test file → 0 snapshots; `cui-icons` unwired). The runtime-value half of 302 stays under-protected for the same reason. Backfilling design-system (`cui`) stories first — already wired, so each story is an instant snapshot — kills most of the class.
 
 ## How entries are created
 1. Found during exploration → write `ISSUE-NNN-slug.md` from the template below.

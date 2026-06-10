@@ -1,4 +1,4 @@
-# ISSUE-406: Storybook / VRT coverage gap — harness exists, ~half the presentational surface is uncovered
+# ISSUE-406: Storybook / VRT coverage gap — harness broadly wired, but ~half the presentational surface has no story
 
 - **Severity:** S3 (maintainability / missing regression safety net)
 - **Status:** 🔵 investigate (coverage backlog — not a code change)
@@ -6,38 +6,36 @@
 - **Found:** 2026-06-10 (per-directory story-coverage triage + 4 parallel Explore agents classifying presentational vs coupled components)
 
 ## Symptom
-The VRT snapshot harness exists and works, but only **one** workspace (`packages/ccc`) is actually
-wired to it, and across the monorepo only ~360 of the genuinely story-worthy presentational
-components have a `*.stories.tsx`. Net effect: visual regressions ship unseen for most of the UI
-surface — and the runtime-value half of **[ISSUE-302](ISSUE-302-ccc-dist-deep-imports.md)** is stalled
-precisely because it's VRT-gated and the coverage isn't there to catch breakage.
+The VRT snapshot harness is already **rolled out broadly** — 7 workspaces are fully wired
+(`defineVRTConfig` + a `*.test.visual.*` + `test:visual` script). The dominant gap is **story
+coverage, not infra**: across the monorepo only ~360 of the genuinely story-worthy presentational
+components have a `*.stories.tsx`, so snapshots cover a fraction of the surface and most visual
+regressions ship unseen. Two smaller infra gaps remain (`circle-spaces`, `cui-icons`). This also
+keeps the runtime-value half of **[ISSUE-302](ISSUE-302-ccc-dist-deep-imports.md)** under-protected —
+it's VRT-gated and `ccc`'s story coverage is partial.
 
 ## Evidence
 
-### Two distinct gaps
-1. **VRT-infra gap** — workspaces with stories but no Playwright wiring (only `ccc` is wired today).
-2. **Story gap** — story-worthy components with no `*.stories.tsx`.
+### VRT infra is mostly DONE (not the gap)
+Fully wired — `defineVRTConfig(...)` + a `*.test.visual.*` + `test:visual` script — **7 workspaces:**
+`packages/cui`, `packages/ccc`, `packages/new-asb`, `packages/breakouts-panel`,
+`packages/agenda-browser`, `packages/agenda-editor`, `apps/circle-homepages`.
+(Per memory, only `ccc` additionally has the dual-browser/safari + turbo-prehook treatment; the
+other six run the default chromium VRT.)
 
-Snapshot functionality already lives in **`@repo/testing`** (`generateVisualTests`, `defineVRTConfig`,
-`playwrightBase`, `ports.ts`). Wiring a workspace is ~3 small files + 5 scripts (ref: `packages/ccc/`):
-`playwright.config.ts` → `defineVRTConfig("@circles/<pkg>")`; `tests/*.test.visual.ts` →
-`generateVisualTests(storybook)`; the `storybook`/`build-storybook`/`test:visual`(+`:report`/`:update`)
-scripts; a `ports.ts` entry; `@repo/testing` devDep.
+Remaining **infra** gaps (small):
+- `apps/circle-spaces` — has `defineVRTConfig("circle-spaces")` + the `test:visual` script but **no
+  `*.test.visual.*` file**, so it runs **zero** snapshots. One-line fix: add
+  `tests/*.test.visual.ts` calling `generateVisualTests(storybook)` (28 stories would activate).
+- `packages/cui-icons` — no `playwright.config.ts`, no `test:visual` script, no visual test → fully
+  unwired despite 5 stories. Needs the standard copy-paste (ref `packages/ccc/`) + a `ports.ts` entry.
+- `apps/my-circles` (88 components) and `apps/arc` (17) have **no `.storybook/` at all** — Storybook
+  scaffold needed before any VRT. (`isolated/circle-vault` 3 cmp low-priority; `circles-sponsor-management` MVP/skip.)
 
-### VRT-infra gap — workspaces that have stories but no wiring
-| Workspace | existing stories | port |
-|-----------|-----------------:|------|
-| `packages/cui` | 47 | 6007 |
-| `apps/circle-spaces` | 28 | 6002 (sb) |
-| `packages/new-asb` | 13 | 6009 |
-| `apps/circle-homepages` | 13 | 6001 (sb) |
-| `packages/breakouts-panel` | 12 | 6005 |
-| `packages/agenda-browser` | 7 | — (needs port) |
-| `packages/cui-icons` | 5 | — (needs port) |
-| `packages/agenda-editor` | 1 | 6004 |
-
-Two apps have **no `.storybook/` at all**: `apps/my-circles` (88 components), `apps/arc` (17);
-`isolated/circle-vault` (3, low priority) and `apps/circles-sponsor-management` (MVP/skip).
+### Story gap — the real backlog (triaged, story-worthy only)
+Raw uncovered `.tsx` is misleading: over half are providers, context wrappers, hook-only files,
+barrels, route files, and Chime/Apollo/store-coupled containers that can't render in isolation.
+In the 7 already-wired workspaces, **every new story becomes a snapshot immediately — no wiring needed.**
 
 ### Story gap — triaged counts (story-worthy only)
 Raw uncovered `.tsx` is misleading: over half are providers, context wrappers, hook-only files,
@@ -58,21 +56,24 @@ barrels, route files, and Chime/Apollo/store-coupled containers that can't rende
 **Total story-worthy gap: ~360 components** (vs ~680 raw uncovered `.tsx`).
 
 ## Mechanism
-VRT was set up on `ccc` as the pilot and never rolled outward; stories accrue ad-hoc per feature work
-rather than systematically. The shared harness makes per-workspace wiring cheap, so the gap is
-backlog/prioritization, not a technical blocker.
+The harness was rolled out to most workspaces, but **stories accrue ad-hoc per feature work** rather
+than systematically — so wired workspaces snapshot only the components someone happened to story.
+The gap is authoring backlog/prioritization, not a technical blocker.
 
 ## Blast radius
-UI-wide. Any visual regression in an unwired workspace or unstoried component ships without a
-snapshot catching it. Highest-value uncovered surface is the design system (`cui` 47 stories sitting
-with zero snapshot coverage; ~70 more components unstoried) since it's consumed everywhere.
+UI-wide. In the 7 wired workspaces, any regression in an *unstoried* component ships without a
+snapshot catching it; in `circle-spaces`/`cui-icons` nothing is snapshotted at all. Highest-value
+uncovered surface is the design system (`packages/cui` — ~70 story-worthy components unstoried)
+since it's consumed everywhere.
 
 ## Proposed fix (do not implement yet — this is a backlog)
 Suggested order:
-1. VRT-wire `packages/cui` (instant coverage for its 47 existing stories) + backfill its ~70
-   story-worthy components — design-system core, biggest leverage.
-2. Roll the `ccc`→`cui` wiring pattern to `breakouts-panel`, `agenda-browser`, `new-asb`.
-3. Backfill `ccc` remainder (23 simple atoms/molecules — fast).
+1. Backfill `packages/cui` stories (~70 story-worthy) — already VRT-wired, so each story is an
+   immediate snapshot; design-system core, biggest leverage.
+2. Close the two infra gaps: add the one-line visual-test file to `circle-spaces` (activates its 28
+   stories) and do the standard wiring copy-paste for `cui-icons`.
+3. Backfill `ccc` remainder (23 simple atoms/molecules — fast) and the other wired packages
+   (`new-asb`, `agenda-browser`, `breakouts-panel`).
 4. circle-spaces presentational leaves (survey, video-tile, mobile-layout display pieces).
 5. circle-homepages presentational leaves (login panels, retreat modal, rescheduler panels).
 6. Tier-1 `.storybook/` scaffold for `my-circles`.
