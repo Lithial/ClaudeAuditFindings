@@ -104,6 +104,43 @@ Story authoring is the bulk of the effort — ~360 components, parallelizable pe
 
 ---
 
+## Room (circle-spaces) story pass — SEQUENCED AFTER GraphQL codegen
+circle-spaces already has the harness to story store-coupled components:
+`apps/circle-spaces/.storybook/decorators/` — `withStorybookFlag` (sets `useStorybook.isStorybook`
+so components skip the live Chime/Apollo connect side-effect *in effects, not render*),
+`withZustandStore` (seed + restore store state, typed `Partial<T>`), `withApolloMocks`,
+`withFrozenTime`, `withShelf`. Reference story: `AgendaStartDisplay.stories.tsx`.
+
+The blocker for a *bigger* room pass is the Apollo half: `withApolloMocks` today takes hand-written,
+**untyped** `MockedResponse[]` (operations are hand-rolled `gql` tags — `pdGraphql.ts`, `inviteGql.ts`
+— with no codegen), so mocks drift silently against the schema. **Full GraphQL codegen for the room
+(in progress) removes this.** Once it lands:
+
+1. **Codegen config** → typed `TypedDocumentNode<Result, Vars>` for room operations + a mock-fixture
+   plugin (e.g. `typescript-mock-data` or a `@graphql-tools/mock` builder) emitting per-type factories
+   (`aMeetingState({ ...overrides })`).
+2. **Upgrade `withApolloMocks`** → mocks built from typed documents are tsc-checked at the story
+   (drift breaks `build-storybook`, not silently). Flip `addTypename: true` (generated fixtures include
+   `__typename`) — also clears the deferred Apollo-4 migration note in that decorator.
+3. **Authoring per component** (unchanged pipeline, +codegen mocks): `find-uncovered.mjs` →
+   filter to **store/Apollo-coupled presentational** → `gen-stories.mjs` + `withStorybookFlag` +
+   `withZustandStore(seed)` + `withApolloMocks(typedMocks)` + `action()` handlers + args for states →
+   `withFrozenTime` + `generateLoadTests` gate.
+
+**Determinism rule:** generated/automocked data must be fixed-value or pinned-seed, or VRT snapshots
+flake — prefer explicit generated fixtures over random automock for snapshotted stories.
+
+**Explicitly out of scope for this pass:** live **Chime media** (MediaStream / video tiles / canvas —
+GraphQL codegen is irrelevant to WebRTC; no pixel without a stream) and **Absinthe subscriptions**
+(codegen types them, but mocking a stream of frames per story is more than a query mock). Both stay
+E2E / live-app.
+
+**Sequencing:** do the room pass *after* codegen merges. Until then the available story work is the
+covered-via-composition-light packages — `new-asb` (26 measured) and `agenda-editor` (5); ccc /
+agenda-browser / breakouts-panel are effectively done.
+
+---
+
 ## Story-worthy components (snapshot 2026-06-10)
 
 ### packages/cui — ~70
