@@ -3,8 +3,10 @@
 - **Severity:** S2 (type-safety holes; several are likely S1 runtime bugs — see table)
 - **Status:** 🟡 suspected (type errors confirmed by `tsc`; runtime impact needs per-item verification)
 - **Area:** `apps/circle-spaces` / state (Zustand selectors) + downstream consumers
-- **Found:** 2026-06-07 (surfaced while removing redundant `(state: any)` casts — see commit `555ecca3` on branch `lithial/refactor/circle-spaces-drop-selector-state-any`)
+- **Found:** 2026-06-07 (surfaced while removing redundant `(state: any)` casts — commit `555ecca3`, preserved in closed PR [#1000](https://github.com/circles-learning-labs/circles-frontend/pull/1000))
 - **Related:** [ISSUE-002](ISSUE-002-createwithequalityfn-without-shallow.md) (same selector call sites), [ISSUE-003](ISSUE-003-ts-expect-error-suppressions.md) (sibling pattern: suppressions hiding type holes)
+
+> **Provenance update (2026-06-10):** the source branch `lithial/refactor/circle-spaces-drop-selector-state-any` and PR #1000 were closed/deleted as **superseded** — `staging` independently refactored these selectors (multi-field → `useShallow`, single-field → atomic `(s) => s.x`), which absorbed the branch's mechanical cast removals. The diagnostic finding below is **unaffected**: the 13 flagged files still carry `(state: any)` on `staging` (~35 occurrences verified 2026-06-10), so the 18 masked type errors remain actionable. Commit `555ecca3` is still viewable in the closed PR for reference.
 
 ## Symptom
 `(state: any)` was used on **124** Zustand selector call sites in circle-spaces. Because every
