@@ -37,36 +37,36 @@ Raw uncovered `.tsx` is misleading: over half are providers, context wrappers, h
 barrels, route files, and Chime/Apollo/store-coupled containers that can't render in isolation.
 In the 7 already-wired workspaces, **every new story becomes a snapshot immediately — no wiring needed.**
 
-### Story gap — triaged counts (story-worthy only)
-Raw uncovered `.tsx` is misleading: over half are providers, context wrappers, hook-only files,
-barrels, route files, and Chime/Apollo/store-coupled containers that can't render in isolation.
+### Story gap — MEASURED transitive coverage (2026-06-10)
+The gap is now **measured**, not estimated, by a transitive-import-reachability tool
+(`packages/testing/scripts/find-uncovered.mjs`): a component is covered if it has its own story OR
+is rendered (directly/transitively) by a component a story renders. This replaces the old
+"no own `*.stories.tsx`" estimate, which over-counted badly because composites already snapshot
+their children.
 
-> **⚠️ The counts below are still over-stated** (corrected 2026-06-10 after a ccc trial). They were
-> derived from "component has no *own* `*.stories.tsx`" — but VRT snapshots whatever a story renders,
-> **including nested children**. A component rendered by an already-storied composite is *already
-> covered*. Empirically, of ccc's "23 uncovered" only **3 were genuinely net-new** (`BasicDropdown`,
-> `AnimatedCarousel`, `PopoverCheckboxOption`); ~14 were already snapshotted transitively (the
-> `GroupContainerTitleBar` children, `Rings` via `Spinner`, `Platter`/`PopupSurface`/`SecondaryPlatter`
-> via `Shelf`, `CalendarFormButtons` via `DateRange`, `TableColoredCircle` via the metrics tables,
-> `TextSpan` everywhere, `SvgWavesBackground` via the global `GradientBackground` decorator), and the
-> rest were flaky (`AnimatedBackgroundContainer` canvas) or heavy-contract (`CalendarHeader`).
-> **Lesson:** dedup candidates *transitively* — "rendered by any story", not "owns a story file".
-> Treat every number below as a loose upper bound; the real gap is materially smaller.
+| Workspace | old estimate ("story-worthy") | **MEASURED uncovered** | note |
+|-----------|------------------------------:|-----------------------:|------|
+| packages/agenda-browser | 33 | **0** | 7 stories already render 52/57 transitively |
+| packages/breakouts-panel | 14 | **1** | essentially done |
+| packages/ccc | 23 | **2** | both skip-worthy (flaky canvas, thin `TextSpan` wrapper); 3 net-new stories landed |
+| packages/agenda-editor | 4 | **5** | JS-only |
+| packages/new-asb | 74 | **26** | |
+| **packages subtotal** | ~148 | **~34** | design-system packages are largely covered via composition |
+| apps/circle-homepages | 36 | **167** ⚠️ | |
+| apps/circle-spaces | 68 | **267** ⚠️ | |
 
-| Workspace | uncovered | **story-worthy** | skipped |
-|-----------|----------:|-----------------:|--------:|
-| packages/cui | ~72 | **~70** | 2 |
-| packages/cui-icons | 139 | 139 (1 gallery story today) | — |
-| packages/new-asb | 101 | **74** | 27 |
-| packages/agenda-browser | 37 | **33** | 4 |
-| packages/agenda-editor | 22 | **4** | 18 (JS-only) |
-| packages/breakouts-panel | 26 | **14** | 12 |
-| packages/ccc (backfill) | 23 | **23** | 0 |
-| apps/circle-spaces | ~190 | **68** | ~120 (Chime/store-coupled) |
-| apps/circle-homepages | ~70 | **36** | ~34 (Apollo-coupled) |
+**Packages are nearly done; the real work is in the apps.** ⚠️ But the app numbers are an *upper
+bound of a different kind*: `find-uncovered` answers "is it rendered by a story?", **not** "can it be
+storied at all?". Apps are full of Apollo/Chime/store-coupled containers that can't render in
+isolation — so an app's measured-uncovered count must still be passed through the
+presentational/isolatable filter (and the `gen-stories` flags) before it's a real backlog. For
+packages (almost all presentational), measured-uncovered ≈ the real backlog.
 
-**"Total story-worthy gap: ~360 components"** (vs ~680 raw uncovered `.tsx`) — but per the caveat
-above this is an upper bound; the *truly uncovered* (not rendered by any story) count is much lower.
+### Tooling now exists (in `circles-frontend`, not this repo)
+A self-checking pipeline was added to `@repo/testing` to make a big story pass safe:
+`find-uncovered.mjs` (transitive dedup) → `gen-stories.mjs` (prop-aware scaffold; flags
+`blank-risk` / `non-deterministic` / `fill:<prop>` / `no-component`) → `build-storybook` (tsc) →
+`generateLoadTests` (new `pageerror` render-error gate, baseline-free). Run dedup first, always.
 
 ## Mechanism
 The harness was rolled out to most workspaces, but **stories accrue ad-hoc per feature work** rather
