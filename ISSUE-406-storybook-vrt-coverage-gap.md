@@ -41,6 +41,18 @@ In the 7 already-wired workspaces, **every new story becomes a snapshot immediat
 Raw uncovered `.tsx` is misleading: over half are providers, context wrappers, hook-only files,
 barrels, route files, and Chime/Apollo/store-coupled containers that can't render in isolation.
 
+> **⚠️ The counts below are still over-stated** (corrected 2026-06-10 after a ccc trial). They were
+> derived from "component has no *own* `*.stories.tsx`" — but VRT snapshots whatever a story renders,
+> **including nested children**. A component rendered by an already-storied composite is *already
+> covered*. Empirically, of ccc's "23 uncovered" only **3 were genuinely net-new** (`BasicDropdown`,
+> `AnimatedCarousel`, `PopoverCheckboxOption`); ~14 were already snapshotted transitively (the
+> `GroupContainerTitleBar` children, `Rings` via `Spinner`, `Platter`/`PopupSurface`/`SecondaryPlatter`
+> via `Shelf`, `CalendarFormButtons` via `DateRange`, `TableColoredCircle` via the metrics tables,
+> `TextSpan` everywhere, `SvgWavesBackground` via the global `GradientBackground` decorator), and the
+> rest were flaky (`AnimatedBackgroundContainer` canvas) or heavy-contract (`CalendarHeader`).
+> **Lesson:** dedup candidates *transitively* — "rendered by any story", not "owns a story file".
+> Treat every number below as a loose upper bound; the real gap is materially smaller.
+
 | Workspace | uncovered | **story-worthy** | skipped |
 |-----------|----------:|-----------------:|--------:|
 | packages/cui | ~72 | **~70** | 2 |
@@ -53,7 +65,8 @@ barrels, route files, and Chime/Apollo/store-coupled containers that can't rende
 | apps/circle-spaces | ~190 | **68** | ~120 (Chime/store-coupled) |
 | apps/circle-homepages | ~70 | **36** | ~34 (Apollo-coupled) |
 
-**Total story-worthy gap: ~360 components** (vs ~680 raw uncovered `.tsx`).
+**"Total story-worthy gap: ~360 components"** (vs ~680 raw uncovered `.tsx`) — but per the caveat
+above this is an upper bound; the *truly uncovered* (not rendered by any story) count is much lower.
 
 ## Mechanism
 The harness was rolled out to most workspaces, but **stories accrue ad-hoc per feature work** rather
@@ -61,22 +74,26 @@ than systematically — so wired workspaces snapshot only the components someone
 The gap is authoring backlog/prioritization, not a technical blocker.
 
 ## Blast radius
-UI-wide. In the 7 wired workspaces, any regression in an *unstoried* component ships without a
-snapshot catching it; in `circle-spaces`/`cui-icons` nothing is snapshotted at all. Highest-value
-uncovered surface is the design system (`packages/cui` — ~70 story-worthy components unstoried)
-since it's consumed everywhere.
+UI-wide. In the 7 wired workspaces, any regression in a *truly uncovered* component (not rendered by
+any story) ships without a snapshot catching it; in `circle-spaces`/`cui-icons` nothing is snapshotted
+at all. Highest-value uncovered surface is the design system — **`packages/ccc`** (the complex/animated
+library that *survives cui's deprecation* and is the deep-import target in
+[ISSUE-302](ISSUE-302-ccc-dist-deep-imports.md)), since it's consumed everywhere.
 
 ## Proposed fix (do not implement yet — this is a backlog)
-Suggested order:
-1. Backfill `packages/cui` stories (~70 story-worthy) — already VRT-wired, so each story is an
-   immediate snapshot; design-system core, biggest leverage.
+**Do NOT start with cui — it is being deprecated** (earlier drafts of this issue led with cui; that
+was wrong). For each target, first dedup *transitively* (drop components already rendered by an
+existing story) before authoring. Suggested order:
+1. Backfill `packages/ccc` net-new stories — already VRT-wired, design-system core, survives cui.
+   (First trial pass done 2026-06-10: 3 net-new stories landed — `BasicDropdown`, `AnimatedCarousel`,
+   `PopoverCheckboxOption` — after transitive dedup dropped 14 redundant + 1 flaky candidate.)
 2. Close the two infra gaps: add the one-line visual-test file to `circle-spaces` (activates its 28
    stories) and do the standard wiring copy-paste for `cui-icons`.
-3. Backfill `ccc` remainder (23 simple atoms/molecules — fast) and the other wired packages
-   (`new-asb`, `agenda-browser`, `breakouts-panel`).
+3. Other wired packages (`new-asb`, `agenda-browser`, `breakouts-panel`) — transitive-dedup first.
 4. circle-spaces presentational leaves (survey, video-tile, mobile-layout display pieces).
 5. circle-homepages presentational leaves (login panels, retreat modal, rescheduler panels).
 6. Tier-1 `.storybook/` scaffold for `my-circles`.
+_(cui is intentionally omitted from this list — deprecating.)_
 
 When this work is scheduled it should graduate to a real ticket (Shortcut epic) for live tracking;
 the per-component lists below are a **snapshot as of 2026-06-10**, not a live checklist.
