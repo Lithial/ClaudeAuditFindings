@@ -1,7 +1,7 @@
 # ISSUE-012: on-pull-request.yml `paths-ignore` can hang docs-only PRs on required checks
 
 - **Severity:** S3
-- **Status:** investigate (needs branch-protection visibility)
+- **Status:** 🔴 confirmed (re-verified 2026-06-10 via `gh api`) — classic branch protection is off, but the active **"PrePush" ruleset** (`repos/.../rulesets`) requires `Build and Test`, `Build Circle Spaces`, `Build Circle Homepages`, `Build My Circles` on `staging`+default branch. `on-pull-request.yml` is the **sole emitter** of those checks and has `paths-ignore` (`**/*.md`, `docs/**`, …) → a docs-only PR skips the workflow and wedges on the required checks. Deadlock is real. (was: 🔵 investigate — needs branch-protection visibility)
 - **Area:** cross-app / CI (.github/workflows/on-pull-request.yml)
 - **Found:** 2026-06-01 (PR #931 review, comment 17 — martin)
 

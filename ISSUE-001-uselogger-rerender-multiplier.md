@@ -1,7 +1,7 @@
 # ISSUE-001: `useLogger` re-render multiplier via unguarded Zustand selectors
 
 - **Severity:** S2 (performance — affects ~160 components on every layout interaction)
-- **Status:** 🔴 confirmed (verified end-to-end against source + `zustand@5.0.12` internals)
+- **Status:** ✅ fixed (re-verified 2026-06-10) — the cited `useEnvStore` (`useLogger.tsx:27`) and `useLayoutControlsStore` (`useDetectOrientation.ts:14`) selectors now use `useShallow`; other selectors here are primitives. The re-render multiplier is gone. (orig: 🔴 confirmed against source + `zustand@5.0.12` internals)
 - **Area:** `apps/circle-spaces` / state + logging
 - **Found:** 2026-06-01 (graphify god-node analysis → source trace → library-internals validation)
 

@@ -1,7 +1,7 @@
 # ISSUE-009: `setSpotlit` calls `.forEach()` on a Map iterator (`map.values().forEach`) — relies on unshipped iterator-helpers, throws on older runtimes
 
 - **Severity:** S2
-- **Status:** partially resolved — fixed in branch `fix/duplicate-user-by-person-id` (commit `212c65fc`), pending merge to `staging`
+- **Status:** ✅ fixed (re-verified 2026-06-10) — merged to `staging`: `useCirclesUsers.tsx:277` now `[...usersMapClone.values()].forEach(...)`, no longer depends on iterator helpers. (was: partially resolved on branch `fix/duplicate-user-by-person-id`, pending merge)
 - **Area:** circle-spaces / state (useCirclesUsers)
 - **Found:** 2026-06-01 (manual read)
 

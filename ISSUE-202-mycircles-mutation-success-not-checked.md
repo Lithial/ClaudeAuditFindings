@@ -1,7 +1,7 @@
 # ISSUE-202: Circle mutations report success on promise-resolve without checking `successful` — false "success" toasts on server-side validation failure
 
 - **Severity:** S1
-- **Status:** confirmed
+- **Status:** confirmed — re-verified still live 2026-06-10 (AddNewCircle / AddMembers / EditCircleDetails / useBulkCreateCircles); **fix applied on branch `fix/audit-s1-bugs`** (`successful`/`messages` checks across all 4 handlers + `allPeople` empty-guard), pending merge
 - **Area:** my-circles / graphql
 - **Found:** 2026-06-01 (manual read of mutation hooks + modal handlers + `graphqlTypes.ts`)
 

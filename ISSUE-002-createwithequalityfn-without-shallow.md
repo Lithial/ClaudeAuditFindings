@@ -1,7 +1,7 @@
 # ISSUE-002: `createWithEqualityFn` used repo-wide without a `shallow` comparator
 
 - **Severity:** S2 (broad, low-grade perf cost) — escalated from S3 after scoping
-- **Status:** 🔴 confirmed (was 🔵 investigate; scoped 2026-06-01)
+- **Status:** 🟢 partially resolved (re-verified 2026-06-10) — circle-spaces adopted **283 `useShallow`** call sites across 210 files (was 0); only ~4 unguarded object-literal selectors remain (`useDownloadButtons.ts:8`, `AgendaWarningModal.tsx:16`, `useSetCircleAssignedMembers.tsx:18,24`). Approach taken was per-selector `useShallow` (not the per-store default); no store passes `shallow` at create. **NB the sweep did not reach 101/201/301** — those apps/packages are still 0 `useShallow`. (orig: 🔴 confirmed, scoped 2026-06-01)
 - **Area:** `apps/circle-spaces` / state (all Zustand stores)
 - **Found:** 2026-06-01 (generalized from ISSUE-001, then repo-wide grep)
 

@@ -1,7 +1,7 @@
 # ISSUE-008: local hand-raised state is always `true` — `Array.find()` result compared against `null` instead of `undefined`
 
 - **Severity:** S1
-- **Status:** confirmed
+- **Status:** confirmed — re-verified still live 2026-06-10 (`useCirclesUsers.tsx:336,379`); **fix applied on branch `fix/audit-s1-bugs`** (both now `!== undefined`), pending merge
 - **Area:** circle-spaces / state (useCirclesUsers)
 - **Found:** 2026-06-01 (manual read of the 103-edge god store)
 

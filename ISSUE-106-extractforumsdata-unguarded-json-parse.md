@@ -1,7 +1,7 @@
 # ISSUE-106: `extractForumsData` does an unguarded `JSON.parse` on every member's `extraFields` — one malformed record crashes the whole forum render
 
 - **Severity:** S1
-- **Status:** 🔴 confirmed
+- **Status:** 🔴 confirmed — re-verified still live 2026-06-10 (`useForumState.ts:155`); **fix applied on branch `fix/audit-s1-bugs`** (`safeParseExtraFields` helper with `{}` fallback), pending merge
 - **Area:** circle-homepages / graphql response-shape
 - **Found:** 2026-06-01 (manual read of `mfv/PageContent/useForumState.ts`)
 

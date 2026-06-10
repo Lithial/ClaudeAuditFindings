@@ -1,7 +1,7 @@
 # ISSUE-007: `agendaClose` failure path reads the wrong mutation result field (`circleSetAgenda`), throwing a TypeError exactly when the close fails
 
 - **Severity:** S1
-- **Status:** confirmed
+- **Status:** confirmed — re-verified still live 2026-06-10 (`useAgendaActions.tsx:134`); **fix applied on branch `fix/audit-s1-bugs`** (now reads `result.agendaClose.messages`), pending merge
 - **Area:** circle-spaces / AgendaFeatures (useAgendaActions)
 - **Found:** 2026-06-01 (manual read)
 
