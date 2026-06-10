@@ -141,6 +141,44 @@ agenda-browser / breakouts-panel are effectively done.
 
 ---
 
+## circle-homepages story pass — harness PORTED (2026-06-10)
+Homepages is VRT-wired and the decorator harness was ported from circle-spaces:
+`apps/circle-homepages/.storybook/decorators/` now has `withZustandStore` + `withFrozenTime`, with the
+`@sb-decorators` alias wired in `main.ts` + `tsconfig.json`. Apollo is already mocked globally via
+`MockedProvider`; react-intl is provided per-story by wrapping in `CirclesLocalization`. **No
+`withStorybookFlag` needed** — homepages has no Chime/WS connect to suppress; its couplings are just
+Zustand (`useGlobalStore`) + Apollo. Proven end-to-end: `EnterCircleSpaceButton.stories.tsx`
+(build-storybook OK + `generateLoadTests` gate passed with seeded store state).
+
+**Calibrated backlog** (measured uncovered 167; agent triage `STORY-NOW` was ~2× optimistic — same
+over-count as ccc's "23→3", verified down):
+- **~66 HOLD** — everything under `src/mfv/` (in-progress multi-forum-view / sponsor area). 40% of the
+  gap; don't story a moving target.
+- **~35–40 STORY-NOW** — presentational (props or clean `useGlobalStore`-coupled): `ForumShapes` (6 SVG),
+  tiles/modals/notifications (`UserTile`, `ForumUserTile`, `RetreatUserCard`, `RetreatModal*`,
+  `ContactUsTile`, `BasicNotifications`, `NotificationDisplay`, `Tooltip`, `LoginTooltip`,
+  `NextSessionHeader`, login panes, `CirclesSpinner`, `CirclesSearchbar`).
+- **~30 NEEDS-APOLLO-MOCKS** — render real content only with query data (`DashboardSwitcher` and the
+  dashboard/metrics containers it pulls in, `ForumOverview`, `ForumPlanning`, …). Codegen-gated, same as
+  the room — defer until homepages gets typed mocks.
+- **~25 SKIP-INFRA** — providers / managers / GraphQL clients / routers / hooks / store defs.
+
+### Highest-leverage homepages follow-up: bump `moduleResolution` → `"bundler"`
+homepages `tsconfig.json` uses `moduleResolution: "node"`, which can't resolve `@storybook/react` /
+`@repo/testing` types (exposed only via package `exports`). That's why every homepages story uses
+`// @ts-nocheck` and the VRT test file needs `// @ts-ignore`, and why the ported decorators use a local
+`Decorator` type instead of importing it. Build/runtime are fine (vite uses bundler resolution); this is
+tsc/IDE only. Bumping to `"bundler"` (what circle-spaces uses) clears all of it at once and unlocks
+*typed* stories (`Meta`/`StoryObj`, type-checked args). App-wide blast radius → its own validated PR,
+not a ride-along.
+
+### my-circles
+Still **Tier-1** (no `.storybook/` at all → scaffold + VRT wiring + first stories before any harness).
+Confirmed a keeper (active, just new — not deprecating like cui). Do it after homepages proves the
+flagless pattern; the same `withZustandStore`/`withApolloMocks` harness applies once scaffolded.
+
+---
+
 ## Story-worthy components (snapshot 2026-06-10)
 
 ### packages/cui — ~70
