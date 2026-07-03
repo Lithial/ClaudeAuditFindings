@@ -1,7 +1,7 @@
 # ISSUE-302: Consumers deep-import `@circles/ccc/dist/...` instead of the package public API
 
 - **Severity:** S3
-- **Status:** confirmed
+- **Status:** ✅ fixed (re-verified 2026-07-03) — the outstanding runtime-value imports (`useControlDatePickerDialog`, `TalkTimeTable`, `BreakoutSessionPanel`, `FacilitatorSurveysTable`, `ParticipantSurveysTable`, `ListSelectionItem`) have all been repointed to the public `@circles/ccc` entry; `ListSelectionItem` was added to the `PopoverMenu` barrel. No remaining deep imports. (orig: 🔴 confirmed, type-half already fixed at filing)
 - **Area:** packages/ccc (public API) + my-circles, circle-spaces (consumers)
 - **Found:** 2026-06-01 (manual read during a pre-merge diff review; flagged by an existing `// TODO` in `useGetOrgMetricsData.ts`)
 

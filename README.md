@@ -28,6 +28,36 @@ The **4 S1 bugs are all still live** and were fixed on branch **`fix/audit-s1-bu
 **106** (unguarded `JSON.parse(extraFields)` forum crash), **202** (my-circles false-success + `allPeople[0]` crash).
 Everything else re-verified **still valid / unchanged** (205, 302 partially resolved; 207, 208 product/needs-human; 405 backlog).
 
+## Re-verification + taskboard migration (2026-07-03)
+Full re-triage of all 39 findings against current `staging` (nearly a month after the last pass),
+followed by migrating everything code-actionable to the `circles-frontend` project on the Obsidian
+vault taskboard (`obsidian-vault` MCP). Disposition:
+- **Already fixed, no migration** (7): 001, 007, 008, 009, 106, 202 (confirmed via merged PR #1021
+  and prior sweeps), **302** (ccc deep-imports — now fully resolved, both type and runtime halves;
+  status updated above).
+- **Migrated as-is** (18): 003, 004, 005, 006, 010, 011, 012, 014, 101, 102, 103, 104, 105, 107,
+  201, 203, 204, 301.
+- **Escalated + migrated at S1** (1): 205's residual fire-and-forget gap (`SendSessionDetailsModal`
+  still lacks await/success-check/onError; PR #1021 fixed the identical pattern in 4 sibling modals
+  but explicitly didn't touch this one) — same severity class as the bugs PR #1021 fixed.
+- **Migrated with narrowed scope** (7): 002 (down to 3 remaining unguarded selectors), 013 (down to
+  `useRoomStateUpdates.tsx` + `useHug.tsx`; `AgendaEditorFloating.tsx` already fixed), 015 (15a/15c
+  still open, 15b already fixed via a structural refactor), 108 (upload-failure monitoring gap only;
+  browser-version bug already fixed), 401 (down to 3 deps: `@absinthe/socket`+`phoenix` in
+  my-circles, `@graphql-typed-document-node/core` in circle-spaces), 402 (down to just `linkifyjs`
+  in new-asb — 14 of 15 "truly-dead" deps already removed), 403 (dead `agendaUtilities` exports
+  confirmed removable; `graphql.ts` triplication unchanged).
+- **Migrated as product-decision items** (2): 207, 208 — framed on the taskboard with the decision
+  itself as the acceptance criteria.
+- **Left in this repo, not migrated** — too vague/broad for a single taskboard bug, needs re-running
+  tooling first: 206 (dead i18n keys), 405 (135 unverified security candidates), 406 (Storybook/VRT
+  coverage backlog). 404 (complexity hotspots) also left here — confirmed unchanged but is an ongoing
+  refactor backlog, not a single PR.
+
+All 28 migrated entries live under `Bugs/` in the vault, project `circles-frontend`. This repo
+remains the source of record for the original investigation (evidence, mechanism, graph artifacts);
+the vault entries are the actionable, pickup-ready restatement.
+
 ## Severity
 - **S1** correctness bug / data loss / crash
 - **S2** performance or UX degradation affecting many users/components
@@ -64,7 +94,7 @@ Everything else re-verified **still valid / unchanged** (205, 302 partially reso
 | ID | Title | Severity | Status | Area |
 |----|-------|----------|--------|------|
 | [301](ISSUE-301-breakouts-panel-zustand-shallow.md) | breakouts-panel repeats the Zustand `shallow` footgun (3 stores, 23 selectors); single-field object selectors ✓ | S2 | 🔴 confirmed | breakouts-panel / state |
-| [302](ISSUE-302-ccc-dist-deep-imports.md) | Consumers deep-import `@circles/ccc/dist/...` instead of the public API (10 lines / 9 files); type half fixed, runtime-value half outstanding (VRT-gated) ✓ | S3 | 🔴 confirmed | ccc / packaging |
+| [302](ISSUE-302-ccc-dist-deep-imports.md) | Consumers deep-import `@circles/ccc/dist/...` instead of the public API — both type and runtime halves now fixed ✓ | S3 | ✅ fixed | ccc / packaging |
 
 _Clean (no issue): **new-asb** uses primitive selectors (`(s) => s.x`) — reference-stable, the correct house pattern. agenda-browser uses a per-instance factory/context store (not assessed)._
 
